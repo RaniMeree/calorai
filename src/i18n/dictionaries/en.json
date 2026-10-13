@@ -1,0 +1,282 @@
+{
+  "meta": {
+    "title": "CalorAI: AI Calorie Counter",
+    "description": "Snap a photo of your meal and CalorAI counts calories, protein, carbs and fat in seconds. Free on Google Play and the App Store."
+  },
+  "nav": {
+    "features": "Features",
+    "how-it-works": "How it works",
+    "blog": "Blog",
+    "about": "About us",
+    "contact": "Contact",
+    "download": "Download",
+    "privacy": "Privacy policy",
+    "terms": "Terms of use",
+    "delete-account": "Delete account",
+    "menu": "Menu",
+    "language": "Language"
+  },
+  "store": {
+    "googleTop": "GET IT ON",
+    "google": "Google Play",
+    "appleTop": "Download on the",
+    "apple": "App Store",
+    "downloadFree": "Download free"
+  },
+  "proof": {
+    "rating": "rating",
+    "downloads": "downloads",
+    "languages": "languages"
+  },
+  "home": {
+    "hero": {
+      "badge": "AI calorie counter",
+      "title1": "Snap your meal.",
+      "title2": "Know your calories.",
+      "sub": "Take a photo and CalorAI counts calories, protein, carbs and fat in seconds. No typing, no guessing.",
+      "cardKcal": "kcal",
+      "cardName": "Burger & fries",
+      "cardLeft": "kcal left today",
+      "cardSaved": "Saved to your diary"
+    },
+    "how": {
+      "eyebrow": "How it works",
+      "title": "Three steps. A few seconds.",
+      "steps": [
+        { "title": "Snap your plate", "text": "Point your camera at any meal: home cooking, restaurant food or a snack." },
+        { "title": "AI does the counting", "text": "CalorAI recognises the food and estimates calories, protein, carbs and fat." },
+        { "title": "Stay on track", "text": "Every meal is saved to your diary, so you always know what is left today." }
+      ]
+    },
+    "features": {
+      "eyebrow": "Features",
+      "title": "Everything you need to eat smarter",
+      "sub": "One app for counting, planning and understanding what you eat.",
+      "items": [
+        { "icon": "camera", "title": "Photo calorie scan", "text": "Snap any meal and get calories and macros in seconds." },
+        { "icon": "chat", "title": "AI nutrition coach", "text": "Ask by text or voice: what to order, what to eat next, how you are doing." },
+        { "icon": "calendar", "title": "AI meal plans", "text": "A full week of meals, planned around your calorie target." },
+        { "icon": "run", "title": "Workouts", "text": "Log 100+ exercises. Burned calories are added to your day." },
+        { "icon": "shield", "title": "Health warnings", "text": "Get warned about gluten, dairy and 20+ health conditions before you eat." },
+        { "icon": "chart", "title": "Progress & goals", "text": "Set a weight goal and see every milestone on the way." },
+        { "icon": "grid", "title": "Calendar view", "text": "Your month in colors: on target, under or over." },
+        { "icon": "globe", "title": "18 languages", "text": "Use CalorAI in your language, including Arabic, Farsi and Kurdish." }
+      ]
+    },
+    "spotlight": [
+      {
+        "eyebrow": "AI coach",
+        "title": "Not sure what to order? Just ask.",
+        "text": "Your AI coach knows how many calories you have left today. Ask by text or voice and get answers that fit your day.",
+        "points": ["Restaurant advice in seconds", "Protein and macro check-ins", "Works by text or voice"],
+        "screen": "coach"
+      },
+      {
+        "eyebrow": "Meal plans",
+        "title": "A full week of meals, planned for you.",
+        "text": "Tell CalorAI your target and it builds breakfast, lunch and dinner for the whole week.",
+        "points": ["Fits your daily calories", "Breakfast, lunch and dinner for 7 days", "Less time deciding, more time eating"],
+        "screen": "meal-plan"
+      },
+      {
+        "eyebrow": "Health warnings",
+        "title": "Know before you eat.",
+        "text": "Add allergies or conditions to your profile and CalorAI checks every scanned meal against it.",
+        "points": ["Gluten, dairy and common allergens", "20+ health conditions", "A clear warning, before the first bite"],
+        "screen": "health-warning"
+      },
+      {
+        "eyebrow": "Calendar",
+        "title": "See your habits at a glance.",
+        "text": "Green, yellow or red: every day of the month shows if you were on target, under or over.",
+        "points": ["Calories and protein views", "Spot your weak days", "Tips to fix the pattern"],
+        "screen": "calendar-calories"
+      }
+    ],
+    "screens": {
+      "eyebrow": "Inside the app",
+      "title": "Simple, fast and clear"
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Questions & answers",
+      "items": [
+        { "q": "Is CalorAI free?", "a": "Yes. CalorAI is free to download on Google Play and the App Store. Some advanced features are part of CalorAI Pro." },
+        { "q": "How does the photo scan work?", "a": "Take a photo of your meal. CalorAI's AI recognises the food and estimates the portion, then calculates calories, protein, carbs and fat." },
+        { "q": "How accurate are the numbers?", "a": "The AI gives an estimate, like a nutrition label does. You can always adjust a meal before you save it." },
+        { "q": "Which languages are supported?", "a": "CalorAI is available in 18 languages, including English, Arabic, Spanish, French, German, Turkish, Farsi and Kurdish." },
+        { "q": "Can I use CalorAI with a health condition?", "a": "CalorAI can warn you about ingredients that may not suit you, but it is not medical advice. Always follow your doctor's guidance." }
+      ]
+    },
+    "cta": {
+      "title": "Start counting with one photo",
+      "sub": "Free on Google Play and the App Store."
+    }
+  },
+  "featuresPage": {
+    "title": "Features",
+    "heading": "Everything CalorAI can do for you",
+    "sub": "From one quick photo to a full plan for your week: the tools that make healthy eating simple.",
+    "items": [
+      {
+        "eyebrow": "Photo scan",
+        "title": "Snap any meal. Get the numbers.",
+        "text": "Take a photo of your plate and CalorAI recognises the food, estimates the portion and shows calories, protein, carbs and fat in seconds.",
+        "points": ["Works with home cooking, restaurant food and snacks", "Adjust any meal before you save it", "Or search a food database and log by hand"],
+        "screen": "scan-salmon"
+      },
+      {
+        "eyebrow": "Daily overview",
+        "title": "Know exactly what's left today.",
+        "text": "Your calorie ring and macro bars update with every meal, so you always know how much room is left for dinner.",
+        "points": ["Calories, protein, carbs and fat", "Meals grouped by breakfast, lunch and dinner", "Metric or imperial units"],
+        "screen": "today"
+      },
+      {
+        "eyebrow": "AI coach",
+        "title": "Your nutrition coach, 24/7.",
+        "text": "Ask anything about food by text or voice. The coach knows your goal and what you have eaten today.",
+        "points": ["\"What should I order here?\"", "\"How much protein did I eat today?\"", "Answers in your language"],
+        "screen": "coach"
+      },
+      {
+        "eyebrow": "Meal plans",
+        "title": "A week of meals, planned in seconds.",
+        "text": "CalorAI builds breakfast, lunch and dinner for every day of the week, matched to your calorie target.",
+        "points": ["Fits your daily calories", "Breakfast, lunch and dinner for 7 days", "Great for meal prep"],
+        "screen": "meal-plan"
+      },
+      {
+        "eyebrow": "Workouts",
+        "title": "Move more. Eat more.",
+        "text": "Log a workout and the burned calories are added to your daily target automatically.",
+        "points": ["100+ exercises in 7 groups", "Low, medium or high intensity", "Running, gym, sports, home training"],
+        "screen": "workouts"
+      },
+      {
+        "eyebrow": "Health warnings",
+        "title": "A warning before the first bite.",
+        "text": "Add allergies, intolerances or conditions to your profile and every scanned meal is checked against it.",
+        "points": ["Gluten, dairy and common allergens", "20+ health conditions, from celiac to acid reflux", "Clear, simple explanations"],
+        "screen": "health-warning"
+      },
+      {
+        "eyebrow": "Weight goal",
+        "title": "Lose weight step by step.",
+        "text": "Set your target weight and CalorAI creates a realistic plan, with milestones to celebrate on the way.",
+        "points": ["Weekly targets that fit your life", "Progress chart and milestones", "Badges when you reach a goal"],
+        "screen": "weight-goal"
+      },
+      {
+        "eyebrow": "Calendar",
+        "title": "Your month in colors.",
+        "text": "Every day turns green, yellow or red, so you can spot patterns and fix them, for calories and for protein.",
+        "points": ["Calories and protein views", "See your weak days at a glance", "Tips from your AI coach"],
+        "screen": "calendar-protein"
+      }
+    ]
+  },
+  "howPage": {
+    "title": "How it works",
+    "heading": "How CalorAI works",
+    "sub": "Set up in a minute, then log every meal with one photo.",
+    "steps": [
+      { "title": "Create your profile", "text": "Tell CalorAI your age, height, weight and goal. It calculates your daily calories and macros for you.", "screen": "weight-goal" },
+      { "title": "Snap your meal", "text": "Open the camera and take a photo of your plate. No barcodes, no typing.", "screen": "scan-burger" },
+      { "title": "Check and save", "text": "CalorAI shows what it found and the calories, protein, carbs and fat. Adjust if you like, then save it to your diary.", "screen": "scan-eggs" },
+      { "title": "Follow your day", "text": "Your rings update after every meal. Log workouts and the burned calories are added to your target.", "screen": "today" },
+      { "title": "Get help when you need it", "text": "Ask your AI coach what to eat, get a meal plan for the week and see your progress in the calendar.", "screen": "coach" }
+    ],
+    "tipsTitle": "Tips for the best results",
+    "tips": [
+      "Take the photo from above, with the whole plate in view.",
+      "Good light helps the AI see your food.",
+      "Log meals as you eat. It takes seconds and you won't forget.",
+      "Check the portion before saving if your plate is unusual."
+    ]
+  },
+  "downloadPage": {
+    "title": "Download",
+    "heading": "Get CalorAI free",
+    "sub": "Available for Android and iPhone, in 18 languages.",
+    "android": "For Android phones",
+    "ios": "For iPhone",
+    "whyTitle": "Why people choose CalorAI",
+    "why": ["Log a meal with one photo", "An AI coach that knows your day", "Meal plans, workouts and health warnings in one app", "Free to download, in 18 languages"]
+  },
+  "aboutPage": {
+    "title": "About us",
+    "heading": "Healthy eating should be easy",
+    "sub": "We build CalorAI so anyone can understand what they eat, without spreadsheets or guesswork.",
+    "missionTitle": "Our mission",
+    "mission": "Counting calories used to mean weighing food and typing every ingredient. Many people gave up before they saw results. We believe a photo should be enough. CalorAI uses AI to turn a picture of your meal into clear numbers and simple advice, so you can make better choices and keep going.",
+    "valuesTitle": "What we care about",
+    "values": [
+      { "icon": "sparkle", "title": "Simple first", "text": "Every feature should save you time. If it needs a manual, we redesign it." },
+      { "icon": "globe", "title": "For everyone", "text": "CalorAI speaks 18 languages, including right-to-left languages like Arabic, Farsi and Kurdish." },
+      { "icon": "shield", "title": "Honest numbers", "text": "We show estimates clearly and let you adjust them. We never promise miracles." },
+      { "icon": "check", "title": "Your data, your choice", "text": "You can delete your account and all your data from inside the app at any time." }
+    ],
+    "companyTitle": "Who we are",
+    "company": "CalorAI is made by Intellinova, a small independent team of developers and designers who care about health and good software. We read every message and use your feedback to decide what to build next."
+  },
+  "contactPage": {
+    "title": "Contact",
+    "heading": "Get in touch",
+    "sub": "Questions, feedback or partnership ideas? We would love to hear from you.",
+    "emailTitle": "Email us",
+    "emailText": "We usually reply within 1–2 working days.",
+    "topicsTitle": "What can we help with?",
+    "topics": [
+      { "icon": "chat", "title": "Support", "text": "Problems with the app, your account or a subscription.", "subject": "Support" },
+      { "icon": "sparkle", "title": "Feedback & ideas", "text": "Tell us what you love and what we should build next.", "subject": "Feedback" },
+      { "icon": "globe", "title": "Partnerships & press", "text": "Collaborations, influencers, media and business enquiries.", "subject": "Partnership" }
+    ],
+    "write": "Write to us",
+    "faqHint": "Many answers are already in our",
+    "faqLink": "FAQ",
+    "deleteHint": "Want to delete your account?",
+    "deleteLink": "See how"
+  },
+  "legal": {
+    "updated": "Last updated"
+  },
+  "deletePage": {
+    "title": "Delete account",
+    "heading": "Delete your CalorAI account",
+    "sub": "You can permanently delete your account and all your data at any time.",
+    "inAppTitle": "Delete it in the app",
+    "steps": [
+      "Open CalorAI and sign in.",
+      "Tap the More tab at the bottom of the screen.",
+      "Scroll down and tap Delete account.",
+      "Confirm twice. Your account is deleted right away."
+    ],
+    "whatTitle": "What gets deleted",
+    "what": "Your profile, food diary, photos, meal plans, workouts, weight history, coach conversations, badges and community posts are permanently removed from our servers. This cannot be undone.",
+    "subsTitle": "Subscriptions",
+    "subs": "Deleting your account does not cancel a subscription bought through Google Play or the App Store. Cancel it in your store account settings to stop future payments.",
+    "noAppTitle": "Can't use the app?",
+    "noApp": "Email us from the address you signed up with and we will delete your account and data within 30 days.",
+    "emailSubject": "Delete my account"
+  },
+  "blogPage": {
+    "title": "Blog",
+    "heading": "Eat smarter, one tip at a time",
+    "sub": "Simple, science-based nutrition tips, smart swaps and calorie comparisons.",
+    "read": "Read article",
+    "minRead": "min read",
+    "sources": "Sources",
+    "more": "More articles",
+    "ctaTitle": "Track it with CalorAI",
+    "ctaText": "Snap your meal and see calories, protein, carbs and fat in seconds. Free."
+  },
+  "footer": {
+    "tagline": "The AI calorie counter that does the work for you.",
+    "product": "Product",
+    "company": "Company",
+    "legal": "Legal",
+    "disclaimer": "CalorAI provides estimates for general information only and is not medical advice.",
+    "rights": "All rights reserved."
+  }
+}
