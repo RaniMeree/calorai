@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google';
 import { locales, isLocale, dir } from '@/i18n/config';
 import { getDictionary } from '@/i18n/getDictionary';
 import { site } from '@/lib/site';
+import { seo } from '@/lib/page';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import '../globals.css';
@@ -27,10 +28,7 @@ export async function generateMetadata(
     title: { default: t.meta.title, template: `%s | ${site.name}` },
     description: t.meta.description,
     icons: { icon: '/app-icon.png', apple: '/app-icon.png' },
-    alternates: {
-      canonical: `/${lang}/`,
-      languages: Object.fromEntries(locales.map((l) => [l, `/${l}/`])),
-    },
+    ...seo(lang, ''),
     openGraph: { type: 'website', siteName: site.name, title: t.meta.title, description: t.meta.description, locale: lang },
   };
 }

@@ -8,5 +8,8 @@ const loaders: Partial<Record<Locale, () => Promise<Dictionary>>> = {
   en: async () => en,
 };
 
+// Languages with real translations; the others are English copies and stay out of Google.
+export const translatedLocales = Object.keys(loaders) as Locale[];
+
 export const getDictionary = async (l: Locale): Promise<Dictionary> =>
   (loaders[l] ?? loaders.en!)();

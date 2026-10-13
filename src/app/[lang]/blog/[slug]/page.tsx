@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { isLocale, locales, type Locale } from '@/i18n/config';
+import { isLocale, type Locale } from '@/i18n/config';
+import { seo } from '@/lib/page';
 import { getDictionary } from '@/i18n/getDictionary';
 import { posts, getPost } from '@/content/posts';
 import { site } from '@/lib/site';
@@ -22,10 +23,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   return {
     title: post.title,
     description: post.description,
-    alternates: {
-      canonical: `/${lang}/blog/${slug}/`,
-      languages: Object.fromEntries(locales.map((l) => [l, `/${l}/blog/${slug}/`])),
-    },
+    ...seo(isLocale(lang) ? lang : 'en', `blog/${slug}`),
     openGraph: { type: 'article', title: post.title, description: post.description, images: [`/blog/${post.cover}.webp`] },
   };
 }

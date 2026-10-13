@@ -1,6 +1,6 @@
 export const site = {
   name: 'CalorAI',
-  url: 'https://calor-ai.com',
+  url: 'https://www.calor-ai.com',  // Render serves www; calor-ai.com redirects here
   email: 'info@calor-ai.com',
   company: 'Intellinova',
   playStore: 'https://play.google.com/store/apps/details?id=com.caloraiapp.app',
