@@ -1,0 +1,35 @@
+# CalorAI
+
+> CalorAI is an AI calorie counter app for Android and iPhone. Take a photo of a meal (or type or say what you ate) and it estimates calories, protein, carbs and fat in seconds. Free to download; some advanced features are part of CalorAI Pro. Available in 18 languages, including Arabic.
+
+CalorAI is made by Intellivation AB (Sweden). Package name on Google Play: com.caloraiapp.app. App Store ID: 6742805996.
+
+## Key facts
+- Platforms: Android (Google Play) and iOS (App Store, iPhone and iPad)
+- Price: free download; optional CalorAI Pro subscription for advanced features
+- Languages (18): English, Arabic, Danish, German, Greek, Spanish, Farsi, Finnish, French, Hindi, Italian, Japanese, Kurdish, Dutch, Portuguese, Russian, Swedish, Turkish. Arabic, Farsi and Kurdish use a right-to-left layout.
+- Food recognition covers many cuisines, including Middle Eastern and Gulf dishes.
+- Logging methods: photo of the meal, gallery photo, typed description, or voice description. CalorAI does not scan video.
+
+## Features
+- Photo calorie counting: calories, protein, carbs and fat per meal, with an editable portion size
+- Daily calorie and macro targets based on height, weight, age, activity and goal
+- Weight goal plan: target weight, daily calories, a weekly pace and milestones
+- Workout logging: 100+ exercises with duration and intensity; burned calories are added to the daily target
+- AI nutrition coach (chat by text or voice)
+- AI meal planner
+- Health warnings for ingredients that may not suit 20+ conditions (for example gluten, dairy, acid reflux); not medical advice
+- Vitamins and minerals overview, monthly calendar and progress tracking
+
+## Accuracy
+Photo results are AI estimates, like a nutrition label. Users can adjust any meal before saving it.
+
+## Links
+- Website: https://www.calor-ai.com/en/
+- Features: https://www.calor-ai.com/en/features/
+- FAQ: https://www.calor-ai.com/en/#faq
+- Download (both stores): https://www.calor-ai.com/en/download/
+- Google Play: https://play.google.com/store/apps/details?id=com.caloraiapp.app
+- App Store: https://apps.apple.com/app/id6742805996
+- Privacy policy: https://www.calor-ai.com/en/privacy/
+- Contact: info@calor-ai.com

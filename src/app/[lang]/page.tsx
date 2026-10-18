@@ -4,6 +4,7 @@ import StoreButtons from '@/components/StoreButtons';
 import Phone from '@/components/Phone';
 import Icon from '@/components/Icon';
 import { Head, Proof, Cta, Spotlight } from '@/components/Sections';
+import { JsonLd, faqSchema } from '@/components/JsonLd';
 
 export default async function Home({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;
@@ -91,6 +92,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
 
       {/* faq */}
       <section className="section" id="faq">
+        <JsonLd data={faqSchema(h.faq.items)} />
         <div className="wrap narrow">
           <Head eyebrow={h.faq.eyebrow} title={h.faq.title} />
           <div className="faq">

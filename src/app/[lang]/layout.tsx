@@ -7,6 +7,7 @@ import { site } from '@/lib/site';
 import { seo } from '@/lib/page';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import { JsonLd, siteSchema } from '@/components/JsonLd';
 import '../globals.css';
 
 const inter = Inter({ subsets: ['latin', 'latin-ext', 'greek', 'cyrillic'], display: 'swap', variable: '--font-inter' });
@@ -42,6 +43,7 @@ export default async function LangLayout(
   return (
     <html lang={lang} dir={dir(lang)} className={inter.variable}>
       <body>
+        <JsonLd data={siteSchema(t.meta.description)} />
         <Header lang={lang} t={t} />
         <main>{children}</main>
         <Footer lang={lang} t={t} />

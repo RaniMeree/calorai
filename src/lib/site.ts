@@ -2,7 +2,7 @@ export const site = {
   name: 'CalorAI',
   url: 'https://www.calor-ai.com',  // Render serves www; calor-ai.com redirects here
   email: 'info@calor-ai.com',
-  company: 'Intellinova',
+  company: 'Intellivation AB',
   playStore: 'https://play.google.com/store/apps/details?id=com.caloraiapp.app',
   appStore: 'https://apps.apple.com/app/id6742805996',
   rating: '4.4',

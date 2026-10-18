@@ -105,7 +105,12 @@
         { "q": "How does the photo scan work?", "a": "Take a photo of your meal. CalorAI's AI recognises the food and estimates the portion, then calculates calories, protein, carbs and fat." },
         { "q": "How accurate are the numbers?", "a": "The AI gives an estimate, like a nutrition label does. You can always adjust a meal before you save it." },
         { "q": "Which languages are supported?", "a": "CalorAI is available in 18 languages, including English, Arabic, Spanish, French, German, Turkish, Farsi and Kurdish." },
-        { "q": "Can I use CalorAI with a health condition?", "a": "CalorAI can warn you about ingredients that may not suit you, but it is not medical advice. Always follow your doctor's guidance." }
+        { "q": "Can I use CalorAI with a health condition?", "a": "CalorAI can warn you about ingredients that may not suit you, but it is not medical advice. Always follow your doctor's guidance." },
+        { "q": "Does CalorAI work in Arabic?", "a": "Yes. The whole app is available in Arabic with a right-to-left layout, and the AI recognises dishes from many cuisines, including Middle Eastern and Gulf meals." },
+        { "q": "Do I have to take a photo?", "a": "No. You can also type what you ate or say it out loud, for example \"grilled chicken with rice, 200 grams\", and CalorAI calculates the nutrition." },
+        { "q": "Can I log workouts?", "a": "Yes. Choose from over 100 exercises, set the duration and intensity, and the calories you burn are added to your daily target." },
+        { "q": "Does CalorAI work on iPhone and Android?", "a": "Yes. CalorAI is available on Google Play for Android and on the App Store for iPhone and iPad." },
+        { "q": "Who makes CalorAI?", "a": "CalorAI is made by Intellivation AB, a small independent company in Sweden." }
       ]
     },
     "cta": {
@@ -218,7 +223,7 @@
       { "icon": "check", "title": "Your data, your choice", "text": "You can delete your account and all your data from inside the app at any time." }
     ],
     "companyTitle": "Who we are",
-    "company": "CalorAI is made by Intellinova, a small independent team of developers and designers who care about health and good software. We read every message and use your feedback to decide what to build next."
+    "company": "CalorAI is made by Intellivation AB in Sweden, a small independent team of developers and designers who care about health and good software. We read every message and use your feedback to decide what to build next."
   },
   "contactPage": {
     "title": "Contact",
