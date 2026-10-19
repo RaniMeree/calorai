@@ -37,8 +37,8 @@ We make CalorAI, so we are not neutral. We tried to keep this comparison fair an
 |---|---|---|---|---|---|
 | **CalorAI** | Photo, gallery, text, voice | Free to download and start | Pro $9.49/month or $37.99/year | 18, incl. Arabic, Farsi, Kurdish | Non-English users, all-in-one app |
 | **Cal AI** | Photo, barcode, text | Scan results need a subscription (3-day trial) | Varies, about $30–70/year | 15 | Fast photo logging, iPhone depth sensor |
-| **MyFitnessPal** | Search, barcode*, Meal Scan*, voice* | Yes, basic logging with ads | Premium $19.99/month or $79.99/year | Several | Huge food database (*Premium) |
-| **SnapCalorie** | Photo, voice | Yes, core features free | Free core | Not stated | Free photo logging |
+| **MyFitnessPal** | Search, barcode*, Meal Scan*, voice* | Yes, basic logging with ads | Premium $19.99/month or $79.99/year | 20, no Arabic or Hindi | Huge food database (*Premium) |
+| **SnapCalorie** | Photo, voice | Yes, core features free | Premium $19.99/month or $149/year | English | Free photo logging |
 | **MacroFactor** | Search, barcode | Free trial, then paid | Subscription | Not stated | Adaptive targets for serious trackers |
 | **Cronometer** | Search, barcode | Yes, detailed free plan | Gold is paid | Not stated | Vitamins and minerals in detail |
 
@@ -133,6 +133,95 @@ We make CalorAI, so here are the facts side by side, including where Cal AI is s
 
 ## Which one should you pick?
 If you mostly eat packaged food and want barcode scanning on an iPhone, Cal AI is a strong choice. If you want to log in your own language, by voice or photo, and track workouts and goals in one place, try CalorAI. Both are free to download, so the easiest way to decide is to log a day of meals in each.`,
+  },
+  {
+    slug: 'calorai-vs-myfitnesspal',
+    title: 'CalorAI vs MyFitnessPal: photo-first or database-first?',
+    description: 'MyFitnessPal has the biggest food database; CalorAI logs a meal from one photo, text or voice in 18 languages. How they compare on features, price and languages.',
+    category: 'Comparisons', cover: 'calorai-vs-myfitnesspal', graphic: 'calorai-vs-myfitnesspal', minutes: 4, date: '2026-10-19',
+    sources: [
+      'MyFitnessPal and CalorAI listings on the App Store and Google Play, checked October 2026.',
+      'US prices; they vary by country, with frequent discounts. Check the store before you subscribe.',
+      'Disclosure: this article is published by the team behind CalorAI.',
+    ],
+    body: `MyFitnessPal is the best-known calorie counter in the world, with a food database of more than 20 million items. CalorAI is a newer app built around AI: you take a photo of your plate, type what you ate or say it, and it estimates the calories and macros.
+
+They solve the same problem in different ways. We make CalorAI, so here is an honest side-by-side.
+
+## Side by side
+| | CalorAI | MyFitnessPal |
+|---|---|---|
+| Main way to log | Photo, typed description, voice | Search the food database |
+| Photo logging (AI) | Yes | Meal Scan, Premium only |
+| Voice logging | Yes | Premium only |
+| Barcode scanner | No | Premium only |
+| Food database | AI estimate per meal | 20.5 million+ foods |
+| Free version | Free to download and start | Basic logging with ads |
+| Paid plan (US) | Pro $9.49/month or $37.99/year | Premium $19.99/month or $79.99/year |
+| Meal planner | Yes, AI meal planner | Premium+ |
+| Workouts | 100+ exercises, burned calories added to your day | Exercise logging and many device integrations |
+| AI nutrition coach | Yes, chat | Not included |
+| Languages | 18, incl. Arabic, Farsi, Kurdish, Hindi, Greek | 20, no Arabic, Farsi, Hindi or Greek |
+| Rating (App Store, US) | Smaller, newer app | 4.7 from 2.4 million ratings |
+
+## Where MyFitnessPal is stronger
+- **The food database.** If you like to pick the exact product or brand, nothing beats 20 million items.
+- **Barcode scanning** for packaged food (Premium).
+- **Community and integrations:** years of history, recipes and connections to many fitness devices.
+
+## Where CalorAI is stronger
+- **Speed.** One photo instead of searching and adding every ingredient.
+- **AI features included in Pro:** photo, voice, AI coach and meal planner, at about half the price of MyFitnessPal Premium.
+- **Languages.** Full Arabic, Farsi and Kurdish with right-to-left layout, plus Hindi and Greek, which MyFitnessPal does not offer.
+- **Workouts that change your target:** log a run and the burned calories are added to what you can eat today.
+
+## Which one should you pick?
+Choose MyFitnessPal if you want to weigh food and log exact products from a huge database. Choose CalorAI if you want logging to take seconds, in your own language, with an AI coach that knows your day. Many people who quit MyFitnessPal because logging took too long find photo logging easier to keep up.`,
+  },
+  {
+    slug: 'calorai-vs-snapcalorie',
+    title: 'CalorAI vs SnapCalorie: two photo calorie counters compared',
+    description: 'Both apps count calories from a photo of your meal. How CalorAI and SnapCalorie differ on price, languages, voice logging and extra features.',
+    category: 'Comparisons', cover: 'calorai-vs-snapcalorie', graphic: 'calorai-vs-snapcalorie', minutes: 4, date: '2026-10-19',
+    sources: [
+      'SnapCalorie website and App Store listing, CalorAI store listings, checked October 2026.',
+      'US prices; they vary by country, with frequent discounts.',
+      'Disclosure: this article is published by the team behind CalorAI.',
+    ],
+    body: `CalorAI and SnapCalorie are both photo-first calorie counters: point your camera at a meal and the AI estimates calories, protein, carbs and fat. They are made by different companies, SnapCalorie by Perception Labs in the US and CalorAI by Intellivation AB in Sweden.
+
+We make CalorAI, so here are the facts side by side, including where SnapCalorie is stronger.
+
+## Side by side
+| | CalorAI | SnapCalorie |
+|---|---|---|
+| Photo logging | Yes, camera or gallery | Yes |
+| Voice logging | Yes | Yes |
+| Type what you ate | Yes | Yes |
+| Portion size | AI estimate, adjustable before saving | Uses the depth sensor (LiDAR) on iPhone Pro |
+| Nutrition label scanning | No | Yes |
+| Free version | Free to download and start | Core features free |
+| Paid plan (US) | Pro $9.49/month or $37.99/year | Premium $19.99/month or $149/year |
+| Languages | 18, incl. Arabic, Farsi, Kurdish, Turkish, Hindi | English |
+| Workouts | 100+ exercises, added to your daily target | Not a focus |
+| Weight goal plan | Yes, weekly pace and milestones | Calorie and macro goals |
+| AI meal planner | Yes | Not mentioned |
+| Health warnings | 20+ conditions | Not mentioned |
+| Platforms | Android, iPhone, iPad | Android, iPhone |
+
+## Where SnapCalorie is stronger
+- **Portion size on iPhone Pro:** the depth sensor measures the volume of food on the plate.
+- **Nutrition label scanning** for packaged food.
+- **A generous free tier** for core photo logging.
+
+## Where CalorAI is stronger
+- **Your language:** 18 languages with full right-to-left support for Arabic, Farsi and Kurdish. SnapCalorie is in English only.
+- **Price:** Pro costs about a quarter of SnapCalorie Premium per year.
+- **More than logging:** workouts that raise your daily target, a weight goal plan with milestones, an AI coach, a meal planner and health warnings.
+- **Works the same on any phone,** without needing a depth sensor.
+
+## Which one should you pick?
+If you use an iPhone Pro, read English and mainly want very fast photo logging, SnapCalorie is a good choice. If you want the app in your own language, at a lower price, with workouts, goals and coaching in the same place, try CalorAI. Both are free to download, so log one day of meals in each and keep the one that feels easier.`,
   },
   {
     slug: 'sleep-and-weight-loss',
