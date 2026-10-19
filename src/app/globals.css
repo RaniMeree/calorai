@@ -313,3 +313,17 @@ p { margin: 0; }
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; scroll-behavior: auto !important; }
 }
+
+/* "Calories in <dish>" pages */
+.dish-facts { display: flex; gap: 24px; align-items: center; background: var(--tint); border-radius: 22px; padding: 24px 28px; }
+.dish-kcal { display: grid; justify-items: center; min-width: 110px; }
+.dish-kcal b { font-size: 3rem; line-height: 1; color: var(--primary-ink); }
+.dish-kcal span { color: var(--muted); font-weight: 600; }
+.dish-facts small { color: var(--muted); }
+.dish-facts ul { list-style: none; display: flex; flex-wrap: wrap; gap: 8px 24px; margin-top: 8px; padding: 0; }
+.dish-facts li { display: grid; justify-items: start; }
+.dish-facts li b { font-size: 1.3rem; }
+.dish-note { color: var(--muted); font-size: .9rem; margin: 12px 0 8px; }
+.dish-list { display: grid; gap: 10px; padding: 0; list-style: none; }
+.dish-list a { display: block; padding: 16px 20px; border-radius: 16px; background: var(--tint); font-weight: 700; text-decoration: none; color: inherit; }
+@media (max-width: 520px) { .dish-facts { flex-direction: column; align-items: flex-start; } }

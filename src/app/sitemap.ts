@@ -1,6 +1,7 @@
 import type { MetadataRoute } from 'next';
 import { translatedLocales } from '@/i18n/getDictionary';
 import { posts } from '@/content/posts';
+import { dishes } from '@/content/dishes';
 import { site, pages, legalPages } from '@/lib/site';
 
 export const dynamic = 'force-static';
@@ -21,5 +22,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: p === '' ? 1 : p.startsWith('blog/') ? 0.6 : 0.8,
       alternates: { languages: Object.fromEntries(langs.map((l) => [l, url(l, p)])) },
     }));
-  });
+  }).concat(dishes.map((d) => ({
+    url: url(d.lang, `calories/${d.slug}`),
+    lastModified: new Date(),
+    changeFrequency: 'monthly' as const,
+    priority: 0.7,
+    alternates: { languages: { [d.lang]: url(d.lang, `calories/${d.slug}`) } },
+  })));
 }

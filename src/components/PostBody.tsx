@@ -7,7 +7,7 @@ function inline(text: string) {
 }
 
 // Renders the simple block format described in content/posts.ts.
-export default function PostBody({ post }: { post: Post }) {
+export default function PostBody({ post }: { post: Pick<Post, 'body' | 'title'> & { graphic?: string } }) {
   return (
     <>
       {post.body.split(/\n\s*\n/).map((block, i) => {

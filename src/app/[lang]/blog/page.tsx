@@ -1,6 +1,7 @@
 import { load, pageMeta, type LangParams } from '@/lib/page';
 import { PageHero, Cta } from '@/components/Sections';
 import { posts } from '@/content/posts';
+import { dishesFor, dishLabels } from '@/content/dishes';
 
 export async function generateMetadata(p: LangParams) {
   const { lang, t } = await load(p);
@@ -10,9 +11,20 @@ export async function generateMetadata(p: LangParams) {
 export default async function Blog(p: LangParams) {
   const { lang, t } = await load(p);
   const [first, ...rest] = posts;
+  const dishes = dishesFor(lang);
   return (
     <>
       <PageHero heading={t.blogPage.heading} sub={t.blogPage.sub} />
+      {dishes.length > 0 && (
+        <section className="section">
+          <div className="wrap narrow">
+            <h2 className="mb">{dishLabels[lang]!.section}</h2>
+            <ul className="dish-list">
+              {dishes.map((d) => <li key={d.slug}><a href={`/${lang}/calories/${d.slug}/`}>{d.title}</a></li>)}
+            </ul>
+          </div>
+        </section>
+      )}
       <section className="section">
         <div className="wrap">
           <a className="post-feature" href={`/${lang}/blog/${first.slug}/`}>
