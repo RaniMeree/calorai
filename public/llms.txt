@@ -7,7 +7,7 @@ CalorAI is made by Intellivation AB (Sweden). Package name on Google Play: com.c
 ## Key facts
 - Platforms: Android (Google Play) and iOS (App Store, iPhone and iPad)
 - Price: free download; optional CalorAI Pro subscription for advanced features
-- Languages (18): English, Arabic, Danish, German, Greek, Spanish, Farsi, Finnish, French, Hindi, Italian, Japanese, Kurdish, Dutch, Portuguese, Russian, Swedish, Turkish. Arabic, Farsi and Kurdish use a right-to-left layout.
+- Languages (18): English, Arabic, Danish, German, Greek, Spanish, Farsi, Finnish, French, Hindi, Italian, Japanese, Kurdish (Kurmanji), Dutch, Portuguese, Russian, Swedish, Turkish. Arabic and Farsi use a right-to-left layout.
 - Food recognition covers many cuisines, including Middle Eastern and Gulf dishes.
 - Logging methods: photo of the meal, gallery photo, typed description, or voice description. CalorAI does not scan video.
 

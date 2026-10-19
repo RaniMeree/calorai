@@ -45,7 +45,7 @@ We make CalorAI, so we are not neutral. We tried to keep this comparison fair an
 ## CalorAI
 Take a photo, pick one from your gallery, type what you ate or say it out loud, and CalorAI estimates calories, protein, carbs and fat. It also sets daily targets, turns a goal weight into a weekly plan, logs workouts from over 100 exercises, and includes an AI nutrition coach, a meal planner and health warnings for 20+ conditions.
 
-- **Strengths:** 18 languages including right-to-left Arabic, Farsi and Kurdish; four ways to log; lower price than most.
+- **Strengths:** 18 languages including right-to-left Arabic and Farsi, plus Kurdish; four ways to log; lower price than most.
 - **Limits:** no barcode scanner; smaller community than the big apps.
 
 ## Cal AI
@@ -125,7 +125,7 @@ We make CalorAI, so here are the facts side by side, including where Cal AI is s
 - **A much larger user base** and a very high App Store rating.
 
 ## Where CalorAI is stronger
-- **More languages**, with full right-to-left support for Arabic, Farsi and Kurdish, plus Danish, Finnish, Greek, Swedish and Turkish.
+- **More languages**, with full right-to-left support for Arabic and Farsi, plus Kurdish, Danish, Finnish, Greek, Swedish and Turkish.
 - **Voice logging:** just say "grilled chicken with rice, 200 grams".
 - **Workouts inside the app:** pick from 100+ exercises and the burned calories are added to your day.
 - **AI nutrition coach, meal planner and health warnings** for 20+ conditions.
@@ -172,7 +172,7 @@ They solve the same problem in different ways. We make CalorAI, so here is an ho
 ## Where CalorAI is stronger
 - **Speed.** One photo instead of searching and adding every ingredient.
 - **AI features included in Pro:** photo, voice, AI coach and meal planner, at about half the price of MyFitnessPal Premium.
-- **Languages.** Full Arabic, Farsi and Kurdish with right-to-left layout, plus Hindi and Greek, which MyFitnessPal does not offer.
+- **Languages.** Full Arabic and Farsi with right-to-left layout, plus Kurdish, Hindi and Greek, which MyFitnessPal does not offer.
 - **Workouts that change your target:** log a run and the burned calories are added to what you can eat today.
 
 ## Which one should you pick?
@@ -215,7 +215,7 @@ We make CalorAI, so here are the facts side by side, including where SnapCalorie
 - **A generous free tier** for core photo logging.
 
 ## Where CalorAI is stronger
-- **Your language:** 18 languages with full right-to-left support for Arabic, Farsi and Kurdish. SnapCalorie is in English only.
+- **Your language:** 18 languages, with full right-to-left support for Arabic and Farsi, plus Kurdish and Turkish. SnapCalorie is in English only.
 - **Price:** Pro costs about a quarter of SnapCalorie Premium per year.
 - **More than logging:** workouts that raise your daily target, a weight goal plan with milestones, an AI coach, a meal planner and health warnings.
 - **Works the same on any phone,** without needing a depth sensor.

@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   return {
     title: post.title,
     description: post.description,
-    ...seo(isLocale(lang) ? lang : 'en', `blog/${slug}`),
+    ...seo(isLocale(lang) ? lang : 'en', `blog/${slug}`, true),
     openGraph: { type: 'article', title: post.title, description: post.description, images: [`/blog/${post.cover}.webp`] },
   };
 }

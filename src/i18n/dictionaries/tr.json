@@ -1,0 +1,287 @@
+{
+  "meta": {
+    "title": "CalorAI: Yapay Zekâ Kalori Sayacı",
+    "description": "Yemeğinin fotoğrafını çek, CalorAI kaloriyi, proteini, karbonhidratı ve yağı saniyeler içinde hesaplasın. Google Play ve App Store'da ücretsiz."
+  },
+  "nav": {
+    "features": "Özellikler",
+    "how-it-works": "Nasıl çalışır",
+    "blog": "Blog",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "download": "İndir",
+    "privacy": "Gizlilik politikası",
+    "terms": "Kullanım koşulları",
+    "delete-account": "Hesabı sil",
+    "menu": "Menü",
+    "language": "Dil"
+  },
+  "store": {
+    "googleTop": "ŞURADAN ALIN",
+    "google": "Google Play",
+    "appleTop": "Şuradan indirin:",
+    "apple": "App Store",
+    "downloadFree": "Ücretsiz indir"
+  },
+  "proof": {
+    "rating": "puan",
+    "downloads": "indirme",
+    "languages": "dil"
+  },
+  "home": {
+    "hero": {
+      "badge": "Yapay zekâ kalori sayacı",
+      "title1": "Yemeğinin fotoğrafını çek.",
+      "title2": "Kalorini öğren.",
+      "sub": "Fotoğraf çek, CalorAI kaloriyi, proteini, karbonhidratı ve yağı saniyeler içinde hesaplasın. Yazmak yok, tahmin yok.",
+      "cardKcal": "kcal",
+      "cardName": "Hamburger ve patates",
+      "cardLeft": "kcal kaldı bugün",
+      "cardSaved": "Günlüğüne kaydedildi"
+    },
+    "how": {
+      "eyebrow": "Nasıl çalışır",
+      "title": "Üç adım. Birkaç saniye.",
+      "steps": [
+        { "title": "Tabağının fotoğrafını çek", "text": "Kamerayı herhangi bir yemeğe tut: ev yemeği, restoran yemeği ya da atıştırmalık." },
+        { "title": "Hesabı yapay zekâ yapar", "text": "CalorAI yemeği tanır; kaloriyi, proteini, karbonhidratı ve yağı tahmin eder." },
+        { "title": "Hedefinde kal", "text": "Her öğün günlüğüne kaydedilir, böylece bugün ne kadar hakkın kaldığını hep bilirsin." }
+      ]
+    },
+    "features": {
+      "eyebrow": "Özellikler",
+      "title": "Daha bilinçli beslenmek için gereken her şey",
+      "sub": "Saymak, planlamak ve ne yediğini anlamak için tek uygulama.",
+      "items": [
+        { "icon": "camera", "title": "Fotoğrafla kalori", "text": "Herhangi bir yemeğin fotoğrafını çek, kaloriyi ve makroları saniyeler içinde gör." },
+        { "icon": "chat", "title": "Yapay zekâ beslenme koçu", "text": "Yazarak ya da sesle sor: ne sipariş etmeli, sonra ne yemeli, nasıl gidiyorsun." },
+        { "icon": "calendar", "title": "Yapay zekâ yemek planları", "text": "Kalori hedefine göre planlanmış bir haftalık öğünler." },
+        { "icon": "run", "title": "Egzersiz", "text": "100'den fazla egzersizi kaydet. Yakılan kaloriler gününe eklenir." },
+        { "icon": "shield", "title": "Sağlık uyarıları", "text": "Yemeden önce gluten, süt ürünleri ve 20'den fazla sağlık durumu için uyarı al." },
+        { "icon": "chart", "title": "İlerleme ve hedefler", "text": "Kilo hedefi belirle ve yoldaki her aşamayı gör." },
+        { "icon": "grid", "title": "Takvim görünümü", "text": "Ayın renklerle: hedefte, altında ya da üstünde." },
+        { "icon": "globe", "title": "18 dil", "text": "CalorAI'yi kendi dilinde kullan; Arapça, Farsça ve Kürtçe de dahil." }
+      ]
+    },
+    "spotlight": [
+      {
+        "eyebrow": "Yapay zekâ koçu",
+        "title": "Ne sipariş edeceğini bilmiyor musun? Sor yeter.",
+        "text": "Yapay zekâ koçun bugün kaç kalori hakkın kaldığını bilir. Yazarak ya da sesle sor, gününe uygun yanıtlar al.",
+        "points": ["Saniyeler içinde restoran önerileri", "Protein ve makro takibi", "Yazarak ya da sesle"],
+        "screen": "coach"
+      },
+      {
+        "eyebrow": "Yemek planları",
+        "title": "Bir haftalık öğünler, senin için planlandı.",
+        "text": "Hedefini CalorAI'ye söyle, bütün hafta için kahvaltı, öğle ve akşam yemeği hazırlasın.",
+        "points": ["Günlük kalorine uygun", "7 gün boyunca kahvaltı, öğle ve akşam yemeği", "Düşünmeye daha az, yemeye daha çok zaman"],
+        "screen": "meal-plan"
+      },
+      {
+        "eyebrow": "Sağlık uyarıları",
+        "title": "Yemeden önce bil.",
+        "text": "Alerjilerini ya da sağlık durumlarını profiline ekle, CalorAI fotoğrafını çektiğin her yemeği kontrol etsin.",
+        "points": ["Gluten, süt ürünleri ve yaygın alerjenler", "20'den fazla sağlık durumu", "İlk lokmadan önce net bir uyarı"],
+        "screen": "health-warning"
+      },
+      {
+        "eyebrow": "Takvim",
+        "title": "Alışkanlıklarını bir bakışta gör.",
+        "text": "Yeşil, sarı ya da kırmızı: ayın her günü hedefte mi, altında mı, üstünde mi olduğunu gösterir.",
+        "points": ["Kalori ve protein görünümleri", "Zayıf günlerini bul", "Düzeni değiştirmek için ipuçları"],
+        "screen": "calendar-calories"
+      }
+    ],
+    "screens": {
+      "eyebrow": "Uygulamanın içi",
+      "title": "Basit, hızlı ve net"
+    },
+    "faq": {
+      "eyebrow": "SSS",
+      "title": "Sorular ve yanıtlar",
+      "items": [
+        { "q": "CalorAI ücretsiz mi?", "a": "Evet. CalorAI, Google Play ve App Store'dan ücretsiz indirilebilir. Bazı gelişmiş özellikler CalorAI Pro'ya dahildir." },
+        { "q": "Fotoğrafla tarama nasıl çalışır?", "a": "Yemeğinin fotoğrafını çek. CalorAI'nin yapay zekâsı yemeği tanır, porsiyonu tahmin eder ve kaloriyi, proteini, karbonhidratı ve yağı hesaplar." },
+        { "q": "Değerler ne kadar doğru?", "a": "Yapay zekâ, bir besin etiketi gibi tahmini bir değer verir. Bir öğünü kaydetmeden önce her zaman düzenleyebilirsin." },
+        { "q": "Hangi diller destekleniyor?", "a": "CalorAI 18 dilde kullanılabilir; aralarında Türkçe, İngilizce, Arapça, İspanyolca, Fransızca, Almanca, Farsça ve Kürtçe var." },
+        { "q": "Bir sağlık sorunum varsa CalorAI'yi kullanabilir miyim?", "a": "CalorAI sana uygun olmayabilecek malzemeler konusunda uyarabilir, ancak tıbbi tavsiye değildir. Her zaman doktorunun önerilerine uy." },
+        { "q": "CalorAI Arapça çalışıyor mu?", "a": "Evet. Uygulamanın tamamı sağdan sola düzenle Arapça olarak kullanılabilir ve yapay zekâ, Orta Doğu ve Körfez mutfakları dahil pek çok mutfaktan yemekleri tanır." },
+        { "q": "Fotoğraf çekmek zorunda mıyım?", "a": "Hayır. Ne yediğini yazabilir ya da söyleyebilirsin, örneğin \"ızgara tavuk ve pilav, 200 gram\"; CalorAI besin değerlerini hesaplar." },
+        { "q": "Egzersiz kaydedebilir miyim?", "a": "Evet. 100'den fazla egzersiz arasından seç, süreyi ve yoğunluğu belirle; yaktığın kaloriler günlük hedefine eklenir." },
+        { "q": "CalorAI iPhone ve Android'de çalışıyor mu?", "a": "Evet. CalorAI, Android için Google Play'de, iPhone ve iPad için App Store'da." },
+        { "q": "CalorAI'yi kim geliştiriyor?", "a": "CalorAI, İsveç'te küçük ve bağımsız bir şirket olan Intellivation AB tarafından geliştiriliyor." }
+      ]
+    },
+    "cta": {
+      "title": "Tek bir fotoğrafla saymaya başla",
+      "sub": "Google Play ve App Store'da ücretsiz."
+    }
+  },
+  "featuresPage": {
+    "title": "Özellikler",
+    "heading": "CalorAI'nin senin için yapabildiği her şey",
+    "sub": "Hızlı bir fotoğraftan bütün haftanın planına: sağlıklı beslenmeyi kolaylaştıran araçlar.",
+    "items": [
+      {
+        "eyebrow": "Fotoğrafla tarama",
+        "title": "Herhangi bir yemeğin fotoğrafını çek. Değerleri al.",
+        "text": "Tabağının fotoğrafını çek; CalorAI yemeği tanısın, porsiyonu tahmin etsin ve kaloriyi, proteini, karbonhidratı ve yağı saniyeler içinde göstersin.",
+        "points": ["Ev yemekleri, restoran yemekleri ve atıştırmalıklarla çalışır", "Her öğünü kaydetmeden önce düzenle", "Ya da besin veritabanında ara ve elle kaydet"],
+        "screen": "scan-salmon"
+      },
+      {
+        "eyebrow": "Günlük özet",
+        "title": "Bugün ne kadar kaldığını tam olarak bil.",
+        "text": "Kalori halkan ve makro çubukların her öğünle güncellenir; akşam yemeğine ne kadar yer kaldığını hep bilirsin.",
+        "points": ["Kalori, protein, karbonhidrat ve yağ", "Kahvaltı, öğle ve akşam yemeğine göre öğünler", "Metrik ya da İngiliz ölçü birimleri"],
+        "screen": "today"
+      },
+      {
+        "eyebrow": "Yapay zekâ koçu",
+        "title": "7/24 beslenme koçun.",
+        "text": "Yemekle ilgili her şeyi yazarak ya da sesle sor. Koç hedefini ve bugün ne yediğini bilir.",
+        "points": ["\"Burada ne sipariş etmeliyim?\"", "\"Bugün ne kadar protein aldım?\"", "Kendi dilinde yanıtlar"],
+        "screen": "coach"
+      },
+      {
+        "eyebrow": "Yemek planları",
+        "title": "Saniyeler içinde bir haftalık öğün planı.",
+        "text": "CalorAI, kalori hedefine uygun olarak haftanın her günü için kahvaltı, öğle ve akşam yemeği hazırlar.",
+        "points": ["Günlük kalorine uygun", "7 gün boyunca kahvaltı, öğle ve akşam yemeği", "Önceden yemek hazırlamak için ideal"],
+        "screen": "meal-plan"
+      },
+      {
+        "eyebrow": "Egzersiz",
+        "title": "Daha çok hareket et. Daha çok ye.",
+        "text": "Bir antrenman kaydet, yakılan kaloriler otomatik olarak günlük hedefine eklensin.",
+        "points": ["7 grupta 100'den fazla egzersiz", "Düşük, orta ya da yüksek yoğunluk", "Koşu, spor salonu, spor, evde antrenman"],
+        "screen": "workouts"
+      },
+      {
+        "eyebrow": "Sağlık uyarıları",
+        "title": "İlk lokmadan önce bir uyarı.",
+        "text": "Alerjilerini, intoleranslarını ya da sağlık durumlarını profiline ekle; fotoğrafını çektiğin her yemek buna göre kontrol edilsin.",
+        "points": ["Gluten, süt ürünleri ve yaygın alerjenler", "Çölyaktan reflüye 20'den fazla sağlık durumu", "Açık ve basit açıklamalar"],
+        "screen": "health-warning"
+      },
+      {
+        "eyebrow": "Kilo hedefi",
+        "title": "Adım adım kilo ver.",
+        "text": "Hedef kilonu belirle; CalorAI yol boyunca kutlayacağın aşamalarla gerçekçi bir plan oluştursun.",
+        "points": ["Hayatına uyan haftalık hedefler", "İlerleme grafiği ve aşamalar", "Hedefe ulaşınca rozetler"],
+        "screen": "weight-goal"
+      },
+      {
+        "eyebrow": "Takvim",
+        "title": "Ayın renklerle.",
+        "text": "Her gün yeşil, sarı ya da kırmızı olur; böylece hem kalori hem protein için düzenleri görüp düzeltebilirsin.",
+        "points": ["Kalori ve protein görünümleri", "Zayıf günlerin bir bakışta", "Yapay zekâ koçundan ipuçları"],
+        "screen": "calendar-protein"
+      }
+    ]
+  },
+  "howPage": {
+    "title": "Nasıl çalışır",
+    "heading": "CalorAI nasıl çalışır",
+    "sub": "Bir dakikada kur, sonra her öğünü tek fotoğrafla kaydet.",
+    "steps": [
+      { "title": "Profilini oluştur", "text": "Yaşını, boyunu, kilonu ve hedefini gir. CalorAI günlük kalori ve makrolarını hesaplar.", "screen": "weight-goal" },
+      { "title": "Yemeğinin fotoğrafını çek", "text": "Kamerayı aç ve tabağının fotoğrafını çek. Barkod yok, yazmak yok.", "screen": "scan-burger" },
+      { "title": "Kontrol et ve kaydet", "text": "CalorAI bulduklarını kalori, protein, karbonhidrat ve yağ ile gösterir. İstersen düzenle, sonra günlüğüne kaydet.", "screen": "scan-eggs" },
+      { "title": "Gününü takip et", "text": "Halkaların her öğünden sonra güncellenir. Egzersiz kaydet, yakılan kaloriler hedefine eklensin.", "screen": "today" },
+      { "title": "İhtiyacın olduğunda yardım al", "text": "Yapay zekâ koçuna ne yemen gerektiğini sor, haftalık yemek planı al ve ilerlemeni takvimde gör.", "screen": "coach" }
+    ],
+    "tipsTitle": "En iyi sonuç için ipuçları",
+    "tips": [
+      "Fotoğrafı yukarıdan, tabağın tamamı görünecek şekilde çek.",
+      "İyi ışık, yapay zekânın yemeğini görmesine yardımcı olur.",
+      "Öğünleri yerken kaydet. Saniyeler sürer ve unutmazsın.",
+      "Tabağın alışılmadıksa kaydetmeden önce porsiyonu kontrol et."
+    ]
+  },
+  "downloadPage": {
+    "title": "İndir",
+    "heading": "CalorAI'yi ücretsiz indir",
+    "sub": "Android ve iPhone için, 18 dilde.",
+    "android": "Android telefonlar için",
+    "ios": "iPhone için",
+    "whyTitle": "İnsanlar neden CalorAI'yi seçiyor",
+    "why": ["Tek fotoğrafla öğün kaydı", "Gününü bilen bir yapay zekâ koçu", "Yemek planları, egzersiz ve sağlık uyarıları tek uygulamada", "Ücretsiz indir, 18 dilde"]
+  },
+  "aboutPage": {
+    "title": "Hakkımızda",
+    "heading": "Sağlıklı beslenmek kolay olmalı",
+    "sub": "CalorAI'yi herkes ne yediğini tablolara ve tahminlere gerek kalmadan anlayabilsin diye geliştiriyoruz.",
+    "missionTitle": "Misyonumuz",
+    "mission": "Kalori saymak eskiden yemeği tartmak ve her malzemeyi tek tek yazmak demekti. Pek çok kişi sonuç görmeden bıraktı. Bize göre bir fotoğraf yeterli olmalı. CalorAI, yapay zekâ ile yemeğinin fotoğrafını net rakamlara ve basit önerilere dönüştürür; böylece daha iyi seçimler yapar ve devam edersin.",
+    "valuesTitle": "Önem verdiklerimiz",
+    "values": [
+      { "icon": "sparkle", "title": "Önce sadelik", "text": "Her özellik sana zaman kazandırmalı. Kullanım kılavuzu gerekiyorsa yeniden tasarlarız." },
+      { "icon": "globe", "title": "Herkes için", "text": "CalorAI 18 dil konuşur; sağdan sola Arapça ve Farsça ile Kürtçe (Kurmancî) de dahil." },
+      { "icon": "shield", "title": "Dürüst rakamlar", "text": "Tahminleri açıkça gösterir ve düzenlemene izin veririz. Asla mucize vaat etmeyiz." },
+      { "icon": "check", "title": "Verilerin, senin seçimin", "text": "Hesabını ve tüm verilerini istediğin zaman uygulamanın içinden silebilirsin." }
+    ],
+    "companyTitle": "Biz kimiz",
+    "company": "CalorAI, İsveç'teki Intellivation AB tarafından geliştiriliyor: sağlığı ve iyi yazılımı önemseyen küçük, bağımsız bir geliştirici ve tasarımcı ekibi. Her mesajı okuyor ve sıradaki adımımıza senin geri bildirimlerinle karar veriyoruz."
+  },
+  "contactPage": {
+    "title": "İletişim",
+    "heading": "Bize ulaş",
+    "sub": "Soruların, geri bildirimin ya da iş birliği fikrin mi var? Seni duymak isteriz.",
+    "emailTitle": "Bize e-posta gönder",
+    "emailText": "Genellikle 1–2 iş günü içinde yanıt veriyoruz.",
+    "topicsTitle": "Nasıl yardımcı olabiliriz?",
+    "topics": [
+      { "icon": "chat", "title": "Destek", "text": "Uygulama, hesabın ya da abonelikle ilgili sorunlar.", "subject": "Support" },
+      { "icon": "sparkle", "title": "Geri bildirim ve fikirler", "text": "Neyi sevdiğini ve sırada ne yapmamız gerektiğini anlat.", "subject": "Feedback" },
+      { "icon": "globe", "title": "İş birlikleri ve basın", "text": "İş birlikleri, influencer'lar, medya ve ticari talepler.", "subject": "Partnership" }
+    ],
+    "write": "Bize yaz",
+    "faqHint": "Pek çok yanıt zaten",
+    "faqLink": "SSS bölümünde",
+    "deleteHint": "Hesabını silmek mi istiyorsun?",
+    "deleteLink": "Nasıl yapılır"
+  },
+  "legal": {
+    "updated": "Son güncelleme"
+  },
+  "deletePage": {
+    "title": "Hesabı sil",
+    "heading": "CalorAI hesabını sil",
+    "sub": "Hesabını ve tüm verilerini istediğin zaman kalıcı olarak silebilirsin.",
+    "inAppTitle": "Uygulamada sil",
+    "steps": [
+      "CalorAI'yi aç ve giriş yap.",
+      "Ekranın altındaki \"Daha Fazla\" sekmesine dokun.",
+      "Aşağı kaydır ve \"Hesabı sil\"e dokun.",
+      "İki kez onayla. Hesabın hemen silinir."
+    ],
+    "whatTitle": "Neler silinir",
+    "what": "Profilin, yemek günlüğün, fotoğrafların, yemek planların, antrenmanların, kilo geçmişin, koçla konuşmaların, rozetlerin ve topluluk gönderilerin sunucularımızdan kalıcı olarak kaldırılır. Bu işlem geri alınamaz.",
+    "subsTitle": "Abonelikler",
+    "subs": "Hesabını silmek, Google Play ya da App Store üzerinden alınan bir aboneliği iptal etmez. Gelecekteki ödemeleri durdurmak için mağaza hesabının ayarlarından iptal et.",
+    "noAppTitle": "Uygulamayı kullanamıyor musun?",
+    "noApp": "Kayıt olduğun e-posta adresinden bize yaz, hesabını ve verilerini 30 gün içinde silelim.",
+    "emailSubject": "Delete my account"
+  },
+  "blogPage": {
+    "title": "Blog",
+    "heading": "Her ipucuyla daha bilinçli beslen",
+    "sub": "Bilime dayanan basit beslenme ipuçları, akıllı değişimler ve kalori karşılaştırmaları. (Makaleler İngilizce)",
+    "read": "Makaleyi oku",
+    "minRead": "dk okuma",
+    "sources": "Kaynaklar",
+    "more": "Diğer makaleler",
+    "ctaTitle": "CalorAI ile takip et",
+    "ctaText": "Yemeğinin fotoğrafını çek; kaloriyi, proteini, karbonhidratı ve yağı saniyeler içinde gör. Ücretsiz."
+  },
+  "footer": {
+    "tagline": "İşi senin yerine yapan yapay zekâ kalori sayacı.",
+    "product": "Ürün",
+    "company": "Şirket",
+    "legal": "Yasal",
+    "disclaimer": "CalorAI yalnızca genel bilgi amaçlı tahminler sunar ve tıbbi tavsiye değildir.",
+    "rights": "Tüm hakları saklıdır."
+  }
+}

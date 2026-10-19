@@ -218,7 +218,7 @@
     "valuesTitle": "What we care about",
     "values": [
       { "icon": "sparkle", "title": "Simple first", "text": "Every feature should save you time. If it needs a manual, we redesign it." },
-      { "icon": "globe", "title": "For everyone", "text": "CalorAI speaks 18 languages, including right-to-left languages like Arabic, Farsi and Kurdish." },
+      { "icon": "globe", "title": "For everyone", "text": "CalorAI speaks 18 languages, including right-to-left Arabic and Farsi, and Kurdish (Kurmanji)." },
       { "icon": "shield", "title": "Honest numbers", "text": "We show estimates clearly and let you adjust them. We never promise miracles." },
       { "icon": "check", "title": "Your data, your choice", "text": "You can delete your account and all your data from inside the app at any time." }
     ],

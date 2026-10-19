@@ -4,7 +4,7 @@ import Terms, { termsUpdated } from '@/content/Terms';
 
 export async function generateMetadata(p: LangParams) {
   const { lang, t } = await load(p);
-  return pageMeta(lang, 'terms', t.nav.terms, t.meta.description);
+  return pageMeta(lang, 'terms', t.nav.terms, t.meta.description, true);
 }
 
 export default async function TermsPage(p: LangParams) {

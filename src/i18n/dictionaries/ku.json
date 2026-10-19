@@ -1,0 +1,287 @@
+{
+  "meta": {
+    "title": "CalorAI: Hejmarkerê kaloriyan bi AI",
+    "description": "Wêneyê xwarina xwe bikişîne û CalorAI di çend saniyeyan de kalorî, proteîn, karbohîdrat û rûn hesab dike. Belaş li Google Play û App Store."
+  },
+  "nav": {
+    "features": "Taybetmendî",
+    "how-it-works": "Çawa dixebite",
+    "blog": "Blog",
+    "about": "Derbarê me",
+    "contact": "Têkilî",
+    "download": "Daxe",
+    "privacy": "Polîtîkaya Nihêniyê",
+    "terms": "Mercên Bikaranînê",
+    "delete-account": "Hesabê jê bibe",
+    "menu": "Menû",
+    "language": "Ziman"
+  },
+  "store": {
+    "googleTop": "LI SER",
+    "google": "Google Play",
+    "appleTop": "Daxe ji",
+    "apple": "App Store",
+    "downloadFree": "Belaş daxe"
+  },
+  "proof": {
+    "rating": "nirxandin",
+    "downloads": "daxistin",
+    "languages": "ziman"
+  },
+  "home": {
+    "hero": {
+      "badge": "Hejmarkerê kaloriyan bi AI",
+      "title1": "Wêneyê xwarina xwe bikişîne.",
+      "title2": "Kaloriyên xwe bizane.",
+      "sub": "Wêneyekî bikişîne û CalorAI di çend saniyeyan de kalorî, proteîn, karbohîdrat û rûn hesab dike. Ne nivîsandin, ne texmîn.",
+      "cardKcal": "kcal",
+      "cardName": "Burger û kartol",
+      "cardLeft": "kcal îro maye",
+      "cardSaved": "Di rojnivîska te de hat tomarkirin"
+    },
+    "how": {
+      "eyebrow": "Çawa dixebite",
+      "title": "Sê gav. Çend saniye.",
+      "steps": [
+        { "title": "Wêneyê qapê xwe bikişîne", "text": "Kamerayê ber bi her xwarinê ve bike: xwarina malê, xwarina xwaringehê an xwarineke sivik." },
+        { "title": "AI hesab dike", "text": "CalorAI xwarinê nas dike û kalorî, proteîn, karbohîdrat û rûn texmîn dike." },
+        { "title": "Li ser rêya xwe bimîne", "text": "Her xwarin di rojnivîska te de tê tomarkirin, ji ber vê yekê tu her tim dizanî îro çiqas maye." }
+      ]
+    },
+    "features": {
+      "eyebrow": "Taybetmendî",
+      "title": "Her tiştê ku ji bo xwarina jîrtir hewce dikî",
+      "sub": "Sepanek tenê ji bo hejmartin, plansazî û têgihîştina tiştê ku tu dixwî.",
+      "items": [
+        { "icon": "camera", "title": "Kalorî bi wêneyê", "text": "Wêneyê her xwarinê bikişîne û di çend saniyeyan de kalorî û makroyan bistîne." },
+        { "icon": "chat", "title": "Rahênerê xwarinê yê AI", "text": "Bi nivîsê an bi deng bipirse: çi bixwazî, paşê çi bixwî, tu çawa diçî." },
+        { "icon": "calendar", "title": "Planên xwarinê bi AI", "text": "Xwarinên hefteyeke tevahî, li gorî armanca kaloriya te hatine plankirin." },
+        { "icon": "run", "title": "Werziş", "text": "Zêdetirî 100 werzişan tomar bike. Kaloriyên şewitandî li roja te zêde dibin." },
+        { "icon": "shield", "title": "Hişyariyên tenduristiyê", "text": "Berî ku bixwî, li ser glûten, şîremenî û zêdetirî 20 rewşên tenduristiyê hişyarî bistîne." },
+        { "icon": "chart", "title": "Pêşketin û armanc", "text": "Armanceke giraniyê deyne û her qonaxa rêyê bibîne." },
+        { "icon": "grid", "title": "Dîmena salnameyê", "text": "Meha te bi rengan: li ser armancê, kêmtir an zêdetir." },
+        { "icon": "globe", "title": "18 ziman", "text": "CalorAI bi zimanê xwe bi kar bîne, di nav wan de kurdî, erebî û farisî jî hene." }
+      ]
+    },
+    "spotlight": [
+      {
+        "eyebrow": "Rahênerê AI",
+        "title": "Nizanî çi bixwazî? Tenê bipirse.",
+        "text": "Rahênerê te yê AI dizane îro çend kaloriyên te mane. Bi nivîsê an bi deng bipirse û bersivên li gorî roja xwe bistîne.",
+        "points": ["Şîretên xwaringehê di çend saniyeyan de", "Kontrola proteîn û makroyan", "Bi nivîsê an bi deng"],
+        "screen": "coach"
+      },
+      {
+        "eyebrow": "Planên xwarinê",
+        "title": "Xwarinên hefteyeke tevahî, ji bo te hatine plankirin.",
+        "text": "Armanca xwe ji CalorAI re bibêje û ew ji bo tevahiya hefteyê taştê, firavîn û şîv amade dike.",
+        "points": ["Li gorî kaloriyên te yên rojane", "Taştê, firavîn û şîv ji bo 7 rojan", "Kêmtir dem ji bo biryarê, zêdetir dem ji bo xwarinê"],
+        "screen": "meal-plan"
+      },
+      {
+        "eyebrow": "Hişyariyên tenduristiyê",
+        "title": "Berî xwarinê bizane.",
+        "text": "Alerjî an rewşên tenduristiyê li profîla xwe zêde bike û CalorAI her xwarina ku tu wêneyê wê dikişînî kontrol dike.",
+        "points": ["Glûten, şîremenî û alerjenên belav", "Zêdetirî 20 rewşên tenduristiyê", "Hişyariyeke zelal berî parîya yekem"],
+        "screen": "health-warning"
+      },
+      {
+        "eyebrow": "Salname",
+        "title": "Adetên xwe bi nêrînekê bibîne.",
+        "text": "Kesk, zer an sor: her roja mehê nîşan dide ka tu li ser armancê, kêmtir an zêdetir bûyî.",
+        "points": ["Dîmenên kalorî û proteînê", "Rojên xwe yên qels bibîne", "Şîret ji bo guhertina adetê"],
+        "screen": "calendar-calories"
+      }
+    ],
+    "screens": {
+      "eyebrow": "Di hundirê sepanê de",
+      "title": "Sade, bilez û zelal"
+    },
+    "faq": {
+      "eyebrow": "Pirsên pir tên pirsîn",
+      "title": "Pirs û bersiv",
+      "items": [
+        { "q": "Ma CalorAI belaş e?", "a": "Erê. CalorAI li Google Play û App Store belaş tê daxistin. Hin taybetmendiyên pêşketî beşek ji CalorAI Pro ne." },
+        { "q": "Skankirina bi wêneyê çawa dixebite?", "a": "Wêneyê xwarina xwe bikişîne. AI ya CalorAI xwarinê nas dike, mezinahiya beşê texmîn dike, paşê kalorî, proteîn, karbohîdrat û rûn hesab dike." },
+        { "q": "Hejmar çiqas rast in?", "a": "AI texmînekê dide, wek etîketeke xwarinê. Tu her tim dikarî xwarinê berî tomarkirinê biguherînî." },
+        { "q": "Kîjan ziman hene?", "a": "CalorAI bi 18 zimanan heye, di nav wan de kurdî, îngilîzî, erebî, spanî, fransî, almanî, tirkî û farisî." },
+        { "q": "Ma ez dikarim bi nexweşiyekê CalorAI bi kar bînim?", "a": "CalorAI dikare te li ser pêkhateyên ku dibe ku ji te re ne baş bin hişyar bike, lê ew ne şîreta bijîşkî ye. Her tim şîretên bijîşkê xwe bişopîne." },
+        { "q": "Ma CalorAI bi erebî dixebite?", "a": "Erê. Tevahiya sepanê bi erebî û bi rêzkirina ji rastê ber bi çepê ve heye, û AI xwarinên ji gelek mitbexan nas dike, di nav wan de xwarinên Rojhilata Navîn û Kendavê." },
+        { "q": "Ma divê ez wêneyekî bikişînim?", "a": "Na. Tu dikarî tiştê ku te xwariye binivîsî an bibêjî, wek \"mirîşka biraştî bi birinc, 200 gram\", û CalorAI nirxên xwarinê hesab dike." },
+        { "q": "Ma ez dikarim werzişê tomar bikim?", "a": "Erê. Ji zêdetirî 100 werzişan hilbijêre, dem û tundiyê diyar bike, û kaloriyên ku tu dişewitînî li armanca te ya rojane zêde dibin." },
+        { "q": "Ma CalorAI li ser iPhone û Android dixebite?", "a": "Erê. CalorAI ji bo Android li Google Play û ji bo iPhone û iPad li App Store heye." },
+        { "q": "Kî CalorAI çêdike?", "a": "CalorAI ji aliyê Intellivation AB ve tê çêkirin, şirketeke biçûk û serbixwe li Swêdê." }
+      ]
+    },
+    "cta": {
+      "title": "Bi wêneyekî tenê dest bi hejmartinê bike",
+      "sub": "Belaş li Google Play û App Store."
+    }
+  },
+  "featuresPage": {
+    "title": "Taybetmendî",
+    "heading": "Her tiştê ku CalorAI dikare ji bo te bike",
+    "sub": "Ji wêneyekî bilez heta plana tevahiya hefteyê: amûrên ku xwarina tendurist hêsan dikin.",
+    "items": [
+      {
+        "eyebrow": "Skankirina wêneyê",
+        "title": "Wêneyê xwarinê bikişîne. Hejmaran bistîne.",
+        "text": "Wêneyê qapê xwe bikişîne û CalorAI xwarinê nas dike, beşê texmîn dike û di çend saniyeyan de kalorî, proteîn, karbohîdrat û rûn nîşan dide.",
+        "points": ["Bi xwarina malê, xwaringehê û xwarinên sivik dixebite", "Her xwarinê berî tomarkirinê biguherîne", "An di danegeha xwarinan de bigere û bi destan tomar bike"],
+        "screen": "scan-salmon"
+      },
+      {
+        "eyebrow": "Kurteya rojê",
+        "title": "Tam bizane îro çiqas maye.",
+        "text": "Xelekê kaloriyan û barên makroyan bi her xwarinê nû dibin, ji ber vê yekê tu her tim dizanî ji bo şîvê çiqas cih maye.",
+        "points": ["Kalorî, proteîn, karbohîdrat û rûn", "Xwarin li gorî taştê, firavîn û şîv", "Yekeyên metrîk an împeryal"],
+        "screen": "today"
+      },
+      {
+        "eyebrow": "Rahênerê AI",
+        "title": "Rahênerê te yê xwarinê, 24/7.",
+        "text": "Her tiştî li ser xwarinê bi nivîsê an bi deng bipirse. Rahêner armanca te û tiştê ku te îro xwariye dizane.",
+        "points": ["\"Li vir çi bixwazim?\"", "\"Min îro çiqas proteîn xwar?\"", "Bersiv bi zimanê te"],
+        "screen": "coach"
+      },
+      {
+        "eyebrow": "Planên xwarinê",
+        "title": "Xwarinên hefteyekê, di çend saniyeyan de.",
+        "text": "CalorAI ji bo her roja hefteyê taştê, firavîn û şîv li gorî armanca kaloriya te amade dike.",
+        "points": ["Li gorî kaloriyên te yên rojane", "Taştê, firavîn û şîv ji bo 7 rojan", "Ji bo amadekirina xwarinê ya pêşwext baş e"],
+        "screen": "meal-plan"
+      },
+      {
+        "eyebrow": "Werziş",
+        "title": "Zêdetir bilive. Zêdetir bixwe.",
+        "text": "Werzişekê tomar bike û kaloriyên şewitandî bixweber li armanca te ya rojane zêde dibin.",
+        "points": ["Zêdetirî 100 werziş di 7 koman de", "Tundiya kêm, navîn an bilind", "Bezîn, salona werzişê, spor, perwerdeya li malê"],
+        "screen": "workouts"
+      },
+      {
+        "eyebrow": "Hişyariyên tenduristiyê",
+        "title": "Hişyariyek berî parîya yekem.",
+        "text": "Alerjî, netebatî an rewşên tenduristiyê li profîla xwe zêde bike û her xwarina ku tu wêneyê wê dikişînî li gorî wan tê kontrolkirin.",
+        "points": ["Glûten, şîremenî û alerjenên belav", "Zêdetirî 20 rewş, ji seliyakê heta reflûksê", "Ravekirinên zelal û sade"],
+        "screen": "health-warning"
+      },
+      {
+        "eyebrow": "Armanca giraniyê",
+        "title": "Gav bi gav kîloyan winda bike.",
+        "text": "Giraniya xwe ya armanc diyar bike û CalorAI planeke rastîn bi qonaxên ku di rê de pîroz bikî çêdike.",
+        "points": ["Armancên heftane yên li gorî jiyana te", "Grafîka pêşketinê û qonax", "Nîşan dema ku tu digihîjî armancekê"],
+        "screen": "weight-goal"
+      },
+      {
+        "eyebrow": "Salname",
+        "title": "Meha te bi rengan.",
+        "text": "Her roj kesk, zer an sor dibe, da ku tu şêwazan bibînî û rast bikî, hem ji bo kalorî hem ji bo proteînê.",
+        "points": ["Dîmenên kalorî û proteînê", "Rojên qels bi nêrînekê", "Şîret ji rahênerê te yê AI"],
+        "screen": "calendar-protein"
+      }
+    ]
+  },
+  "howPage": {
+    "title": "Çawa dixebite",
+    "heading": "CalorAI çawa dixebite",
+    "sub": "Di deqîqeyekê de saz bike, paşê her xwarinê bi wêneyekî tomar bike.",
+    "steps": [
+      { "title": "Profîla xwe çêke", "text": "Temen, dirêjahî, giranî û armanca xwe binivîse. CalorAI kalorî û makroyên te yên rojane hesab dike.", "screen": "weight-goal" },
+      { "title": "Wêneyê xwarina xwe bikişîne", "text": "Kamerayê veke û wêneyê qapê xwe bikişîne. Ne barkod, ne nivîsandin.", "screen": "scan-burger" },
+      { "title": "Kontrol bike û tomar bike", "text": "CalorAI tiştê ku dît bi kalorî, proteîn, karbohîdrat û rûn nîşan dide. Heke bixwazî biguherîne, paşê di rojnivîskê de tomar bike.", "screen": "scan-eggs" },
+      { "title": "Roja xwe bişopîne", "text": "Xelekên te piştî her xwarinê nû dibin. Werzişê tomar bike û kaloriyên şewitandî li armanca te zêde dibin.", "screen": "today" },
+      { "title": "Dema hewce be alîkarî bistîne", "text": "Ji rahênerê xwe yê AI bipirse çi bixwî, plana xwarinê ya hefteyê bistîne û pêşketina xwe di salnameyê de bibîne.", "screen": "coach" }
+    ],
+    "tipsTitle": "Şîret ji bo encamên herî baş",
+    "tips": [
+      "Wêneyê ji jor ve bikişîne, bila tevahiya qapê xuya bibe.",
+      "Ronahiya baş alîkariya AI dike ku xwarina te bibîne.",
+      "Xwarinan dema ku dixwî tomar bike. Çend saniye dikişîne û tu ji bîr nakî.",
+      "Heke qapê te ne asayî be, berî tomarkirinê mezinahiya beşê kontrol bike."
+    ]
+  },
+  "downloadPage": {
+    "title": "Daxe",
+    "heading": "CalorAI belaş bistîne",
+    "sub": "Ji bo Android û iPhone, bi 18 zimanan.",
+    "android": "Ji bo telefonên Android",
+    "ios": "Ji bo iPhone",
+    "whyTitle": "Çima mirov CalorAI hildibijêrin",
+    "why": ["Xwarinekê bi wêneyekî tomar bike", "Rahênerekî AI yê ku roja te dizane", "Planên xwarinê, werziş û hişyariyên tenduristiyê di sepanekê de", "Belaş tê daxistin, bi 18 zimanan"]
+  },
+  "aboutPage": {
+    "title": "Derbarê me",
+    "heading": "Xwarina tendurist divê hêsan be",
+    "sub": "Em CalorAI çêdikin da ku her kes fêm bike ka çi dixwe, bê tabloyan û bê texmînan.",
+    "missionTitle": "Armanca me",
+    "mission": "Berê hejmartina kaloriyan tê wateya kişandina xwarinê û nivîsandina her pêkhateyekê. Gelek kesan berî ku encaman bibînin dev jê berdan. Em bawer dikin ku wêneyek divê bes be. CalorAI bi AI wêneyê xwarina te diguherîne hejmarên zelal û şîretên sade, da ku tu hilbijartinên baştir bikî û berdewam bikî.",
+    "valuesTitle": "Tiştên ji me re girîng",
+    "values": [
+      { "icon": "sparkle", "title": "Pêşî sadebûn", "text": "Divê her taybetmendî dema te xilas bike. Heke rêber hewce bike, em wê ji nû ve dîzayn dikin." },
+      { "icon": "globe", "title": "Ji bo her kesî", "text": "CalorAI bi 18 zimanan dipeyive, di nav wan de erebî û farisî ji rastê ber bi çepê ve, û kurdî (kurmancî)." },
+      { "icon": "shield", "title": "Hejmarên rastgo", "text": "Em texmînan bi zelalî nîşan didin û dihêlin tu wan biguherînî. Em qet sozên mûcîzeyan nadin." },
+      { "icon": "check", "title": "Daneyên te, biryara te", "text": "Tu dikarî her dem hesabê xwe û hemû daneyên xwe ji hundirê sepanê jê bibî." }
+    ],
+    "companyTitle": "Em kî ne",
+    "company": "CalorAI ji aliyê Intellivation AB ve li Swêdê tê çêkirin, tîmeke biçûk û serbixwe ya pêşdebir û dîzayneran ku girîngiyê didin tenduristî û nermalava baş. Em her peyamê dixwînin û bi nêrînên te biryar didin ka paşê çi çêkin."
+  },
+  "contactPage": {
+    "title": "Têkilî",
+    "heading": "Bi me re têkilî dayne",
+    "sub": "Pirs, nêrîn an ramanên hevkariyê? Em dixwazin ji te bibihîzin.",
+    "emailTitle": "Ji me re e-name bişîne",
+    "emailText": "Em bi gelemperî di nav 1–2 rojên kar de bersiv didin.",
+    "topicsTitle": "Em çawa dikarin alîkariyê bikin?",
+    "topics": [
+      { "icon": "chat", "title": "Piştgirî", "text": "Pirsgirêkên bi sepanê, hesabê te an abonetiyê re.", "subject": "Support" },
+      { "icon": "sparkle", "title": "Nêrîn û raman", "text": "Ji me re bibêje tu çi hez dikî û divê em paşê çi çêkin.", "subject": "Feedback" },
+      { "icon": "globe", "title": "Hevkarî û çapemenî", "text": "Hevkarî, înfluenser, medya û pirsên karsaziyê.", "subject": "Partnership" }
+    ],
+    "write": "Ji me re binivîse",
+    "faqHint": "Gelek bersiv jixwe di",
+    "faqLink": "pirsên pir tên pirsîn de ne",
+    "deleteHint": "Tu dixwazî hesabê xwe jê bibî?",
+    "deleteLink": "Bibîne çawa"
+  },
+  "legal": {
+    "updated": "Nûkirina dawî"
+  },
+  "deletePage": {
+    "title": "Hesabê jê bibe",
+    "heading": "Hesabê xwe yê CalorAI jê bibe",
+    "sub": "Tu dikarî her dem hesabê xwe û hemû daneyên xwe bi temamî jê bibî.",
+    "inAppTitle": "Di sepanê de jê bibe",
+    "steps": [
+      "CalorAI veke û têkeve.",
+      "Li jêrê ekranê li tabloya \"Zêdetir\" bitikîne.",
+      "Ber bi jêr ve here û li \"Hesabê jê bibe\" bitikîne.",
+      "Du caran piştrast bike. Hesabê te tavilê tê jêbirin."
+    ],
+    "whatTitle": "Çi tê jêbirin",
+    "what": "Profîl, rojnivîska xwarinê, wêne, planên xwarinê, werziş, dîroka giraniyê, axaftinên bi rahêner re, nîşan û postên civakê bi temamî ji serverên me têne rakirin. Ev nayê vegerandin.",
+    "subsTitle": "Abonetî",
+    "subs": "Jêbirina hesabê abonetiyeke ku bi Google Play an App Store hatiye kirîn betal nake. Ji bo rawestandina dravdanên pêşerojê, wê di mîhengên hesabê firoşgehê de betal bike.",
+    "noAppTitle": "Nikarî sepanê bi kar bînî?",
+    "noApp": "Ji navnîşana e-nameyê ya ku te pê xwe tomar kiriye ji me re binivîse û em ê di nav 30 rojan de hesab û daneyên te jê bibin.",
+    "emailSubject": "Delete my account"
+  },
+  "blogPage": {
+    "title": "Blog",
+    "heading": "Jîrtir bixwe, şîretek bi şîretekê",
+    "sub": "Şîretên xwarinê yên sade û zanistî, guhertinên jîr û berawirdkirinên kaloriyan. (Gotar bi îngilîzî ne)",
+    "read": "Gotarê bixwîne",
+    "minRead": "deq xwendin",
+    "sources": "Çavkanî",
+    "more": "Gotarên din",
+    "ctaTitle": "Bi CalorAI bişopîne",
+    "ctaText": "Wêneyê xwarina xwe bikişîne û di çend saniyeyan de kalorî, proteîn, karbohîdrat û rûn bibîne. Belaş."
+  },
+  "footer": {
+    "tagline": "Hejmarkerê kaloriyan bi AI ku karê ji bo te dike.",
+    "product": "Berhem",
+    "company": "Şirket",
+    "legal": "Hiqûqî",
+    "disclaimer": "CalorAI tenê ji bo agahiyên giştî texmînan dide û ne şîreta bijîşkî ye.",
+    "rights": "Hemû maf parastî ne."
+  }
+}

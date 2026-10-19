@@ -1,0 +1,287 @@
+{
+  "meta": {
+    "title": "CalorAI: contador de calorias com IA",
+    "description": "Tire uma foto da sua refeição e o CalorAI conta calorias, proteínas, carboidratos e gorduras em segundos. Grátis no Google Play e na App Store."
+  },
+  "nav": {
+    "features": "Recursos",
+    "how-it-works": "Como funciona",
+    "blog": "Blog",
+    "about": "Sobre nós",
+    "contact": "Contato",
+    "download": "Baixar",
+    "privacy": "Política de privacidade",
+    "terms": "Termos de uso",
+    "delete-account": "Excluir conta",
+    "menu": "Menu",
+    "language": "Idioma"
+  },
+  "store": {
+    "googleTop": "DISPONÍVEL NO",
+    "google": "Google Play",
+    "appleTop": "Baixar na",
+    "apple": "App Store",
+    "downloadFree": "Baixar grátis"
+  },
+  "proof": {
+    "rating": "avaliação",
+    "downloads": "downloads",
+    "languages": "idiomas"
+  },
+  "home": {
+    "hero": {
+      "badge": "Contador de calorias com IA",
+      "title1": "Fotografe seu prato.",
+      "title2": "Saiba suas calorias.",
+      "sub": "Tire uma foto e o CalorAI conta calorias, proteínas, carboidratos e gorduras em segundos. Sem digitar, sem chutar.",
+      "cardKcal": "kcal",
+      "cardName": "Hambúrguer e fritas",
+      "cardLeft": "kcal restantes hoje",
+      "cardSaved": "Salvo no seu diário"
+    },
+    "how": {
+      "eyebrow": "Como funciona",
+      "title": "Três passos. Poucos segundos.",
+      "steps": [
+        { "title": "Fotografe o prato", "text": "Aponte a câmera para qualquer refeição: comida caseira, de restaurante ou um lanche." },
+        { "title": "A IA faz a conta", "text": "O CalorAI reconhece a comida e estima calorias, proteínas, carboidratos e gorduras." },
+        { "title": "Mantenha o foco", "text": "Cada refeição é salva no seu diário, assim você sempre sabe quanto ainda pode comer hoje." }
+      ]
+    },
+    "features": {
+      "eyebrow": "Recursos",
+      "title": "Tudo o que você precisa para comer melhor",
+      "sub": "Um só app para contar, planejar e entender o que você come.",
+      "items": [
+        { "icon": "camera", "title": "Calorias por foto", "text": "Fotografe qualquer refeição e veja calorias e macros em segundos." },
+        { "icon": "chat", "title": "Coach de nutrição com IA", "text": "Pergunte por texto ou voz: o que pedir, o que comer depois, como você está indo." },
+        { "icon": "calendar", "title": "Planos de refeições com IA", "text": "Uma semana inteira de refeições, planejada com base na sua meta de calorias." },
+        { "icon": "run", "title": "Exercícios", "text": "Registre mais de 100 exercícios. As calorias queimadas entram no seu dia." },
+        { "icon": "shield", "title": "Alertas de saúde", "text": "Alertas sobre glúten, laticínios e mais de 20 condições de saúde antes de comer." },
+        { "icon": "chart", "title": "Progresso e metas", "text": "Defina uma meta de peso e acompanhe cada conquista no caminho." },
+        { "icon": "grid", "title": "Visão de calendário", "text": "Seu mês em cores: na meta, abaixo ou acima." },
+        { "icon": "globe", "title": "18 idiomas", "text": "Use o CalorAI no seu idioma, incluindo árabe, persa e curdo." }
+      ]
+    },
+    "spotlight": [
+      {
+        "eyebrow": "Coach com IA",
+        "title": "Não sabe o que pedir? É só perguntar.",
+        "text": "Seu coach com IA sabe quantas calorias ainda restam hoje. Pergunte por texto ou voz e receba respostas que combinam com o seu dia.",
+        "points": ["Dicas para restaurantes em segundos", "Acompanhamento de proteínas e macros", "Funciona por texto ou voz"],
+        "screen": "coach"
+      },
+      {
+        "eyebrow": "Planos de refeições",
+        "title": "Uma semana de refeições, planejada para você.",
+        "text": "Diga sua meta ao CalorAI e ele monta café da manhã, almoço e jantar para a semana toda.",
+        "points": ["Combina com suas calorias diárias", "Café da manhã, almoço e jantar por 7 dias", "Menos tempo decidindo, mais tempo comendo"],
+        "screen": "meal-plan"
+      },
+      {
+        "eyebrow": "Alertas de saúde",
+        "title": "Saiba antes de comer.",
+        "text": "Adicione alergias ou condições ao seu perfil e o CalorAI verifica cada refeição fotografada.",
+        "points": ["Glúten, laticínios e alérgenos comuns", "Mais de 20 condições de saúde", "Um alerta claro antes da primeira mordida"],
+        "screen": "health-warning"
+      },
+      {
+        "eyebrow": "Calendário",
+        "title": "Seus hábitos num relance.",
+        "text": "Verde, amarelo ou vermelho: cada dia do mês mostra se você ficou na meta, abaixo ou acima.",
+        "points": ["Visões de calorias e proteínas", "Descubra seus dias fracos", "Dicas para mudar o padrão"],
+        "screen": "calendar-calories"
+      }
+    ],
+    "screens": {
+      "eyebrow": "Dentro do app",
+      "title": "Simples, rápido e claro"
+    },
+    "faq": {
+      "eyebrow": "Perguntas frequentes",
+      "title": "Perguntas e respostas",
+      "items": [
+        { "q": "O CalorAI é grátis?", "a": "Sim. O CalorAI é gratuito para baixar no Google Play e na App Store. Alguns recursos avançados fazem parte do CalorAI Pro." },
+        { "q": "Como funciona a leitura por foto?", "a": "Tire uma foto da refeição. A IA do CalorAI reconhece a comida, estima a porção e calcula calorias, proteínas, carboidratos e gorduras." },
+        { "q": "Os números são precisos?", "a": "A IA faz uma estimativa, como um rótulo nutricional. Você sempre pode ajustar a refeição antes de salvar." },
+        { "q": "Quais idiomas estão disponíveis?", "a": "O CalorAI está disponível em 18 idiomas, entre eles português, inglês, árabe, espanhol, francês, alemão, turco, persa e curdo." },
+        { "q": "Posso usar o CalorAI com uma condição de saúde?", "a": "O CalorAI pode alertar sobre ingredientes que talvez não sejam bons para você, mas não é aconselhamento médico. Siga sempre as orientações do seu médico." },
+        { "q": "O CalorAI funciona em árabe?", "a": "Sim. O app inteiro está em árabe com layout da direita para a esquerda, e a IA reconhece pratos de muitas culinárias, incluindo do Oriente Médio e do Golfo." },
+        { "q": "Preciso tirar uma foto?", "a": "Não. Você também pode digitar ou falar o que comeu, por exemplo \"frango grelhado com arroz, 200 gramas\", e o CalorAI calcula os nutrientes." },
+        { "q": "Posso registrar exercícios?", "a": "Sim. Escolha entre mais de 100 exercícios, defina duração e intensidade, e as calorias queimadas entram na sua meta diária." },
+        { "q": "O CalorAI funciona no iPhone e no Android?", "a": "Sim. O CalorAI está no Google Play para Android e na App Store para iPhone e iPad." },
+        { "q": "Quem faz o CalorAI?", "a": "O CalorAI é desenvolvido pela Intellivation AB, uma pequena empresa independente da Suécia." }
+      ]
+    },
+    "cta": {
+      "title": "Comece a contar com uma única foto",
+      "sub": "Grátis no Google Play e na App Store."
+    }
+  },
+  "featuresPage": {
+    "title": "Recursos",
+    "heading": "Tudo o que o CalorAI pode fazer por você",
+    "sub": "De uma foto rápida a um plano para a semana toda: ferramentas que tornam a alimentação saudável simples.",
+    "items": [
+      {
+        "eyebrow": "Leitura por foto",
+        "title": "Fotografe qualquer refeição. Veja os números.",
+        "text": "Tire uma foto do prato e o CalorAI reconhece a comida, estima a porção e mostra calorias, proteínas, carboidratos e gorduras em segundos.",
+        "points": ["Comida caseira, de restaurante e lanches", "Ajuste qualquer refeição antes de salvar", "Ou pesquise no banco de alimentos e registre manualmente"],
+        "screen": "scan-salmon"
+      },
+      {
+        "eyebrow": "Resumo do dia",
+        "title": "Saiba exatamente quanto ainda resta hoje.",
+        "text": "O anel de calorias e as barras de macros se atualizam a cada refeição, assim você sempre sabe quanto sobra para o jantar.",
+        "points": ["Calorias, proteínas, carboidratos e gorduras", "Refeições separadas em café da manhã, almoço e jantar", "Unidades métricas ou imperiais"],
+        "screen": "today"
+      },
+      {
+        "eyebrow": "Coach com IA",
+        "title": "Seu coach de nutrição, 24 horas por dia.",
+        "text": "Pergunte qualquer coisa sobre comida, por texto ou voz. O coach conhece sua meta e o que você comeu hoje.",
+        "points": ["\"O que eu peço aqui?\"", "\"Quanta proteína comi hoje?\"", "Respostas no seu idioma"],
+        "screen": "coach"
+      },
+      {
+        "eyebrow": "Planos de refeições",
+        "title": "Uma semana de refeições, planejada em segundos.",
+        "text": "O CalorAI monta café da manhã, almoço e jantar para todos os dias da semana, de acordo com sua meta de calorias.",
+        "points": ["Combina com suas calorias diárias", "Café da manhã, almoço e jantar por 7 dias", "Ótimo para marmitas da semana"],
+        "screen": "meal-plan"
+      },
+      {
+        "eyebrow": "Exercícios",
+        "title": "Mexa-se mais. Coma mais.",
+        "text": "Registre um treino e as calorias queimadas entram automaticamente na sua meta diária.",
+        "points": ["Mais de 100 exercícios em 7 grupos", "Intensidade baixa, média ou alta", "Corrida, academia, esportes, treino em casa"],
+        "screen": "workouts"
+      },
+      {
+        "eyebrow": "Alertas de saúde",
+        "title": "Um alerta antes da primeira mordida.",
+        "text": "Adicione alergias, intolerâncias ou condições ao seu perfil e cada refeição fotografada é verificada.",
+        "points": ["Glúten, laticínios e alérgenos comuns", "Mais de 20 condições, da doença celíaca ao refluxo", "Explicações claras e simples"],
+        "screen": "health-warning"
+      },
+      {
+        "eyebrow": "Meta de peso",
+        "title": "Perca peso passo a passo.",
+        "text": "Defina seu peso desejado e o CalorAI cria um plano realista, com conquistas para comemorar no caminho.",
+        "points": ["Metas semanais que cabem na sua rotina", "Gráfico de progresso e conquistas", "Medalhas ao atingir uma meta"],
+        "screen": "weight-goal"
+      },
+      {
+        "eyebrow": "Calendário",
+        "title": "Seu mês em cores.",
+        "text": "Cada dia fica verde, amarelo ou vermelho, para você identificar padrões e corrigi-los, em calorias e em proteínas.",
+        "points": ["Visões de calorias e proteínas", "Seus dias fracos num relance", "Dicas do seu coach com IA"],
+        "screen": "calendar-protein"
+      }
+    ]
+  },
+  "howPage": {
+    "title": "Como funciona",
+    "heading": "Como o CalorAI funciona",
+    "sub": "Configure em um minuto e registre cada refeição com uma foto.",
+    "steps": [
+      { "title": "Crie seu perfil", "text": "Informe idade, altura, peso e meta. O CalorAI calcula suas calorias e macros diários.", "screen": "weight-goal" },
+      { "title": "Fotografe a refeição", "text": "Abra a câmera e tire uma foto do prato. Sem código de barras, sem digitar.", "screen": "scan-burger" },
+      { "title": "Confira e salve", "text": "O CalorAI mostra o que encontrou com calorias, proteínas, carboidratos e gorduras. Ajuste se quiser e salve no diário.", "screen": "scan-eggs" },
+      { "title": "Acompanhe seu dia", "text": "Os anéis se atualizam após cada refeição. Registre exercícios e as calorias queimadas entram na sua meta.", "screen": "today" },
+      { "title": "Ajuda quando precisar", "text": "Pergunte ao coach com IA o que comer, receba um plano para a semana e veja seu progresso no calendário.", "screen": "coach" }
+    ],
+    "tipsTitle": "Dicas para melhores resultados",
+    "tips": [
+      "Tire a foto de cima, com o prato inteiro aparecendo.",
+      "Boa iluminação ajuda a IA a ver sua comida.",
+      "Registre as refeições enquanto come. Leva segundos e você não esquece.",
+      "Confira a porção antes de salvar se o prato for diferente do comum."
+    ]
+  },
+  "downloadPage": {
+    "title": "Baixar",
+    "heading": "Baixe o CalorAI grátis",
+    "sub": "Disponível para Android e iPhone, em 18 idiomas.",
+    "android": "Para celulares Android",
+    "ios": "Para iPhone",
+    "whyTitle": "Por que as pessoas escolhem o CalorAI",
+    "why": ["Registre uma refeição com uma foto", "Um coach com IA que conhece seu dia", "Planos de refeições, exercícios e alertas de saúde num só app", "Grátis para baixar, em 18 idiomas"]
+  },
+  "aboutPage": {
+    "title": "Sobre nós",
+    "heading": "Comer bem deveria ser fácil",
+    "sub": "Criamos o CalorAI para que qualquer pessoa entenda o que come, sem planilhas e sem adivinhação.",
+    "missionTitle": "Nossa missão",
+    "mission": "Contar calorias significava pesar a comida e digitar cada ingrediente. Muita gente desistia antes de ver resultados. Acreditamos que uma foto deveria bastar. O CalorAI usa IA para transformar a foto da sua refeição em números claros e dicas simples, para você fazer escolhas melhores e seguir em frente.",
+    "valuesTitle": "O que importa para nós",
+    "values": [
+      { "icon": "sparkle", "title": "Simplicidade primeiro", "text": "Cada recurso deve economizar seu tempo. Se precisar de manual, nós redesenhamos." },
+      { "icon": "globe", "title": "Para todos", "text": "O CalorAI fala 18 idiomas, incluindo árabe e persa da direita para a esquerda, e curdo (kurmanji)." },
+      { "icon": "shield", "title": "Números honestos", "text": "Mostramos as estimativas com clareza e você pode ajustá-las. Nunca prometemos milagres." },
+      { "icon": "check", "title": "Seus dados, sua escolha", "text": "Você pode excluir sua conta e todos os seus dados dentro do app, a qualquer momento." }
+    ],
+    "companyTitle": "Quem somos",
+    "company": "O CalorAI é feito pela Intellivation AB, na Suécia, uma pequena equipe independente de desenvolvedores e designers que se importam com saúde e com bons softwares. Lemos cada mensagem e usamos seu feedback para decidir o que criar a seguir."
+  },
+  "contactPage": {
+    "title": "Contato",
+    "heading": "Fale com a gente",
+    "sub": "Dúvidas, sugestões ou ideias de parceria? Adoraríamos ouvir você.",
+    "emailTitle": "Mande um e-mail",
+    "emailText": "Costumamos responder em 1–2 dias úteis.",
+    "topicsTitle": "Como podemos ajudar?",
+    "topics": [
+      { "icon": "chat", "title": "Suporte", "text": "Problemas com o app, sua conta ou uma assinatura.", "subject": "Support" },
+      { "icon": "sparkle", "title": "Sugestões e ideias", "text": "Conte o que você ama e o que devemos criar a seguir.", "subject": "Feedback" },
+      { "icon": "globe", "title": "Parcerias e imprensa", "text": "Colaborações, influenciadores, mídia e contatos comerciais.", "subject": "Partnership" }
+    ],
+    "write": "Escreva para nós",
+    "faqHint": "Muitas respostas já estão nas nossas",
+    "faqLink": "perguntas frequentes",
+    "deleteHint": "Quer excluir sua conta?",
+    "deleteLink": "Veja como"
+  },
+  "legal": {
+    "updated": "Última atualização"
+  },
+  "deletePage": {
+    "title": "Excluir conta",
+    "heading": "Exclua sua conta do CalorAI",
+    "sub": "Você pode excluir sua conta e todos os seus dados permanentemente, a qualquer momento.",
+    "inAppTitle": "Exclua pelo app",
+    "steps": [
+      "Abra o CalorAI e faça login.",
+      "Toque na aba \"Mais\" na parte de baixo da tela.",
+      "Role para baixo e toque em \"Eliminar conta\".",
+      "Confirme duas vezes. Sua conta é excluída na hora."
+    ],
+    "whatTitle": "O que é excluído",
+    "what": "Seu perfil, diário alimentar, fotos, planos de refeições, treinos, histórico de peso, conversas com o coach, medalhas e posts na comunidade são removidos permanentemente dos nossos servidores. Não é possível desfazer.",
+    "subsTitle": "Assinaturas",
+    "subs": "Excluir sua conta não cancela uma assinatura comprada pelo Google Play ou pela App Store. Cancele nas configurações da sua conta da loja para interromper cobranças futuras.",
+    "noAppTitle": "Não consegue usar o app?",
+    "noApp": "Envie um e-mail a partir do endereço usado no cadastro e excluiremos sua conta e seus dados em até 30 dias.",
+    "emailSubject": "Delete my account"
+  },
+  "blogPage": {
+    "title": "Blog",
+    "heading": "Coma melhor, uma dica de cada vez",
+    "sub": "Dicas de nutrição simples e baseadas em ciência, trocas inteligentes e comparações de calorias. (Artigos em inglês)",
+    "read": "Ler artigo",
+    "minRead": "min de leitura",
+    "sources": "Fontes",
+    "more": "Mais artigos",
+    "ctaTitle": "Registre com o CalorAI",
+    "ctaText": "Fotografe sua refeição e veja calorias, proteínas, carboidratos e gorduras em segundos. Grátis."
+  },
+  "footer": {
+    "tagline": "O contador de calorias com IA que faz o trabalho por você.",
+    "product": "Produto",
+    "company": "Empresa",
+    "legal": "Jurídico",
+    "disclaimer": "O CalorAI fornece estimativas apenas para informação geral e não é aconselhamento médico.",
+    "rights": "Todos os direitos reservados."
+  }
+}

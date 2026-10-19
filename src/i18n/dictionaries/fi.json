@@ -1,0 +1,287 @@
+{
+  "meta": {
+    "title": "CalorAI: tekoälykalorilaskuri",
+    "description": "Ota kuva ateriastasi, niin CalorAI laskee kalorit, proteiinit, hiilihydraatit ja rasvat sekunneissa. Ilmainen Google Playssa ja App Storessa."
+  },
+  "nav": {
+    "features": "Ominaisuudet",
+    "how-it-works": "Näin se toimii",
+    "blog": "Blogi",
+    "about": "Meistä",
+    "contact": "Yhteystiedot",
+    "download": "Lataa",
+    "privacy": "Tietosuojakäytäntö",
+    "terms": "Käyttöehdot",
+    "delete-account": "Poista tili",
+    "menu": "Valikko",
+    "language": "Kieli"
+  },
+  "store": {
+    "googleTop": "SAATAVILLA",
+    "google": "Google Play",
+    "appleTop": "Lataa",
+    "apple": "App Storesta",
+    "downloadFree": "Lataa ilmaiseksi"
+  },
+  "proof": {
+    "rating": "arvio",
+    "downloads": "latausta",
+    "languages": "kieltä"
+  },
+  "home": {
+    "hero": {
+      "badge": "Tekoälykalorilaskuri",
+      "title1": "Kuvaa ateriasi.",
+      "title2": "Tiedä kalorisi.",
+      "sub": "Ota kuva, niin CalorAI laskee kalorit, proteiinit, hiilihydraatit ja rasvat sekunneissa. Ei kirjoittamista, ei arvailua.",
+      "cardKcal": "kcal",
+      "cardName": "Hampurilainen ja ranskalaiset",
+      "cardLeft": "kcal jäljellä tänään",
+      "cardSaved": "Tallennettu päiväkirjaan"
+    },
+    "how": {
+      "eyebrow": "Näin se toimii",
+      "title": "Kolme vaihetta. Muutama sekunti.",
+      "steps": [
+        { "title": "Kuvaa lautasesi", "text": "Suuntaa kamera mihin tahansa ateriaan: kotiruokaan, ravintola-annokseen tai välipalaan." },
+        { "title": "Tekoäly laskee", "text": "CalorAI tunnistaa ruoan ja arvioi kalorit, proteiinit, hiilihydraatit ja rasvat." },
+        { "title": "Pysy suunnitelmassa", "text": "Jokainen ateria tallentuu päiväkirjaan, joten tiedät aina, paljonko tälle päivälle on jäljellä." }
+      ]
+    },
+    "features": {
+      "eyebrow": "Ominaisuudet",
+      "title": "Kaikki, mitä tarvitset fiksumpaan syömiseen",
+      "sub": "Yksi sovellus laskemiseen, suunnitteluun ja syömisesi ymmärtämiseen.",
+      "items": [
+        { "icon": "camera", "title": "Kalorit kuvasta", "text": "Kuvaa mikä tahansa ateria ja saat kalorit ja makrot sekunneissa." },
+        { "icon": "chat", "title": "Tekoälyravintovalmentaja", "text": "Kysy tekstillä tai äänellä: mitä tilata, mitä syödä seuraavaksi, miten sinulla menee." },
+        { "icon": "calendar", "title": "Tekoälyateriasuunnitelmat", "text": "Koko viikon ateriat kalorietavoitteesi mukaan." },
+        { "icon": "run", "title": "Treenit", "text": "Kirjaa yli 100 liikuntamuotoa. Kulutetut kalorit lisätään päivääsi." },
+        { "icon": "shield", "title": "Terveysvaroitukset", "text": "Varoitukset gluteenista, maitotuotteista ja yli 20 terveydentilasta ennen syömistä." },
+        { "icon": "chart", "title": "Edistyminen ja tavoitteet", "text": "Aseta painotavoite ja näe jokainen välietappi." },
+        { "icon": "grid", "title": "Kalenterinäkymä", "text": "Kuukautesi väreinä: tavoitteessa, alle tai yli." },
+        { "icon": "globe", "title": "18 kieltä", "text": "Käytä CalorAI:ta omalla kielelläsi, myös arabiaksi, persiaksi ja kurdiksi." }
+      ]
+    },
+    "spotlight": [
+      {
+        "eyebrow": "Tekoälyvalmentaja",
+        "title": "Etkö tiedä, mitä tilata? Kysy vain.",
+        "text": "Tekoälyvalmentajasi tietää, paljonko kaloreita sinulla on tänään jäljellä. Kysy tekstillä tai äänellä ja saat päivääsi sopivia vastauksia.",
+        "points": ["Ravintolavinkit sekunneissa", "Proteiinien ja makrojen seuranta", "Toimii tekstillä tai äänellä"],
+        "screen": "coach"
+      },
+      {
+        "eyebrow": "Ateriasuunnitelmat",
+        "title": "Koko viikon ateriat valmiiksi suunniteltuna.",
+        "text": "Kerro CalorAI:lle tavoitteesi, niin se suunnittelee aamiaisen, lounaan ja päivällisen koko viikoksi.",
+        "points": ["Sopii päivittäisiin kaloreihisi", "Aamiainen, lounas ja päivällinen 7 päiväksi", "Vähemmän pähkäilyä, enemmän nautintoa"],
+        "screen": "meal-plan"
+      },
+      {
+        "eyebrow": "Terveysvaroitukset",
+        "title": "Tiedä ennen kuin syöt.",
+        "text": "Lisää allergiat tai terveydentilat profiiliisi, niin CalorAI tarkistaa jokaisen kuvaamasi aterian.",
+        "points": ["Gluteeni, maitotuotteet ja yleiset allergeenit", "Yli 20 terveydentilaa", "Selkeä varoitus ennen ensimmäistä haarukallista"],
+        "screen": "health-warning"
+      },
+      {
+        "eyebrow": "Kalenteri",
+        "title": "Näe tapasi yhdellä silmäyksellä.",
+        "text": "Vihreä, keltainen tai punainen: jokainen kuukauden päivä näyttää, olitko tavoitteessa, alle vai yli.",
+        "points": ["Kalori- ja proteiininäkymät", "Löydä heikot päiväsi", "Vinkit kaavan muuttamiseen"],
+        "screen": "calendar-calories"
+      }
+    ],
+    "screens": {
+      "eyebrow": "Sovelluksen sisällä",
+      "title": "Yksinkertainen, nopea ja selkeä"
+    },
+    "faq": {
+      "eyebrow": "UKK",
+      "title": "Kysymyksiä ja vastauksia",
+      "items": [
+        { "q": "Onko CalorAI ilmainen?", "a": "Kyllä. CalorAI on ilmainen ladata Google Playsta ja App Storesta. Osa edistyneistä ominaisuuksista kuuluu CalorAI Pro -tilaukseen." },
+        { "q": "Miten kuvatunnistus toimii?", "a": "Ota kuva ateriastasi. CalorAI:n tekoäly tunnistaa ruoan, arvioi annoksen koon ja laskee kalorit, proteiinit, hiilihydraatit ja rasvat." },
+        { "q": "Kuinka tarkkoja luvut ovat?", "a": "Tekoäly antaa arvion, kuten ravintoarvomerkintä. Voit aina muokata ateriaa ennen tallennusta." },
+        { "q": "Mitä kieliä on tuettu?", "a": "CalorAI on saatavilla 18 kielellä, muun muassa suomeksi, englanniksi, arabiaksi, espanjaksi, ranskaksi, saksaksi, turkiksi, persiaksi ja kurdiksi." },
+        { "q": "Voinko käyttää CalorAI:ta, jos minulla on sairaus?", "a": "CalorAI voi varoittaa ainesosista, jotka eivät ehkä sovi sinulle, mutta se ei ole lääketieteellistä neuvontaa. Noudata aina lääkärisi ohjeita." },
+        { "q": "Toimiiko CalorAI arabiaksi?", "a": "Kyllä. Koko sovellus on saatavilla arabiaksi oikealta vasemmalle -asettelulla, ja tekoäly tunnistaa ruokia monista keittiöistä, myös Lähi-idästä ja Persianlahden alueelta." },
+        { "q": "Pitääkö minun ottaa kuva?", "a": "Ei. Voit myös kirjoittaa tai sanoa, mitä söit, esimerkiksi \"grillattua kanaa ja riisiä, 200 grammaa\", ja CalorAI laskee ravintoarvot." },
+        { "q": "Voinko kirjata treenejä?", "a": "Kyllä. Valitse yli 100 liikuntamuodosta, aseta kesto ja teho, niin kulutetut kalorit lisätään päivätavoitteeseesi." },
+        { "q": "Toimiiko CalorAI iPhonessa ja Androidissa?", "a": "Kyllä. CalorAI on saatavilla Google Playssa Androidille ja App Storessa iPhonelle ja iPadille." },
+        { "q": "Kuka tekee CalorAI:n?", "a": "CalorAI:n kehittää Intellivation AB, pieni itsenäinen yritys Ruotsista." }
+      ]
+    },
+    "cta": {
+      "title": "Aloita laskeminen yhdellä kuvalla",
+      "sub": "Ilmainen Google Playssa ja App Storessa."
+    }
+  },
+  "featuresPage": {
+    "title": "Ominaisuudet",
+    "heading": "Kaikki, mitä CalorAI voi tehdä puolestasi",
+    "sub": "Nopeasta kuvasta koko viikon suunnitelmaan: työkalut, jotka tekevät terveellisestä syömisestä helppoa.",
+    "items": [
+      {
+        "eyebrow": "Kuvatunnistus",
+        "title": "Kuvaa ateria. Saat luvut.",
+        "text": "Ota kuva lautasestasi, niin CalorAI tunnistaa ruoan, arvioi annoksen ja näyttää kalorit, proteiinit, hiilihydraatit ja rasvat sekunneissa.",
+        "points": ["Toimii kotiruoan, ravintola-annosten ja välipalojen kanssa", "Muokkaa ateriaa ennen tallennusta", "Tai hae ruokatietokannasta ja kirjaa käsin"],
+        "screen": "scan-salmon"
+      },
+      {
+        "eyebrow": "Päivän yhteenveto",
+        "title": "Tiedä tarkalleen, paljonko on jäljellä.",
+        "text": "Kalorirengas ja makropalkit päivittyvät jokaisen aterian jälkeen, joten tiedät aina, paljonko päivälliselle jää tilaa.",
+        "points": ["Kalorit, proteiinit, hiilihydraatit ja rasvat", "Ateriat ryhmiteltynä aamiaiseen, lounaaseen ja päivälliseen", "Metriset tai brittiläiset yksiköt"],
+        "screen": "today"
+      },
+      {
+        "eyebrow": "Tekoälyvalmentaja",
+        "title": "Ravintovalmentajasi, ympäri vuorokauden.",
+        "text": "Kysy mitä tahansa ruoasta tekstillä tai äänellä. Valmentaja tuntee tavoitteesi ja tietää, mitä olet tänään syönyt.",
+        "points": ["\"Mitä tilaisin täältä?\"", "\"Paljonko proteiinia söin tänään?\"", "Vastaukset omalla kielelläsi"],
+        "screen": "coach"
+      },
+      {
+        "eyebrow": "Ateriasuunnitelmat",
+        "title": "Viikon ateriat sekunneissa.",
+        "text": "CalorAI suunnittelee aamiaisen, lounaan ja päivällisen viikon jokaiselle päivälle kalorietavoitteesi mukaan.",
+        "points": ["Sopii päivittäisiin kaloreihisi", "Aamiainen, lounas ja päivällinen 7 päiväksi", "Loistava eväiden valmisteluun"],
+        "screen": "meal-plan"
+      },
+      {
+        "eyebrow": "Treenit",
+        "title": "Liiku enemmän. Syö enemmän.",
+        "text": "Kirjaa treeni, niin kulutetut kalorit lisätään automaattisesti päivätavoitteeseesi.",
+        "points": ["Yli 100 liikuntamuotoa 7 ryhmässä", "Matala, keskitaso tai korkea teho", "Juoksu, sali, urheilu, kotitreeni"],
+        "screen": "workouts"
+      },
+      {
+        "eyebrow": "Terveysvaroitukset",
+        "title": "Varoitus ennen ensimmäistä haarukallista.",
+        "text": "Lisää allergiat, intoleranssit tai terveydentilat profiiliisi, niin jokainen kuvattu ateria tarkistetaan niiden mukaan.",
+        "points": ["Gluteeni, maitotuotteet ja yleiset allergeenit", "Yli 20 terveydentilaa keliakiasta närästykseen", "Selkeät ja yksinkertaiset selitykset"],
+        "screen": "health-warning"
+      },
+      {
+        "eyebrow": "Painotavoite",
+        "title": "Laihdu askel kerrallaan.",
+        "text": "Aseta tavoitepainosi, niin CalorAI tekee realistisen suunnitelman ja välietappeja juhlittavaksi matkan varrella.",
+        "points": ["Viikkotavoitteet, jotka sopivat elämääsi", "Edistymiskaavio ja välietapit", "Merkit, kun saavutat tavoitteen"],
+        "screen": "weight-goal"
+      },
+      {
+        "eyebrow": "Kalenteri",
+        "title": "Kuukautesi väreinä.",
+        "text": "Jokainen päivä muuttuu vihreäksi, keltaiseksi tai punaiseksi, joten huomaat kaavat ja voit korjata ne, sekä kaloreissa että proteiinissa.",
+        "points": ["Kalori- ja proteiininäkymät", "Heikot päivät yhdellä silmäyksellä", "Vinkit tekoälyvalmentajaltasi"],
+        "screen": "calendar-protein"
+      }
+    ]
+  },
+  "howPage": {
+    "title": "Näin se toimii",
+    "heading": "Näin CalorAI toimii",
+    "sub": "Käyttöönotto minuutissa, sitten kirjaat jokaisen aterian yhdellä kuvalla.",
+    "steps": [
+      { "title": "Luo profiili", "text": "Kerro ikäsi, pituutesi, painosi ja tavoitteesi. CalorAI laskee päivittäiset kalorisi ja makrosi.", "screen": "weight-goal" },
+      { "title": "Kuvaa ateriasi", "text": "Avaa kamera ja ota kuva lautasestasi. Ei viivakoodeja, ei kirjoittamista.", "screen": "scan-burger" },
+      { "title": "Tarkista ja tallenna", "text": "CalorAI näyttää, mitä se löysi, sekä kalorit, proteiinit, hiilihydraatit ja rasvat. Muokkaa halutessasi ja tallenna päiväkirjaan.", "screen": "scan-eggs" },
+      { "title": "Seuraa päivääsi", "text": "Renkaat päivittyvät jokaisen aterian jälkeen. Kirjaa treenit, niin kulutetut kalorit lisätään tavoitteeseesi.", "screen": "today" },
+      { "title": "Apua silloin kun tarvitset", "text": "Kysy tekoälyvalmentajalta, mitä syödä, hanki viikon ateriasuunnitelma ja seuraa edistymistäsi kalenterissa.", "screen": "coach" }
+    ],
+    "tipsTitle": "Vinkkejä parhaisiin tuloksiin",
+    "tips": [
+      "Ota kuva ylhäältä niin, että koko lautanen näkyy.",
+      "Hyvä valo auttaa tekoälyä näkemään ruoan.",
+      "Kirjaa ateriat syödessäsi. Se vie sekunteja, etkä unohda mitään.",
+      "Tarkista annoskoko ennen tallennusta, jos annos on epätavallinen."
+    ]
+  },
+  "downloadPage": {
+    "title": "Lataa",
+    "heading": "Lataa CalorAI ilmaiseksi",
+    "sub": "Androidille ja iPhonelle, 18 kielellä.",
+    "android": "Android-puhelimiin",
+    "ios": "iPhoneen",
+    "whyTitle": "Miksi ihmiset valitsevat CalorAI:n",
+    "why": ["Kirjaa ateria yhdellä kuvalla", "Tekoälyvalmentaja, joka tuntee päiväsi", "Ateriasuunnitelmat, treenit ja terveysvaroitukset samassa sovelluksessa", "Ilmainen ladata, 18 kielellä"]
+  },
+  "aboutPage": {
+    "title": "Meistä",
+    "heading": "Terveellisen syömisen pitäisi olla helppoa",
+    "sub": "Teemme CalorAI:ta, jotta kuka tahansa ymmärtää, mitä syö, ilman taulukoita ja arvailua.",
+    "missionTitle": "Tehtävämme",
+    "mission": "Kalorien laskeminen tarkoitti ennen ruoan punnitsemista ja jokaisen ainesosan kirjoittamista. Moni luovutti ennen kuin näki tuloksia. Uskomme, että kuvan pitäisi riittää. CalorAI muuttaa tekoälyn avulla kuvan ateriastasi selkeiksi luvuiksi ja yksinkertaisiksi neuvoiksi, jotta voit tehdä parempia valintoja ja jatkaa.",
+    "valuesTitle": "Mikä meille on tärkeää",
+    "values": [
+      { "icon": "sparkle", "title": "Yksinkertaisuus ensin", "text": "Jokaisen ominaisuuden pitää säästää aikaasi. Jos se tarvitsee ohjekirjan, suunnittelemme sen uudelleen." },
+      { "icon": "globe", "title": "Kaikille", "text": "CalorAI puhuu 18 kieltä, muun muassa oikealta vasemmalle kirjoitettavaa arabiaa ja persiaa sekä kurdia (kurmandžia)." },
+      { "icon": "shield", "title": "Rehelliset luvut", "text": "Näytämme arviot selkeästi ja voit muokata niitä. Emme koskaan lupaa ihmeitä." },
+      { "icon": "check", "title": "Sinun tietosi, sinun valintasi", "text": "Voit poistaa tilisi ja kaikki tietosi sovelluksessa milloin tahansa." }
+    ],
+    "companyTitle": "Keitä olemme",
+    "company": "CalorAI:n kehittää Intellivation AB Ruotsissa, pieni itsenäinen kehittäjien ja suunnittelijoiden tiimi, jolle terveys ja hyvä ohjelmisto ovat tärkeitä. Luemme jokaisen viestin ja päätämme palautteesi perusteella, mitä teemme seuraavaksi."
+  },
+  "contactPage": {
+    "title": "Yhteystiedot",
+    "heading": "Ota yhteyttä",
+    "sub": "Kysyttävää, palautetta tai yhteistyöideoita? Kuulemme mielellämme sinusta.",
+    "emailTitle": "Lähetä sähköpostia",
+    "emailText": "Vastaamme yleensä 1–2 arkipäivän kuluessa.",
+    "topicsTitle": "Miten voimme auttaa?",
+    "topics": [
+      { "icon": "chat", "title": "Tuki", "text": "Ongelmat sovelluksen, tilisi tai tilauksen kanssa.", "subject": "Support" },
+      { "icon": "sparkle", "title": "Palaute ja ideat", "text": "Kerro, mistä pidät ja mitä meidän pitäisi tehdä seuraavaksi.", "subject": "Feedback" },
+      { "icon": "globe", "title": "Yhteistyö ja media", "text": "Yhteistyöt, vaikuttajat, media ja liiketoimintakyselyt.", "subject": "Partnership" }
+    ],
+    "write": "Kirjoita meille",
+    "faqHint": "Moni vastaus löytyy jo",
+    "faqLink": "UKK-osiosta",
+    "deleteHint": "Haluatko poistaa tilisi?",
+    "deleteLink": "Katso ohjeet"
+  },
+  "legal": {
+    "updated": "Päivitetty viimeksi"
+  },
+  "deletePage": {
+    "title": "Poista tili",
+    "heading": "Poista CalorAI-tilisi",
+    "sub": "Voit poistaa tilisi ja kaikki tietosi pysyvästi milloin tahansa.",
+    "inAppTitle": "Poista se sovelluksessa",
+    "steps": [
+      "Avaa CalorAI ja kirjaudu sisään.",
+      "Napauta näytön alareunan välilehteä \"Lisää\".",
+      "Vieritä alas ja napauta \"Poista tili\".",
+      "Vahvista kahdesti. Tilisi poistetaan heti."
+    ],
+    "whatTitle": "Mitä poistetaan",
+    "what": "Profiilisi, ruokapäiväkirjasi, kuvat, ateriasuunnitelmat, treenit, painohistoria, keskustelut valmentajan kanssa, merkit ja yhteisöjulkaisut poistetaan pysyvästi palvelimiltamme. Tätä ei voi perua.",
+    "subsTitle": "Tilaukset",
+    "subs": "Tilin poistaminen ei peru Google Playn tai App Storen kautta ostettua tilausta. Peru se kauppatilisi asetuksissa, jotta tulevat maksut loppuvat.",
+    "noAppTitle": "Etkö pysty käyttämään sovellusta?",
+    "noApp": "Lähetä meille sähköpostia osoitteesta, jolla rekisteröidyit, niin poistamme tilisi ja tietosi 30 päivän kuluessa.",
+    "emailSubject": "Delete my account"
+  },
+  "blogPage": {
+    "title": "Blogi",
+    "heading": "Syö fiksummin, vinkki kerrallaan",
+    "sub": "Yksinkertaisia, tutkimukseen perustuvia ravintovinkkejä, fiksuja vaihtoja ja kalorivertailuja. (Artikkelit englanniksi)",
+    "read": "Lue artikkeli",
+    "minRead": "min lukuaika",
+    "sources": "Lähteet",
+    "more": "Lisää artikkeleita",
+    "ctaTitle": "Seuraa sitä CalorAI:lla",
+    "ctaText": "Kuvaa ateriasi ja näe kalorit, proteiinit, hiilihydraatit ja rasvat sekunneissa. Ilmaiseksi."
+  },
+  "footer": {
+    "tagline": "Tekoälykalorilaskuri, joka tekee työn puolestasi.",
+    "product": "Tuote",
+    "company": "Yritys",
+    "legal": "Lakiasiat",
+    "disclaimer": "CalorAI antaa arvioita vain yleiseksi tiedoksi, eikä se ole lääketieteellistä neuvontaa.",
+    "rights": "Kaikki oikeudet pidätetään."
+  }
+}

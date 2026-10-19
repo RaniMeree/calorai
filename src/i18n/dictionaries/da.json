@@ -1,0 +1,287 @@
+{
+  "meta": {
+    "title": "CalorAI: AI-kalorietæller",
+    "description": "Tag et billede af dit måltid, og CalorAI tæller kalorier, protein, kulhydrater og fedt på få sekunder. Gratis i Google Play og App Store."
+  },
+  "nav": {
+    "features": "Funktioner",
+    "how-it-works": "Sådan virker det",
+    "blog": "Blog",
+    "about": "Om os",
+    "contact": "Kontakt",
+    "download": "Download",
+    "privacy": "Privatlivspolitik",
+    "terms": "Vilkår for brug",
+    "delete-account": "Slet konto",
+    "menu": "Menu",
+    "language": "Sprog"
+  },
+  "store": {
+    "googleTop": "NU PÅ",
+    "google": "Google Play",
+    "appleTop": "Hent i",
+    "apple": "App Store",
+    "downloadFree": "Download gratis"
+  },
+  "proof": {
+    "rating": "bedømmelse",
+    "downloads": "downloads",
+    "languages": "sprog"
+  },
+  "home": {
+    "hero": {
+      "badge": "AI-kalorietæller",
+      "title1": "Tag et billede af maden.",
+      "title2": "Kend dine kalorier.",
+      "sub": "Tag et billede, og CalorAI tæller kalorier, protein, kulhydrater og fedt på få sekunder. Ingen indtastning, intet gætværk.",
+      "cardKcal": "kcal",
+      "cardName": "Burger & pommes frites",
+      "cardLeft": "kcal tilbage i dag",
+      "cardSaved": "Gemt i din dagbog"
+    },
+    "how": {
+      "eyebrow": "Sådan virker det",
+      "title": "Tre trin. Få sekunder.",
+      "steps": [
+        { "title": "Fotografér tallerkenen", "text": "Ret kameraet mod ethvert måltid: hjemmelavet, restaurantmad eller en snack." },
+        { "title": "AI'en regner", "text": "CalorAI genkender maden og anslår kalorier, protein, kulhydrater og fedt." },
+        { "title": "Hold kursen", "text": "Hvert måltid gemmes i din dagbog, så du altid ved, hvad der er tilbage i dag." }
+      ]
+    },
+    "features": {
+      "eyebrow": "Funktioner",
+      "title": "Alt, du behøver for at spise klogere",
+      "sub": "Én app til at tælle, planlægge og forstå, hvad du spiser.",
+      "items": [
+        { "icon": "camera", "title": "Kalorier fra et billede", "text": "Fotografér ethvert måltid og få kalorier og makroer på få sekunder." },
+        { "icon": "chat", "title": "AI-kostcoach", "text": "Spørg med tekst eller stemme: hvad du skal bestille, hvad du skal spise næste gang, hvordan det går." },
+        { "icon": "calendar", "title": "AI-madplaner", "text": "En hel uges måltider, planlagt efter dit kaloriemål." },
+        { "icon": "run", "title": "Træning", "text": "Log over 100 øvelser. Forbrændte kalorier lægges til din dag." },
+        { "icon": "shield", "title": "Helbredsadvarsler", "text": "Advarsler om gluten, mælk og over 20 helbredstilstande, før du spiser." },
+        { "icon": "chart", "title": "Fremskridt og mål", "text": "Sæt et vægtmål og se hver milepæl på vejen." },
+        { "icon": "grid", "title": "Kalendervisning", "text": "Din måned i farver: på mål, under eller over." },
+        { "icon": "globe", "title": "18 sprog", "text": "Brug CalorAI på dit sprog, også arabisk, persisk og kurdisk." }
+      ]
+    },
+    "spotlight": [
+      {
+        "eyebrow": "AI-coach",
+        "title": "Usikker på, hvad du skal bestille? Bare spørg.",
+        "text": "Din AI-coach ved, hvor mange kalorier du har tilbage i dag. Spørg med tekst eller stemme og få svar, der passer til din dag.",
+        "points": ["Restaurantråd på få sekunder", "Tjek af protein og makroer", "Virker med tekst eller stemme"],
+        "screen": "coach"
+      },
+      {
+        "eyebrow": "Madplaner",
+        "title": "En hel uges måltider, planlagt for dig.",
+        "text": "Fortæl CalorAI dit mål, så sammensætter den morgenmad, frokost og aftensmad for hele ugen.",
+        "points": ["Passer til dine daglige kalorier", "Morgenmad, frokost og aftensmad i 7 dage", "Mindre tid på at vælge, mere tid til at spise"],
+        "screen": "meal-plan"
+      },
+      {
+        "eyebrow": "Helbredsadvarsler",
+        "title": "Vid det, før du spiser.",
+        "text": "Tilføj allergier eller tilstande til din profil, så tjekker CalorAI hvert måltid, du fotograferer.",
+        "points": ["Gluten, mælk og almindelige allergener", "Over 20 helbredstilstande", "En klar advarsel før første bid"],
+        "screen": "health-warning"
+      },
+      {
+        "eyebrow": "Kalender",
+        "title": "Se dine vaner med ét blik.",
+        "text": "Grøn, gul eller rød: hver dag i måneden viser, om du var på mål, under eller over.",
+        "points": ["Visning af kalorier og protein", "Find dine svage dage", "Tips til at bryde mønsteret"],
+        "screen": "calendar-calories"
+      }
+    ],
+    "screens": {
+      "eyebrow": "Inde i appen",
+      "title": "Enkel, hurtig og overskuelig"
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Spørgsmål og svar",
+      "items": [
+        { "q": "Er CalorAI gratis?", "a": "Ja. CalorAI er gratis at downloade i Google Play og App Store. Nogle avancerede funktioner er en del af CalorAI Pro." },
+        { "q": "Hvordan virker fotoscanningen?", "a": "Tag et billede af dit måltid. CalorAI's AI genkender maden, anslår portionen og beregner kalorier, protein, kulhydrater og fedt." },
+        { "q": "Hvor præcise er tallene?", "a": "AI'en giver et skøn, ligesom en næringsdeklaration. Du kan altid justere et måltid, før du gemmer det." },
+        { "q": "Hvilke sprog findes der?", "a": "CalorAI findes på 18 sprog, bl.a. dansk, engelsk, arabisk, spansk, fransk, tysk, tyrkisk, persisk og kurdisk." },
+        { "q": "Kan jeg bruge CalorAI med en helbredstilstand?", "a": "CalorAI kan advare dig om ingredienser, der måske ikke passer til dig, men det er ikke lægefaglig rådgivning. Følg altid din læges anvisninger." },
+        { "q": "Virker CalorAI på arabisk?", "a": "Ja. Hele appen findes på arabisk med layout fra højre mod venstre, og AI'en genkender retter fra mange køkkener, også fra Mellemøsten og Golfen." },
+        { "q": "Skal jeg tage et billede?", "a": "Nej. Du kan også skrive eller sige, hvad du har spist, fx \"grillet kylling med ris, 200 gram\", så beregner CalorAI næringsindholdet." },
+        { "q": "Kan jeg logge træning?", "a": "Ja. Vælg mellem over 100 øvelser, angiv varighed og intensitet, så lægges de forbrændte kalorier til dit daglige mål." },
+        { "q": "Virker CalorAI på iPhone og Android?", "a": "Ja. CalorAI findes i Google Play til Android og i App Store til iPhone og iPad." },
+        { "q": "Hvem laver CalorAI?", "a": "CalorAI udvikles af Intellivation AB, en lille uafhængig virksomhed i Sverige." }
+      ]
+    },
+    "cta": {
+      "title": "Kom i gang med ét billede",
+      "sub": "Gratis i Google Play og App Store."
+    }
+  },
+  "featuresPage": {
+    "title": "Funktioner",
+    "heading": "Alt, hvad CalorAI kan gøre for dig",
+    "sub": "Fra ét hurtigt billede til en plan for hele ugen: værktøjer, der gør sund mad nem.",
+    "items": [
+      {
+        "eyebrow": "Fotoscanning",
+        "title": "Fotografér et måltid. Få tallene.",
+        "text": "Tag et billede af tallerkenen, så genkender CalorAI maden, anslår portionen og viser kalorier, protein, kulhydrater og fedt på få sekunder.",
+        "points": ["Virker med hjemmelavet mad, restaurantmad og snacks", "Justér et måltid, før du gemmer", "Eller søg i fødevaredatabasen og log manuelt"],
+        "screen": "scan-salmon"
+      },
+      {
+        "eyebrow": "Dagsoverblik",
+        "title": "Vid præcis, hvad der er tilbage i dag.",
+        "text": "Din kaloriering og dine makrobjælker opdateres med hvert måltid, så du altid ved, hvor meget plads der er til aftensmaden.",
+        "points": ["Kalorier, protein, kulhydrater og fedt", "Måltider fordelt på morgenmad, frokost og aftensmad", "Metriske eller britiske enheder"],
+        "screen": "today"
+      },
+      {
+        "eyebrow": "AI-coach",
+        "title": "Din kostcoach, døgnet rundt.",
+        "text": "Spørg om alt, der har med mad at gøre, med tekst eller stemme. Coachen kender dit mål og ved, hvad du har spist i dag.",
+        "points": ["\"Hvad skal jeg bestille her?\"", "\"Hvor meget protein har jeg spist i dag?\"", "Svar på dit sprog"],
+        "screen": "coach"
+      },
+      {
+        "eyebrow": "Madplaner",
+        "title": "En uges måltider, planlagt på sekunder.",
+        "text": "CalorAI sammensætter morgenmad, frokost og aftensmad til hver dag i ugen, tilpasset dit kaloriemål.",
+        "points": ["Passer til dine daglige kalorier", "Morgenmad, frokost og aftensmad i 7 dage", "Perfekt til madpakker og meal prep"],
+        "screen": "meal-plan"
+      },
+      {
+        "eyebrow": "Træning",
+        "title": "Bevæg dig mere. Spis mere.",
+        "text": "Log et træningspas, så lægges de forbrændte kalorier automatisk til dit daglige mål.",
+        "points": ["Over 100 øvelser i 7 grupper", "Lav, mellem eller høj intensitet", "Løb, fitness, sport, træning derhjemme"],
+        "screen": "workouts"
+      },
+      {
+        "eyebrow": "Helbredsadvarsler",
+        "title": "En advarsel før første bid.",
+        "text": "Tilføj allergier, intolerancer eller tilstande til din profil, så bliver hvert fotograferet måltid tjekket.",
+        "points": ["Gluten, mælk og almindelige allergener", "Over 20 tilstande, fra cøliaki til halsbrand", "Klare og enkle forklaringer"],
+        "screen": "health-warning"
+      },
+      {
+        "eyebrow": "Vægtmål",
+        "title": "Tab dig skridt for skridt.",
+        "text": "Angiv din målvægt, så laver CalorAI en realistisk plan med milepæle at fejre undervejs.",
+        "points": ["Ugemål, der passer til dit liv", "Fremskridtsgraf og milepæle", "Badges, når du når et mål"],
+        "screen": "weight-goal"
+      },
+      {
+        "eyebrow": "Kalender",
+        "title": "Din måned i farver.",
+        "text": "Hver dag bliver grøn, gul eller rød, så du kan se mønstre og ændre dem, for både kalorier og protein.",
+        "points": ["Visning af kalorier og protein", "Dine svage dage med ét blik", "Tips fra din AI-coach"],
+        "screen": "calendar-protein"
+      }
+    ]
+  },
+  "howPage": {
+    "title": "Sådan virker det",
+    "heading": "Sådan virker CalorAI",
+    "sub": "Klar på et minut, og derefter logger du hvert måltid med ét billede.",
+    "steps": [
+      { "title": "Opret din profil", "text": "Angiv alder, højde, vægt og mål. CalorAI beregner dine daglige kalorier og makroer.", "screen": "weight-goal" },
+      { "title": "Fotografér dit måltid", "text": "Åbn kameraet og tag et billede af tallerkenen. Ingen stregkoder, ingen indtastning.", "screen": "scan-burger" },
+      { "title": "Tjek og gem", "text": "CalorAI viser, hvad den fandt, med kalorier, protein, kulhydrater og fedt. Justér, hvis du vil, og gem i dagbogen.", "screen": "scan-eggs" },
+      { "title": "Følg din dag", "text": "Dine ringe opdateres efter hvert måltid. Log træning, så lægges de forbrændte kalorier til dit mål.", "screen": "today" },
+      { "title": "Hjælp, når du har brug for det", "text": "Spørg din AI-coach, hvad du skal spise, få en madplan for ugen, og se dine fremskridt i kalenderen.", "screen": "coach" }
+    ],
+    "tipsTitle": "Tips til de bedste resultater",
+    "tips": [
+      "Tag billedet oppefra med hele tallerkenen i billedet.",
+      "Godt lys hjælper AI'en med at se maden.",
+      "Log måltider, mens du spiser. Det tager sekunder, og du glemmer intet.",
+      "Tjek portionen, før du gemmer, hvis tallerkenen er usædvanlig."
+    ]
+  },
+  "downloadPage": {
+    "title": "Download",
+    "heading": "Hent CalorAI gratis",
+    "sub": "Til Android og iPhone, på 18 sprog.",
+    "android": "Til Android-telefoner",
+    "ios": "Til iPhone",
+    "whyTitle": "Derfor vælger folk CalorAI",
+    "why": ["Log et måltid med ét billede", "En AI-coach, der kender din dag", "Madplaner, træning og helbredsadvarsler i én app", "Gratis at downloade, på 18 sprog"]
+  },
+  "aboutPage": {
+    "title": "Om os",
+    "heading": "Sund mad bør være nemt",
+    "sub": "Vi bygger CalorAI, så alle kan forstå, hvad de spiser, uden regneark og gætværk.",
+    "missionTitle": "Vores mission",
+    "mission": "At tælle kalorier betød før at veje maden og skrive hver ingrediens ind. Mange gav op, før de så resultater. Vi mener, at et billede bør være nok. CalorAI bruger AI til at gøre et billede af dit måltid til klare tal og enkle råd, så du træffer bedre valg og bliver ved.",
+    "valuesTitle": "Det går vi op i",
+    "values": [
+      { "icon": "sparkle", "title": "Enkelt først", "text": "Hver funktion skal spare dig tid. Kræver den en manual, laver vi den om." },
+      { "icon": "globe", "title": "For alle", "text": "CalorAI taler 18 sprog, bl.a. arabisk og persisk fra højre mod venstre samt kurdisk (kurmanji)." },
+      { "icon": "shield", "title": "Ærlige tal", "text": "Vi viser skøn tydeligt og lader dig justere dem. Vi lover aldrig mirakler." },
+      { "icon": "check", "title": "Dine data, dit valg", "text": "Du kan til enhver tid slette din konto og alle dine data direkte i appen." }
+    ],
+    "companyTitle": "Hvem vi er",
+    "company": "CalorAI udvikles af Intellivation AB i Sverige, et lille uafhængigt team af udviklere og designere, der går op i sundhed og god software. Vi læser hver besked og bruger din feedback til at beslutte, hvad vi bygger næste gang."
+  },
+  "contactPage": {
+    "title": "Kontakt",
+    "heading": "Kontakt os",
+    "sub": "Spørgsmål, feedback eller idéer til samarbejde? Vi vil meget gerne høre fra dig.",
+    "emailTitle": "Skriv en mail",
+    "emailText": "Vi svarer som regel inden for 1–2 hverdage.",
+    "topicsTitle": "Hvad kan vi hjælpe med?",
+    "topics": [
+      { "icon": "chat", "title": "Support", "text": "Problemer med appen, din konto eller et abonnement.", "subject": "Support" },
+      { "icon": "sparkle", "title": "Feedback og idéer", "text": "Fortæl os, hvad du kan lide, og hvad vi skal bygge næste gang.", "subject": "Feedback" },
+      { "icon": "globe", "title": "Samarbejde og presse", "text": "Samarbejder, influencere, medier og forretningshenvendelser.", "subject": "Partnership" }
+    ],
+    "write": "Skriv til os",
+    "faqHint": "Mange svar findes allerede i vores",
+    "faqLink": "FAQ",
+    "deleteHint": "Vil du slette din konto?",
+    "deleteLink": "Se hvordan"
+  },
+  "legal": {
+    "updated": "Senest opdateret"
+  },
+  "deletePage": {
+    "title": "Slet konto",
+    "heading": "Slet din CalorAI-konto",
+    "sub": "Du kan til enhver tid slette din konto og alle dine data permanent.",
+    "inAppTitle": "Slet den i appen",
+    "steps": [
+      "Åbn CalorAI og log ind.",
+      "Tryk på fanen \"Mere\" nederst på skærmen.",
+      "Rul ned og tryk på \"Slet konto\".",
+      "Bekræft to gange. Din konto slettes med det samme."
+    ],
+    "whatTitle": "Det bliver slettet",
+    "what": "Din profil, maddagbog, billeder, madplaner, træning, vægthistorik, samtaler med coachen, badges og opslag i fællesskabet fjernes permanent fra vores servere. Det kan ikke fortrydes.",
+    "subsTitle": "Abonnementer",
+    "subs": "At slette din konto opsiger ikke et abonnement købt via Google Play eller App Store. Opsig det i indstillingerne for din butikskonto for at stoppe fremtidige betalinger.",
+    "noAppTitle": "Kan du ikke bruge appen?",
+    "noApp": "Skriv til os fra den mailadresse, du oprettede dig med, så sletter vi din konto og dine data inden for 30 dage.",
+    "emailSubject": "Delete my account"
+  },
+  "blogPage": {
+    "title": "Blog",
+    "heading": "Spis klogere, ét tip ad gangen",
+    "sub": "Enkle, videnskabeligt funderede kostråd, smarte bytninger og kaloriesammenligninger. (Artikler på engelsk)",
+    "read": "Læs artiklen",
+    "minRead": "min. læsning",
+    "sources": "Kilder",
+    "more": "Flere artikler",
+    "ctaTitle": "Følg det med CalorAI",
+    "ctaText": "Fotografér dit måltid og se kalorier, protein, kulhydrater og fedt på få sekunder. Gratis."
+  },
+  "footer": {
+    "tagline": "AI-kalorietælleren, der gør arbejdet for dig.",
+    "product": "Produkt",
+    "company": "Virksomhed",
+    "legal": "Juridisk",
+    "disclaimer": "CalorAI giver skøn udelukkende til generel information og er ikke lægefaglig rådgivning.",
+    "rights": "Alle rettigheder forbeholdes."
+  }
+}

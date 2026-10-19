@@ -1,0 +1,287 @@
+{
+  "meta": {
+    "title": "CalorAI: AI-calorieënteller",
+    "description": "Maak een foto van je maaltijd en CalorAI telt calorieën, eiwitten, koolhydraten en vetten in een paar seconden. Gratis in Google Play en de App Store."
+  },
+  "nav": {
+    "features": "Functies",
+    "how-it-works": "Zo werkt het",
+    "blog": "Blog",
+    "about": "Over ons",
+    "contact": "Contact",
+    "download": "Downloaden",
+    "privacy": "Privacybeleid",
+    "terms": "Gebruiksvoorwaarden",
+    "delete-account": "Account verwijderen",
+    "menu": "Menu",
+    "language": "Taal"
+  },
+  "store": {
+    "googleTop": "ONTDEK HET OP",
+    "google": "Google Play",
+    "appleTop": "Download in de",
+    "apple": "App Store",
+    "downloadFree": "Gratis downloaden"
+  },
+  "proof": {
+    "rating": "beoordeling",
+    "downloads": "downloads",
+    "languages": "talen"
+  },
+  "home": {
+    "hero": {
+      "badge": "AI-calorieënteller",
+      "title1": "Fotografeer je maaltijd.",
+      "title2": "Ken je calorieën.",
+      "sub": "Maak een foto en CalorAI telt calorieën, eiwitten, koolhydraten en vetten in een paar seconden. Niet typen, niet gokken.",
+      "cardKcal": "kcal",
+      "cardName": "Burger met friet",
+      "cardLeft": "kcal over vandaag",
+      "cardSaved": "Opgeslagen in je dagboek"
+    },
+    "how": {
+      "eyebrow": "Zo werkt het",
+      "title": "Drie stappen. Een paar seconden.",
+      "steps": [
+        { "title": "Fotografeer je bord", "text": "Richt je camera op elke maaltijd: zelfgekookt, uit een restaurant of een snack." },
+        { "title": "De AI rekent", "text": "CalorAI herkent het eten en schat calorieën, eiwitten, koolhydraten en vetten." },
+        { "title": "Blijf op koers", "text": "Elke maaltijd komt in je dagboek, zodat je altijd weet wat er vandaag nog over is." }
+      ]
+    },
+    "features": {
+      "eyebrow": "Functies",
+      "title": "Alles wat je nodig hebt om slimmer te eten",
+      "sub": "Eén app om te tellen, te plannen en te begrijpen wat je eet.",
+      "items": [
+        { "icon": "camera", "title": "Calorieën via foto", "text": "Fotografeer elke maaltijd en krijg calorieën en macro's in seconden." },
+        { "icon": "chat", "title": "AI-voedingscoach", "text": "Vraag via tekst of spraak: wat bestel je, wat eet je hierna, hoe gaat het." },
+        { "icon": "calendar", "title": "AI-maaltijdplannen", "text": "Een hele week maaltijden, gepland rond je caloriedoel." },
+        { "icon": "run", "title": "Workouts", "text": "Log meer dan 100 oefeningen. Verbrande calorieën komen bij je dag." },
+        { "icon": "shield", "title": "Gezondheidswaarschuwingen", "text": "Waarschuwingen voor gluten, zuivel en meer dan 20 aandoeningen voordat je eet." },
+        { "icon": "chart", "title": "Voortgang en doelen", "text": "Stel een gewichtsdoel in en zie elke mijlpaal onderweg." },
+        { "icon": "grid", "title": "Kalenderweergave", "text": "Je maand in kleuren: op doel, eronder of erboven." },
+        { "icon": "globe", "title": "18 talen", "text": "Gebruik CalorAI in jouw taal, ook in het Arabisch, Perzisch en Koerdisch." }
+      ]
+    },
+    "spotlight": [
+      {
+        "eyebrow": "AI-coach",
+        "title": "Weet je niet wat je moet bestellen? Vraag het gewoon.",
+        "text": "Je AI-coach weet hoeveel calorieën je vandaag nog hebt. Vraag via tekst of spraak en krijg antwoorden die bij je dag passen.",
+        "points": ["Restauranttips in seconden", "Check van eiwitten en macro's", "Werkt via tekst of spraak"],
+        "screen": "coach"
+      },
+      {
+        "eyebrow": "Maaltijdplannen",
+        "title": "Een hele week maaltijden, voor je gepland.",
+        "text": "Vertel CalorAI je doel en het maakt ontbijt, lunch en avondeten voor de hele week.",
+        "points": ["Past bij je dagelijkse calorieën", "Ontbijt, lunch en avondeten voor 7 dagen", "Minder tijd kiezen, meer tijd genieten"],
+        "screen": "meal-plan"
+      },
+      {
+        "eyebrow": "Gezondheidswaarschuwingen",
+        "title": "Weet het voordat je eet.",
+        "text": "Voeg allergieën of aandoeningen toe aan je profiel en CalorAI controleert elke gefotografeerde maaltijd.",
+        "points": ["Gluten, zuivel en veelvoorkomende allergenen", "Meer dan 20 aandoeningen", "Een duidelijke waarschuwing vóór de eerste hap"],
+        "screen": "health-warning"
+      },
+      {
+        "eyebrow": "Kalender",
+        "title": "Je gewoonten in één oogopslag.",
+        "text": "Groen, geel of rood: elke dag van de maand laat zien of je op doel, eronder of erboven zat.",
+        "points": ["Weergave voor calorieën en eiwitten", "Zie je zwakke dagen", "Tips om het patroon te doorbreken"],
+        "screen": "calendar-calories"
+      }
+    ],
+    "screens": {
+      "eyebrow": "In de app",
+      "title": "Simpel, snel en duidelijk"
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Vragen en antwoorden",
+      "items": [
+        { "q": "Is CalorAI gratis?", "a": "Ja. CalorAI is gratis te downloaden in Google Play en de App Store. Sommige geavanceerde functies horen bij CalorAI Pro." },
+        { "q": "Hoe werkt de fotoscan?", "a": "Maak een foto van je maaltijd. De AI van CalorAI herkent het eten, schat de portie en berekent calorieën, eiwitten, koolhydraten en vetten." },
+        { "q": "Hoe nauwkeurig zijn de cijfers?", "a": "De AI geeft een schatting, net als een voedingsetiket. Je kunt een maaltijd altijd aanpassen voordat je hem opslaat." },
+        { "q": "Welke talen zijn er?", "a": "CalorAI is beschikbaar in 18 talen, waaronder Nederlands, Engels, Arabisch, Spaans, Frans, Duits, Turks, Perzisch en Koerdisch." },
+        { "q": "Kan ik CalorAI gebruiken met een aandoening?", "a": "CalorAI kan je waarschuwen voor ingrediënten die misschien niet bij je passen, maar het is geen medisch advies. Volg altijd het advies van je arts." },
+        { "q": "Werkt CalorAI in het Arabisch?", "a": "Ja. De hele app is beschikbaar in het Arabisch met een indeling van rechts naar links, en de AI herkent gerechten uit veel keukens, ook uit het Midden-Oosten en de Golfregio." },
+        { "q": "Moet ik een foto maken?", "a": "Nee. Je kunt ook typen of zeggen wat je hebt gegeten, bijvoorbeeld \"gegrilde kip met rijst, 200 gram\", en CalorAI berekent de voedingswaarden." },
+        { "q": "Kan ik workouts loggen?", "a": "Ja. Kies uit meer dan 100 oefeningen, stel duur en intensiteit in, en de verbrande calorieën komen bij je dagdoel." },
+        { "q": "Werkt CalorAI op iPhone en Android?", "a": "Ja. CalorAI staat in Google Play voor Android en in de App Store voor iPhone en iPad." },
+        { "q": "Wie maakt CalorAI?", "a": "CalorAI wordt gemaakt door Intellivation AB, een klein onafhankelijk bedrijf in Zweden." }
+      ]
+    },
+    "cta": {
+      "title": "Begin met tellen met één foto",
+      "sub": "Gratis in Google Play en de App Store."
+    }
+  },
+  "featuresPage": {
+    "title": "Functies",
+    "heading": "Alles wat CalorAI voor je kan doen",
+    "sub": "Van één snelle foto tot een plan voor je hele week: hulpmiddelen die gezond eten makkelijk maken.",
+    "items": [
+      {
+        "eyebrow": "Fotoscan",
+        "title": "Fotografeer een maaltijd. Krijg de cijfers.",
+        "text": "Maak een foto van je bord en CalorAI herkent het eten, schat de portie en toont calorieën, eiwitten, koolhydraten en vetten in seconden.",
+        "points": ["Werkt met zelfgekookt eten, restauranteten en snacks", "Pas elke maaltijd aan voordat je opslaat", "Of zoek in de voedingsdatabase en log handmatig"],
+        "screen": "scan-salmon"
+      },
+      {
+        "eyebrow": "Dagoverzicht",
+        "title": "Weet precies wat er vandaag nog over is.",
+        "text": "Je calorieënring en macrobalken worden na elke maaltijd bijgewerkt, zodat je altijd weet hoeveel ruimte er is voor het avondeten.",
+        "points": ["Calorieën, eiwitten, koolhydraten en vetten", "Maaltijden per ontbijt, lunch en avondeten", "Metrische of imperiale eenheden"],
+        "screen": "today"
+      },
+      {
+        "eyebrow": "AI-coach",
+        "title": "Je voedingscoach, 24/7.",
+        "text": "Vraag alles over eten via tekst of spraak. De coach kent je doel en weet wat je vandaag hebt gegeten.",
+        "points": ["\"Wat moet ik hier bestellen?\"", "\"Hoeveel eiwit heb ik vandaag gegeten?\"", "Antwoorden in jouw taal"],
+        "screen": "coach"
+      },
+      {
+        "eyebrow": "Maaltijdplannen",
+        "title": "Een week maaltijden, gepland in seconden.",
+        "text": "CalorAI maakt ontbijt, lunch en avondeten voor elke dag van de week, afgestemd op je caloriedoel.",
+        "points": ["Past bij je dagelijkse calorieën", "Ontbijt, lunch en avondeten voor 7 dagen", "Handig voor meal prep"],
+        "screen": "meal-plan"
+      },
+      {
+        "eyebrow": "Workouts",
+        "title": "Beweeg meer. Eet meer.",
+        "text": "Log een workout en de verbrande calorieën komen automatisch bij je dagdoel.",
+        "points": ["Meer dan 100 oefeningen in 7 groepen", "Lage, gemiddelde of hoge intensiteit", "Hardlopen, sportschool, sport, thuistraining"],
+        "screen": "workouts"
+      },
+      {
+        "eyebrow": "Gezondheidswaarschuwingen",
+        "title": "Een waarschuwing vóór de eerste hap.",
+        "text": "Voeg allergieën, intoleranties of aandoeningen toe aan je profiel en elke gefotografeerde maaltijd wordt daarop gecontroleerd.",
+        "points": ["Gluten, zuivel en veelvoorkomende allergenen", "Meer dan 20 aandoeningen, van coeliakie tot reflux", "Duidelijke, eenvoudige uitleg"],
+        "screen": "health-warning"
+      },
+      {
+        "eyebrow": "Gewichtsdoel",
+        "title": "Stap voor stap afvallen.",
+        "text": "Stel je streefgewicht in en CalorAI maakt een realistisch plan, met mijlpalen om onderweg te vieren.",
+        "points": ["Weekdoelen die bij je leven passen", "Voortgangsgrafiek en mijlpalen", "Badges als je een doel haalt"],
+        "screen": "weight-goal"
+      },
+      {
+        "eyebrow": "Kalender",
+        "title": "Je maand in kleuren.",
+        "text": "Elke dag wordt groen, geel of rood, zodat je patronen ziet en kunt verbeteren, voor calorieën en eiwitten.",
+        "points": ["Weergave voor calorieën en eiwitten", "Je zwakke dagen in één oogopslag", "Tips van je AI-coach"],
+        "screen": "calendar-protein"
+      }
+    ]
+  },
+  "howPage": {
+    "title": "Zo werkt het",
+    "heading": "Zo werkt CalorAI",
+    "sub": "In een minuut ingesteld, daarna log je elke maaltijd met één foto.",
+    "steps": [
+      { "title": "Maak je profiel", "text": "Vul je leeftijd, lengte, gewicht en doel in. CalorAI berekent je dagelijkse calorieën en macro's.", "screen": "weight-goal" },
+      { "title": "Fotografeer je maaltijd", "text": "Open de camera en maak een foto van je bord. Geen barcodes, niet typen.", "screen": "scan-burger" },
+      { "title": "Controleer en sla op", "text": "CalorAI laat zien wat het vond, met calorieën, eiwitten, koolhydraten en vetten. Pas aan als je wilt en sla op in je dagboek.", "screen": "scan-eggs" },
+      { "title": "Volg je dag", "text": "Je ringen worden na elke maaltijd bijgewerkt. Log workouts en de verbrande calorieën komen bij je doel.", "screen": "today" },
+      { "title": "Hulp wanneer je die nodig hebt", "text": "Vraag je AI-coach wat je moet eten, krijg een weekplan en bekijk je voortgang in de kalender.", "screen": "coach" }
+    ],
+    "tipsTitle": "Tips voor het beste resultaat",
+    "tips": [
+      "Maak de foto van bovenaf, met het hele bord in beeld.",
+      "Goed licht helpt de AI je eten te zien.",
+      "Log maaltijden terwijl je eet. Het kost seconden en je vergeet niets.",
+      "Controleer de portie voor het opslaan als je bord ongewoon is."
+    ]
+  },
+  "downloadPage": {
+    "title": "Downloaden",
+    "heading": "Download CalorAI gratis",
+    "sub": "Beschikbaar voor Android en iPhone, in 18 talen.",
+    "android": "Voor Android-telefoons",
+    "ios": "Voor iPhone",
+    "whyTitle": "Waarom mensen voor CalorAI kiezen",
+    "why": ["Log een maaltijd met één foto", "Een AI-coach die je dag kent", "Maaltijdplannen, workouts en gezondheidswaarschuwingen in één app", "Gratis te downloaden, in 18 talen"]
+  },
+  "aboutPage": {
+    "title": "Over ons",
+    "heading": "Gezond eten moet makkelijk zijn",
+    "sub": "We maken CalorAI zodat iedereen begrijpt wat hij eet, zonder spreadsheets of giswerk.",
+    "missionTitle": "Onze missie",
+    "mission": "Calorieën tellen betekende vroeger eten wegen en elk ingrediënt intypen. Veel mensen haakten af voordat ze resultaat zagen. Wij vinden dat een foto genoeg moet zijn. CalorAI gebruikt AI om een foto van je maaltijd om te zetten in duidelijke cijfers en eenvoudig advies, zodat je betere keuzes maakt en volhoudt.",
+    "valuesTitle": "Waar we om geven",
+    "values": [
+      { "icon": "sparkle", "title": "Eenvoud eerst", "text": "Elke functie moet je tijd besparen. Als er een handleiding nodig is, ontwerpen we het opnieuw." },
+      { "icon": "globe", "title": "Voor iedereen", "text": "CalorAI spreekt 18 talen, waaronder Arabisch en Perzisch van rechts naar links, en Koerdisch (Kurmanci)." },
+      { "icon": "shield", "title": "Eerlijke cijfers", "text": "We tonen schattingen duidelijk en je kunt ze aanpassen. We beloven nooit wonderen." },
+      { "icon": "check", "title": "Jouw data, jouw keuze", "text": "Je kunt je account en al je gegevens op elk moment in de app verwijderen." }
+    ],
+    "companyTitle": "Wie we zijn",
+    "company": "CalorAI wordt gemaakt door Intellivation AB in Zweden, een klein onafhankelijk team van ontwikkelaars en ontwerpers dat geeft om gezondheid en goede software. We lezen elk bericht en gebruiken je feedback om te bepalen wat we hierna bouwen."
+  },
+  "contactPage": {
+    "title": "Contact",
+    "heading": "Neem contact op",
+    "sub": "Vragen, feedback of ideeën voor samenwerking? We horen graag van je.",
+    "emailTitle": "Mail ons",
+    "emailText": "We antwoorden meestal binnen 1–2 werkdagen.",
+    "topicsTitle": "Waarmee kunnen we helpen?",
+    "topics": [
+      { "icon": "chat", "title": "Support", "text": "Problemen met de app, je account of een abonnement.", "subject": "Support" },
+      { "icon": "sparkle", "title": "Feedback en ideeën", "text": "Vertel ons wat je goed vindt en wat we hierna moeten bouwen.", "subject": "Feedback" },
+      { "icon": "globe", "title": "Samenwerking en pers", "text": "Samenwerkingen, influencers, media en zakelijke vragen.", "subject": "Partnership" }
+    ],
+    "write": "Schrijf ons",
+    "faqHint": "Veel antwoorden staan al in onze",
+    "faqLink": "FAQ",
+    "deleteHint": "Wil je je account verwijderen?",
+    "deleteLink": "Zo werkt het"
+  },
+  "legal": {
+    "updated": "Laatst bijgewerkt"
+  },
+  "deletePage": {
+    "title": "Account verwijderen",
+    "heading": "Verwijder je CalorAI-account",
+    "sub": "Je kunt je account en al je gegevens op elk moment definitief verwijderen.",
+    "inAppTitle": "Verwijder het in de app",
+    "steps": [
+      "Open CalorAI en log in.",
+      "Tik onderaan op het tabblad \"Meer\".",
+      "Scrol omlaag en tik op \"Account verwijderen\".",
+      "Bevestig twee keer. Je account wordt meteen verwijderd."
+    ],
+    "whatTitle": "Wat wordt verwijderd",
+    "what": "Je profiel, voedingsdagboek, foto's, maaltijdplannen, workouts, gewichtsgeschiedenis, gesprekken met de coach, badges en communityberichten worden definitief van onze servers verwijderd. Dit kan niet ongedaan worden gemaakt.",
+    "subsTitle": "Abonnementen",
+    "subs": "Je account verwijderen stopt geen abonnement dat je via Google Play of de App Store hebt gekocht. Zeg het op in de instellingen van je store-account om verdere betalingen te stoppen.",
+    "noAppTitle": "Kun je de app niet gebruiken?",
+    "noApp": "Mail ons vanaf het adres waarmee je je hebt aangemeld en we verwijderen je account en gegevens binnen 30 dagen.",
+    "emailSubject": "Delete my account"
+  },
+  "blogPage": {
+    "title": "Blog",
+    "heading": "Slimmer eten, tip voor tip",
+    "sub": "Eenvoudige, wetenschappelijk onderbouwde voedingstips, slimme vervangers en calorievergelijkingen. (Artikelen in het Engels)",
+    "read": "Lees artikel",
+    "minRead": "min leestijd",
+    "sources": "Bronnen",
+    "more": "Meer artikelen",
+    "ctaTitle": "Houd het bij met CalorAI",
+    "ctaText": "Fotografeer je maaltijd en zie calorieën, eiwitten, koolhydraten en vetten in seconden. Gratis."
+  },
+  "footer": {
+    "tagline": "De AI-calorieënteller die het werk voor je doet.",
+    "product": "Product",
+    "company": "Bedrijf",
+    "legal": "Juridisch",
+    "disclaimer": "CalorAI geeft schattingen ter algemene informatie en is geen medisch advies.",
+    "rights": "Alle rechten voorbehouden."
+  }
+}

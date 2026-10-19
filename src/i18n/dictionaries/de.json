@@ -1,0 +1,287 @@
+{
+  "meta": {
+    "title": "CalorAI: KI-Kalorienzähler",
+    "description": "Fotografiere deine Mahlzeit und CalorAI zählt Kalorien, Eiweiß, Kohlenhydrate und Fett in Sekunden. Kostenlos bei Google Play und im App Store."
+  },
+  "nav": {
+    "features": "Funktionen",
+    "how-it-works": "So funktioniert's",
+    "blog": "Blog",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "download": "Download",
+    "privacy": "Datenschutz",
+    "terms": "Nutzungsbedingungen",
+    "delete-account": "Konto löschen",
+    "menu": "Menü",
+    "language": "Sprache"
+  },
+  "store": {
+    "googleTop": "JETZT BEI",
+    "google": "Google Play",
+    "appleTop": "Laden im",
+    "apple": "App Store",
+    "downloadFree": "Kostenlos laden"
+  },
+  "proof": {
+    "rating": "Bewertung",
+    "downloads": "Downloads",
+    "languages": "Sprachen"
+  },
+  "home": {
+    "hero": {
+      "badge": "KI-Kalorienzähler",
+      "title1": "Foto von deinem Essen.",
+      "title2": "Kalorien sofort wissen.",
+      "sub": "Mach ein Foto und CalorAI zählt Kalorien, Eiweiß, Kohlenhydrate und Fett in Sekunden. Kein Tippen, kein Raten.",
+      "cardKcal": "kcal",
+      "cardName": "Burger & Pommes",
+      "cardLeft": "kcal übrig heute",
+      "cardSaved": "Im Tagebuch gespeichert"
+    },
+    "how": {
+      "eyebrow": "So funktioniert's",
+      "title": "Drei Schritte. Ein paar Sekunden.",
+      "steps": [
+        { "title": "Teller fotografieren", "text": "Richte die Kamera auf jede Mahlzeit: Hausmannskost, Restaurantessen oder Snack." },
+        { "title": "Die KI zählt", "text": "CalorAI erkennt das Essen und schätzt Kalorien, Eiweiß, Kohlenhydrate und Fett." },
+        { "title": "Auf Kurs bleiben", "text": "Jede Mahlzeit landet in deinem Tagebuch, so weißt du immer, was heute noch übrig ist." }
+      ]
+    },
+    "features": {
+      "eyebrow": "Funktionen",
+      "title": "Alles, was du für bewussteres Essen brauchst",
+      "sub": "Eine App zum Zählen, Planen und Verstehen, was du isst.",
+      "items": [
+        { "icon": "camera", "title": "Kalorien per Foto", "text": "Fotografiere jede Mahlzeit und erhalte Kalorien und Makros in Sekunden." },
+        { "icon": "chat", "title": "KI-Ernährungscoach", "text": "Frag per Text oder Sprache: was du bestellen sollst, was du als Nächstes isst, wie du vorankommst." },
+        { "icon": "calendar", "title": "KI-Essenspläne", "text": "Eine ganze Woche Mahlzeiten, geplant nach deinem Kalorienziel." },
+        { "icon": "run", "title": "Training", "text": "Erfasse über 100 Übungen. Verbrannte Kalorien werden deinem Tag gutgeschrieben." },
+        { "icon": "shield", "title": "Gesundheitswarnungen", "text": "Warnungen zu Gluten, Milch und über 20 Erkrankungen, bevor du isst." },
+        { "icon": "chart", "title": "Fortschritt & Ziele", "text": "Setze ein Gewichtsziel und sieh jeden Meilenstein auf dem Weg." },
+        { "icon": "grid", "title": "Kalenderansicht", "text": "Dein Monat in Farben: im Ziel, darunter oder darüber." },
+        { "icon": "globe", "title": "18 Sprachen", "text": "Nutze CalorAI in deiner Sprache, auch auf Arabisch, Persisch und Kurdisch." }
+      ]
+    },
+    "spotlight": [
+      {
+        "eyebrow": "KI-Coach",
+        "title": "Unsicher, was du bestellen sollst? Frag einfach.",
+        "text": "Dein KI-Coach weiß, wie viele Kalorien du heute noch hast. Frag per Text oder Sprache und erhalte Antworten, die zu deinem Tag passen.",
+        "points": ["Restaurant-Tipps in Sekunden", "Eiweiß- und Makro-Check", "Per Text oder Sprache"],
+        "screen": "coach"
+      },
+      {
+        "eyebrow": "Essenspläne",
+        "title": "Eine ganze Woche Mahlzeiten, für dich geplant.",
+        "text": "Sag CalorAI dein Ziel und es plant Frühstück, Mittag- und Abendessen für die ganze Woche.",
+        "points": ["Passt zu deinen täglichen Kalorien", "Frühstück, Mittag- und Abendessen für 7 Tage", "Weniger überlegen, mehr genießen"],
+        "screen": "meal-plan"
+      },
+      {
+        "eyebrow": "Gesundheitswarnungen",
+        "title": "Wissen, bevor du isst.",
+        "text": "Trage Allergien oder Erkrankungen in dein Profil ein und CalorAI prüft jede fotografierte Mahlzeit darauf.",
+        "points": ["Gluten, Milch und häufige Allergene", "Über 20 Erkrankungen", "Eine klare Warnung vor dem ersten Bissen"],
+        "screen": "health-warning"
+      },
+      {
+        "eyebrow": "Kalender",
+        "title": "Deine Gewohnheiten auf einen Blick.",
+        "text": "Grün, gelb oder rot: Jeder Tag im Monat zeigt, ob du im Ziel, darunter oder darüber warst.",
+        "points": ["Ansicht für Kalorien und Eiweiß", "Schwache Tage erkennen", "Tipps, um das Muster zu ändern"],
+        "screen": "calendar-calories"
+      }
+    ],
+    "screens": {
+      "eyebrow": "In der App",
+      "title": "Einfach, schnell und klar"
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Fragen & Antworten",
+      "items": [
+        { "q": "Ist CalorAI kostenlos?", "a": "Ja. CalorAI ist kostenlos bei Google Play und im App Store. Einige erweiterte Funktionen gehören zu CalorAI Pro." },
+        { "q": "Wie funktioniert der Foto-Scan?", "a": "Mach ein Foto deiner Mahlzeit. Die KI von CalorAI erkennt das Essen, schätzt die Portion und berechnet Kalorien, Eiweiß, Kohlenhydrate und Fett." },
+        { "q": "Wie genau sind die Werte?", "a": "Die KI liefert eine Schätzung, ähnlich wie eine Nährwerttabelle. Du kannst jede Mahlzeit vor dem Speichern anpassen." },
+        { "q": "Welche Sprachen gibt es?", "a": "CalorAI gibt es in 18 Sprachen, darunter Deutsch, Englisch, Arabisch, Spanisch, Französisch, Türkisch, Persisch und Kurdisch." },
+        { "q": "Kann ich CalorAI mit einer Erkrankung nutzen?", "a": "CalorAI kann dich vor Zutaten warnen, die dir vielleicht nicht guttun, ist aber keine medizinische Beratung. Folge immer dem Rat deiner Ärztin oder deines Arztes." },
+        { "q": "Funktioniert CalorAI auf Arabisch?", "a": "Ja. Die ganze App gibt es auf Arabisch mit Rechts-nach-links-Layout, und die KI erkennt Gerichte aus vielen Küchen, auch aus dem Nahen Osten und vom Golf." },
+        { "q": "Muss ich ein Foto machen?", "a": "Nein. Du kannst auch eintippen oder sagen, was du gegessen hast, zum Beispiel \"Hähnchen vom Grill mit Reis, 200 Gramm\", und CalorAI berechnet die Nährwerte." },
+        { "q": "Kann ich Training erfassen?", "a": "Ja. Wähle aus über 100 Übungen, stelle Dauer und Intensität ein, und die verbrannten Kalorien kommen zu deinem Tagesziel dazu." },
+        { "q": "Gibt es CalorAI für iPhone und Android?", "a": "Ja. CalorAI gibt es bei Google Play für Android und im App Store für iPhone und iPad." },
+        { "q": "Wer steckt hinter CalorAI?", "a": "CalorAI wird von Intellivation AB entwickelt, einem kleinen unabhängigen Unternehmen in Schweden." }
+      ]
+    },
+    "cta": {
+      "title": "Starte mit einem einzigen Foto",
+      "sub": "Kostenlos bei Google Play und im App Store."
+    }
+  },
+  "featuresPage": {
+    "title": "Funktionen",
+    "heading": "Alles, was CalorAI für dich tun kann",
+    "sub": "Vom schnellen Foto bis zum Plan für die ganze Woche: Werkzeuge, die gesundes Essen einfach machen.",
+    "items": [
+      {
+        "eyebrow": "Foto-Scan",
+        "title": "Mahlzeit fotografieren. Werte bekommen.",
+        "text": "Fotografiere deinen Teller und CalorAI erkennt das Essen, schätzt die Portion und zeigt Kalorien, Eiweiß, Kohlenhydrate und Fett in Sekunden.",
+        "points": ["Für Hausmannskost, Restaurantessen und Snacks", "Jede Mahlzeit vor dem Speichern anpassen", "Oder in der Lebensmitteldatenbank suchen und manuell erfassen"],
+        "screen": "scan-salmon"
+      },
+      {
+        "eyebrow": "Tagesübersicht",
+        "title": "Genau wissen, was heute noch drin ist.",
+        "text": "Dein Kalorienring und die Makrobalken aktualisieren sich mit jeder Mahlzeit, so weißt du immer, wie viel Platz fürs Abendessen bleibt.",
+        "points": ["Kalorien, Eiweiß, Kohlenhydrate und Fett", "Mahlzeiten nach Frühstück, Mittag- und Abendessen", "Metrische oder imperiale Einheiten"],
+        "screen": "today"
+      },
+      {
+        "eyebrow": "KI-Coach",
+        "title": "Dein Ernährungscoach, rund um die Uhr.",
+        "text": "Frag alles rund ums Essen, per Text oder Sprache. Der Coach kennt dein Ziel und weiß, was du heute gegessen hast.",
+        "points": ["\"Was soll ich hier bestellen?\"", "\"Wie viel Eiweiß hatte ich heute?\"", "Antworten in deiner Sprache"],
+        "screen": "coach"
+      },
+      {
+        "eyebrow": "Essenspläne",
+        "title": "Eine Woche Mahlzeiten, in Sekunden geplant.",
+        "text": "CalorAI plant Frühstück, Mittag- und Abendessen für jeden Tag der Woche, passend zu deinem Kalorienziel.",
+        "points": ["Passt zu deinen täglichen Kalorien", "Frühstück, Mittag- und Abendessen für 7 Tage", "Ideal für Meal Prep"],
+        "screen": "meal-plan"
+      },
+      {
+        "eyebrow": "Training",
+        "title": "Mehr bewegen. Mehr essen.",
+        "text": "Erfasse ein Training und die verbrannten Kalorien kommen automatisch zu deinem Tagesziel dazu.",
+        "points": ["Über 100 Übungen in 7 Gruppen", "Niedrige, mittlere oder hohe Intensität", "Laufen, Fitnessstudio, Sport, Training zu Hause"],
+        "screen": "workouts"
+      },
+      {
+        "eyebrow": "Gesundheitswarnungen",
+        "title": "Eine Warnung vor dem ersten Bissen.",
+        "text": "Trage Allergien, Unverträglichkeiten oder Erkrankungen in dein Profil ein, und jede fotografierte Mahlzeit wird darauf geprüft.",
+        "points": ["Gluten, Milch und häufige Allergene", "Über 20 Erkrankungen, von Zöliakie bis Sodbrennen", "Klare, einfache Erklärungen"],
+        "screen": "health-warning"
+      },
+      {
+        "eyebrow": "Gewichtsziel",
+        "title": "Schritt für Schritt abnehmen.",
+        "text": "Lege dein Wunschgewicht fest und CalorAI erstellt einen realistischen Plan mit Meilensteinen zum Feiern.",
+        "points": ["Wochenziele, die zu deinem Leben passen", "Fortschrittskurve und Meilensteine", "Abzeichen, wenn du ein Ziel erreichst"],
+        "screen": "weight-goal"
+      },
+      {
+        "eyebrow": "Kalender",
+        "title": "Dein Monat in Farben.",
+        "text": "Jeder Tag wird grün, gelb oder rot, so erkennst du Muster und kannst sie ändern, für Kalorien und für Eiweiß.",
+        "points": ["Ansicht für Kalorien und Eiweiß", "Schwache Tage auf einen Blick", "Tipps von deinem KI-Coach"],
+        "screen": "calendar-protein"
+      }
+    ]
+  },
+  "howPage": {
+    "title": "So funktioniert's",
+    "heading": "So funktioniert CalorAI",
+    "sub": "In einer Minute eingerichtet, dann jede Mahlzeit mit einem Foto erfassen.",
+    "steps": [
+      { "title": "Profil anlegen", "text": "Gib Alter, Größe, Gewicht und Ziel ein. CalorAI berechnet deine täglichen Kalorien und Makros.", "screen": "weight-goal" },
+      { "title": "Mahlzeit fotografieren", "text": "Öffne die Kamera und fotografiere deinen Teller. Keine Barcodes, kein Tippen.", "screen": "scan-burger" },
+      { "title": "Prüfen und speichern", "text": "CalorAI zeigt, was es erkannt hat, mit Kalorien, Eiweiß, Kohlenhydraten und Fett. Pass es an, wenn du willst, und speichere es im Tagebuch.", "screen": "scan-eggs" },
+      { "title": "Deinen Tag verfolgen", "text": "Deine Ringe aktualisieren sich nach jeder Mahlzeit. Erfasse Training und die verbrannten Kalorien kommen zu deinem Ziel dazu.", "screen": "today" },
+      { "title": "Hilfe, wenn du sie brauchst", "text": "Frag deinen KI-Coach, was du essen sollst, hol dir einen Wochenplan und sieh deinen Fortschritt im Kalender.", "screen": "coach" }
+    ],
+    "tipsTitle": "Tipps für beste Ergebnisse",
+    "tips": [
+      "Fotografiere von oben, mit dem ganzen Teller im Bild.",
+      "Gutes Licht hilft der KI, dein Essen zu erkennen.",
+      "Erfasse Mahlzeiten direkt beim Essen. Das dauert Sekunden und du vergisst nichts.",
+      "Prüfe die Portion vor dem Speichern, wenn dein Teller ungewöhnlich ist."
+    ]
+  },
+  "downloadPage": {
+    "title": "Download",
+    "heading": "CalorAI kostenlos laden",
+    "sub": "Für Android und iPhone, in 18 Sprachen.",
+    "android": "Für Android-Smartphones",
+    "ios": "Für iPhone",
+    "whyTitle": "Warum sich Menschen für CalorAI entscheiden",
+    "why": ["Eine Mahlzeit mit einem Foto erfassen", "Ein KI-Coach, der deinen Tag kennt", "Essenspläne, Training und Gesundheitswarnungen in einer App", "Kostenlos, in 18 Sprachen"]
+  },
+  "aboutPage": {
+    "title": "Über uns",
+    "heading": "Gesund essen sollte einfach sein",
+    "sub": "Wir entwickeln CalorAI, damit jeder versteht, was er isst, ohne Tabellen und ohne Raten.",
+    "missionTitle": "Unsere Mission",
+    "mission": "Kalorienzählen hieß früher, Essen abzuwiegen und jede Zutat einzutippen. Viele gaben auf, bevor sie Ergebnisse sahen. Wir finden, ein Foto sollte reichen. CalorAI macht aus einem Bild deiner Mahlzeit mit KI klare Zahlen und einfache Tipps, damit du bessere Entscheidungen triffst und dranbleibst.",
+    "valuesTitle": "Was uns wichtig ist",
+    "values": [
+      { "icon": "sparkle", "title": "Einfachheit zuerst", "text": "Jede Funktion soll dir Zeit sparen. Braucht sie eine Anleitung, gestalten wir sie neu." },
+      { "icon": "globe", "title": "Für alle", "text": "CalorAI spricht 18 Sprachen, darunter Arabisch und Persisch von rechts nach links sowie Kurdisch (Kurmandschi)." },
+      { "icon": "shield", "title": "Ehrliche Zahlen", "text": "Wir zeigen Schätzungen klar und du kannst sie anpassen. Wunder versprechen wir nie." },
+      { "icon": "check", "title": "Deine Daten, deine Wahl", "text": "Du kannst dein Konto und alle Daten jederzeit direkt in der App löschen." }
+    ],
+    "companyTitle": "Wer wir sind",
+    "company": "CalorAI wird von Intellivation AB in Schweden entwickelt, einem kleinen unabhängigen Team aus Entwicklern und Designern, denen Gesundheit und gute Software wichtig sind. Wir lesen jede Nachricht und entscheiden mit deinem Feedback, was wir als Nächstes bauen."
+  },
+  "contactPage": {
+    "title": "Kontakt",
+    "heading": "Schreib uns",
+    "sub": "Fragen, Feedback oder Ideen für eine Partnerschaft? Wir freuen uns von dir zu hören.",
+    "emailTitle": "Per E-Mail",
+    "emailText": "Wir antworten meist innerhalb von 1–2 Werktagen.",
+    "topicsTitle": "Wobei können wir helfen?",
+    "topics": [
+      { "icon": "chat", "title": "Support", "text": "Probleme mit der App, deinem Konto oder einem Abo.", "subject": "Support" },
+      { "icon": "sparkle", "title": "Feedback & Ideen", "text": "Sag uns, was dir gefällt und was wir als Nächstes bauen sollen.", "subject": "Feedback" },
+      { "icon": "globe", "title": "Partnerschaften & Presse", "text": "Kooperationen, Influencer, Medien und Geschäftsanfragen.", "subject": "Partnership" }
+    ],
+    "write": "Schreib uns",
+    "faqHint": "Viele Antworten findest du schon in unseren",
+    "faqLink": "FAQ",
+    "deleteHint": "Möchtest du dein Konto löschen?",
+    "deleteLink": "So geht's"
+  },
+  "legal": {
+    "updated": "Zuletzt aktualisiert"
+  },
+  "deletePage": {
+    "title": "Konto löschen",
+    "heading": "Dein CalorAI-Konto löschen",
+    "sub": "Du kannst dein Konto und alle Daten jederzeit endgültig löschen.",
+    "inAppTitle": "In der App löschen",
+    "steps": [
+      "Öffne CalorAI und melde dich an.",
+      "Tippe unten auf den Tab \"Mehr\".",
+      "Scrolle nach unten und tippe auf \"Konto löschen\".",
+      "Bestätige zweimal. Dein Konto wird sofort gelöscht."
+    ],
+    "whatTitle": "Was gelöscht wird",
+    "what": "Dein Profil, Ernährungstagebuch, Fotos, Essenspläne, Trainings, Gewichtsverlauf, Coach-Gespräche, Abzeichen und Community-Beiträge werden endgültig von unseren Servern entfernt. Das kann nicht rückgängig gemacht werden.",
+    "subsTitle": "Abos",
+    "subs": "Das Löschen deines Kontos kündigt kein Abo, das du über Google Play oder den App Store abgeschlossen hast. Kündige es in den Einstellungen deines Store-Kontos, um weitere Zahlungen zu stoppen.",
+    "noAppTitle": "Du kannst die App nicht nutzen?",
+    "noApp": "Schreib uns von der E-Mail-Adresse, mit der du dich registriert hast, und wir löschen dein Konto und deine Daten innerhalb von 30 Tagen.",
+    "emailSubject": "Delete my account"
+  },
+  "blogPage": {
+    "title": "Blog",
+    "heading": "Bewusster essen, Tipp für Tipp",
+    "sub": "Einfache, wissenschaftlich fundierte Ernährungstipps, clevere Alternativen und Kalorienvergleiche. (Artikel auf Englisch)",
+    "read": "Artikel lesen",
+    "minRead": "Min. Lesezeit",
+    "sources": "Quellen",
+    "more": "Weitere Artikel",
+    "ctaTitle": "Mit CalorAI erfassen",
+    "ctaText": "Fotografiere deine Mahlzeit und sieh Kalorien, Eiweiß, Kohlenhydrate und Fett in Sekunden. Kostenlos."
+  },
+  "footer": {
+    "tagline": "Der KI-Kalorienzähler, der die Arbeit für dich macht.",
+    "product": "Produkt",
+    "company": "Unternehmen",
+    "legal": "Rechtliches",
+    "disclaimer": "CalorAI liefert Schätzungen nur zur allgemeinen Information und ist keine medizinische Beratung.",
+    "rights": "Alle Rechte vorbehalten."
+  }
+}

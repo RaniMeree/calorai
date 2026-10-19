@@ -13,8 +13,15 @@ export async function load({ params }: LangParams) {
 
 // Canonical + hreflang for a path after /<lang>/ ('' for the home page).
 // Untranslated languages are English copies: point them at /en/ and keep them out of the index.
-export function seo(lang: Locale, path: string): Pick<Metadata, 'alternates' | 'robots'> {
+// englishOnly: the page body is English in every language (blog posts, legal texts).
+export function seo(lang: Locale, path: string, englishOnly = false): Pick<Metadata, 'alternates' | 'robots'> {
   const url = (l: Locale) => `/${l}/${path ? `${path}/` : ''}`;
+  if (englishOnly) {
+    return {
+      alternates: { canonical: url('en'), languages: { en: url('en'), 'x-default': url('en') } },
+      robots: lang === 'en' ? undefined : { index: false, follow: true },
+    };
+  }
   const translated = translatedLocales.includes(lang);
   return {
     alternates: {
@@ -29,6 +36,6 @@ export function seo(lang: Locale, path: string): Pick<Metadata, 'alternates' | '
 }
 
 // Per-page title/description with canonical and hreflang links.
-export function pageMeta(lang: Locale, slug: string, title: string, description: string): Metadata {
-  return { title, description, ...seo(lang, slug), openGraph: { title, description } };
+export function pageMeta(lang: Locale, slug: string, title: string, description: string, englishOnly = false): Metadata {
+  return { title, description, ...seo(lang, slug, englishOnly), openGraph: { title, description } };
 }

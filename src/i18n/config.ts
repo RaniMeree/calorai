@@ -7,12 +7,12 @@ export type Locale = (typeof locales)[number];
 
 export const defaultLocale: Locale = 'en';
 
-export const rtlLocales: Locale[] = ['ar', 'fa', 'ku'];
+export const rtlLocales: Locale[] = ['ar', 'fa'];
 
 export const languageNames: Record<Locale, string> = {
   en: 'English', ar: 'العربية', da: 'Dansk', de: 'Deutsch', el: 'Ελληνικά', es: 'Español',
   fa: 'فارسی', fi: 'Suomi', fr: 'Français', hi: 'हिन्दी', it: 'Italiano', ja: '日本語',
-  ku: 'کوردی', nl: 'Nederlands', pt: 'Português', ru: 'Русский', sv: 'Svenska', tr: 'Türkçe',
+  ku: 'Kurdî', nl: 'Nederlands', pt: 'Português', ru: 'Русский', sv: 'Svenska', tr: 'Türkçe',
 };
 
 export const isLocale = (v: string): v is Locale =>
