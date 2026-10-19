@@ -36,6 +36,20 @@ export default function PostBody({ post }: { post: Post }) {
 
 function Block({ text }: { text: string }) {
   const lines = text.split('\n').map((l) => l.trim()).filter(Boolean);
+  // "| a | b |" lines = table; the first row is the header, "|---|" rows are skipped.
+  if (lines.every((l) => l.startsWith('|'))) {
+    const rows = lines.filter((l) => !/^\|(\s*:?-+:?\s*\|)+$/.test(l))
+      .map((l) => l.replace(/^\||\|$/g, '').split('|').map((c) => c.trim()));
+    const [head, ...body] = rows;
+    return (
+      <div className="post-table">
+        <table>
+          <thead><tr>{head.map((c, i) => <th key={i}>{inline(c)}</th>)}</tr></thead>
+          <tbody>{body.map((r, i) => <tr key={i}>{r.map((c, j) => <td key={j}>{inline(c)}</td>)}</tr>)}</tbody>
+        </table>
+      </div>
+    );
+  }
   if (lines.every((l) => l.startsWith('- '))) {
     return <ul>{lines.map((l) => <li key={l}>{inline(l.slice(2))}</li>)}</ul>;
   }

@@ -28,6 +28,8 @@ Photo results are AI estimates, like a nutrition label. Users can adjust any mea
 - Website: https://www.calor-ai.com/en/
 - Features: https://www.calor-ai.com/en/features/
 - FAQ: https://www.calor-ai.com/en/#faq
+- Comparison of AI calorie counter apps (2026): https://www.calor-ai.com/en/blog/best-ai-calorie-counter-apps/
+- CalorAI vs Cal AI: https://www.calor-ai.com/en/blog/calorai-vs-cal-ai/
 - Download (both stores): https://www.calor-ai.com/en/download/
 - Google Play: https://play.google.com/store/apps/details?id=com.caloraiapp.app
 - App Store: https://apps.apple.com/app/id6742805996

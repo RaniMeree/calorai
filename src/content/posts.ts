@@ -1,12 +1,12 @@
 // Blog articles (English). Built from the CalorAI tip posts in "new campaign/14-tip-posts".
 // Body format: blocks separated by a blank line. "## " = heading, "- " lines = list,
-// "{graphic}" = the post's tip graphic, anything else = paragraph. **bold** is supported.
+// "{graphic}" = the post's tip graphic, "| a | b |" lines = table, anything else = paragraph. **bold** is supported.
 
 export type Post = {
   slug: string;
   title: string;
   description: string;
-  category: 'Tips' | 'Same calories';
+  category: 'Tips' | 'Same calories' | 'Comparisons';
   cover: string;    // public/blog/<cover>.webp
   graphic: string;  // public/blog/<graphic>.webp (the social tip image)
   minutes: number;
@@ -18,6 +18,122 @@ export type Post = {
 const date = '2026-10-13';
 
 export const posts: Post[] = [
+  {
+    slug: 'best-ai-calorie-counter-apps',
+    title: 'The best AI calorie counter apps in 2026: 6 apps compared',
+    description: 'CalorAI, Cal AI, MyFitnessPal, SnapCalorie, MacroFactor and Cronometer compared: photo logging, free plans, prices and languages.',
+    category: 'Comparisons', cover: 'best-ai-calorie-apps', graphic: 'best-ai-calorie-apps', minutes: 6, date: '2026-10-19',
+    sources: [
+      'Official websites and App Store / Google Play listings of each app, checked October 2026.',
+      'US prices; they vary by country and change often. Check the store before you subscribe.',
+      'Disclosure: this article is published by the team behind CalorAI.',
+    ],
+    body: `AI calorie counters let you log a meal by taking a photo instead of searching a food database. They save a lot of time, but they are not all the same: some are free, some lock the photo feature behind a subscription, and only a few work well outside English.
+
+We make CalorAI, so we are not neutral. We tried to keep this comparison fair and factual, and we list what each app does best.
+
+## Quick comparison
+| App | How you log | Free version | Price (US) | Languages | Best for |
+|---|---|---|---|---|---|
+| **CalorAI** | Photo, gallery, text, voice | Free to download and start | Pro $9.49/month or $37.99/year | 18, incl. Arabic, Farsi, Kurdish | Non-English users, all-in-one app |
+| **Cal AI** | Photo, barcode, text | Scan results need a subscription (3-day trial) | Varies, about $30–70/year | 15 | Fast photo logging, iPhone depth sensor |
+| **MyFitnessPal** | Search, barcode*, Meal Scan*, voice* | Yes, basic logging with ads | Premium $19.99/month or $79.99/year | Several | Huge food database (*Premium) |
+| **SnapCalorie** | Photo, voice | Yes, core features free | Free core | Not stated | Free photo logging |
+| **MacroFactor** | Search, barcode | Free trial, then paid | Subscription | Not stated | Adaptive targets for serious trackers |
+| **Cronometer** | Search, barcode | Yes, detailed free plan | Gold is paid | Not stated | Vitamins and minerals in detail |
+
+## CalorAI
+Take a photo, pick one from your gallery, type what you ate or say it out loud, and CalorAI estimates calories, protein, carbs and fat. It also sets daily targets, turns a goal weight into a weekly plan, logs workouts from over 100 exercises, and includes an AI nutrition coach, a meal planner and health warnings for 20+ conditions.
+
+- **Strengths:** 18 languages including right-to-left Arabic, Farsi and Kurdish; four ways to log; lower price than most.
+- **Limits:** no barcode scanner; smaller community than the big apps.
+
+## Cal AI
+One of the best-known photo calorie apps, with a very high App Store rating. It uses the iPhone depth sensor to estimate portion size and supports barcode scanning.
+
+- **Strengths:** fast and polished; barcode scanning; syncs with Apple Health and Google Fit.
+- **Limits:** the App Store listing says food scan results require a subscription.
+
+## MyFitnessPal
+The classic calorie counter with the largest food database. Meal Scan (photo), barcode scanning and voice logging are Premium features.
+
+- **Strengths:** database size; huge community; many integrations.
+- **Limits:** the free version has ads; photo logging needs Premium.
+
+## SnapCalorie
+A photo-first app that keeps its core features free and uses depth data to estimate portions.
+
+- **Strengths:** free photo logging; voice logging.
+- **Limits:** fewer extras such as meal planning or detailed coaching.
+
+## MacroFactor
+Not a photo app first. It adapts your calorie target each week based on your weight trend.
+
+- **Strengths:** smart, adaptive targets.
+- **Limits:** paid after the trial; more manual logging.
+
+## Cronometer
+Known for accurate, verified nutrition data and detailed vitamin and mineral tracking.
+
+- **Strengths:** micronutrient detail on the free plan.
+- **Limits:** built for careful logging rather than quick photos.
+
+## How to choose
+- You want photo logging in your own language (Arabic, Farsi, Turkish, Hindi and more): **CalorAI**.
+- You use an iPhone and want barcode plus photo in one polished app: **Cal AI**.
+- You want the biggest food database: **MyFitnessPal**.
+- You want free photo logging and little else: **SnapCalorie**.
+- You weigh yourself daily and want smart, adaptive targets: **MacroFactor**.
+- You care most about vitamins and minerals: **Cronometer**.
+
+## A note on accuracy
+Every AI calorie counter gives an estimate. Simple meals are easier to recognise than mixed dishes, sauces and oils. Pick an app that lets you correct the portion before you save, and the numbers will be close enough to guide your choices.`,
+  },
+  {
+    slug: 'calorai-vs-cal-ai',
+    title: 'CalorAI vs Cal AI: which AI calorie counter is right for you?',
+    description: 'Two AI calorie counters with similar names. How they compare on logging, free use, price, languages and features.',
+    category: 'Comparisons', cover: 'calorai-vs-cal-ai', graphic: 'calorai-vs-cal-ai', minutes: 4, date: '2026-10-19',
+    sources: [
+      'CalorAI and Cal AI listings on the App Store and Google Play, and calai.app, checked October 2026.',
+      'US prices; they vary by country and change often.',
+      'Disclosure: this article is published by the team behind CalorAI.',
+    ],
+    body: `CalorAI and Cal AI have similar names and the same basic idea: take a photo of your meal and get the calories. They are separate apps from different companies. CalorAI is made by Intellivation AB in Sweden; Cal AI is made by Viral Development LLC.
+
+We make CalorAI, so here are the facts side by side, including where Cal AI is stronger.
+
+## Side by side
+| | CalorAI | Cal AI |
+|---|---|---|
+| Photo logging | Yes, camera or gallery | Yes |
+| Type what you ate | Yes | Yes |
+| Voice logging | Yes | Not mentioned |
+| Barcode scanner | No | Yes |
+| Free use | Free to download and start | Scan results need a subscription (3-day trial) |
+| Price (US) | $9.49/month or $37.99/year | Varies, about $30–70/year |
+| Languages | 18, incl. Arabic, Farsi, Kurdish, Turkish, Hindi | 15, incl. Arabic, Hindi, Russian |
+| Workouts | 100+ exercises logged in the app, added to your daily target | Syncs with Apple Health and Google Fit |
+| Weight goal plan | Yes, weekly pace and milestones | Weight tracking |
+| AI nutrition coach (chat) | Yes | Not mentioned |
+| Platforms | Android, iPhone, iPad | Android, iPhone |
+| Company | Intellivation AB, Sweden | Viral Development LLC, USA |
+
+## Where Cal AI is stronger
+- **Barcode scanning** for packaged food.
+- **Portion estimates with the iPhone depth sensor.**
+- **A much larger user base** and a very high App Store rating.
+
+## Where CalorAI is stronger
+- **More languages**, with full right-to-left support for Arabic, Farsi and Kurdish, plus Danish, Finnish, Greek, Swedish and Turkish.
+- **Voice logging:** just say "grilled chicken with rice, 200 grams".
+- **Workouts inside the app:** pick from 100+ exercises and the burned calories are added to your day.
+- **AI nutrition coach, meal planner and health warnings** for 20+ conditions.
+- **Lower yearly price**, and you can start without a subscription.
+
+## Which one should you pick?
+If you mostly eat packaged food and want barcode scanning on an iPhone, Cal AI is a strong choice. If you want to log in your own language, by voice or photo, and track workouts and goals in one place, try CalorAI. Both are free to download, so the easiest way to decide is to log a day of meals in each.`,
+  },
   {
     slug: 'sleep-and-weight-loss',
     title: 'Sleep is part of your diet: why rest matters for fat loss',
