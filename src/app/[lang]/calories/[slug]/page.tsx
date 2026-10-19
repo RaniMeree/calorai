@@ -32,7 +32,7 @@ export async function generateMetadata(p: Params): Promise<Metadata> {
     title: dish.title,
     description: dish.description,
     alternates: { canonical: url, languages: { [lang]: url } },
-    openGraph: { type: 'article', title: dish.title, description: dish.description },
+    openGraph: { type: 'article', title: dish.title, description: dish.description, images: [`/dishes/${dish.slug}.webp`] },
   };
 }
 
@@ -44,7 +44,7 @@ export default async function DishPage(p: Params) {
   const more = dishesFor(lang).filter((d) => d.slug !== dish.slug);
   const nutrition = {
     '@context': 'https://schema.org', '@type': 'Article', headline: dish.title, description: dish.description,
-    datePublished: dish.date, inLanguage: lang,
+    datePublished: dish.date, inLanguage: lang, image: `${site.url}/dishes/${dish.slug}.webp`,
     about: {
       '@type': 'Recipe', name: dish.name,
       nutrition: {
@@ -67,6 +67,7 @@ export default async function DishPage(p: Params) {
         </div>
       </header>
       <div className="wrap narrow">
+        <img className="post-cover" src={`/dishes/${dish.slug}.webp`} alt={dish.title} width={1200} height={675} />
         <div className="dish-facts">
           <div className="dish-kcal"><b>{dish.kcal}</b><span>{l.kcal}</span></div>
           <div>
