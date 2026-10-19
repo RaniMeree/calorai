@@ -15,6 +15,7 @@ export const siteSchema = (description: string) => [
     logo: `${site.url}/app-icon.png`,
     email: site.email,
     address: { '@type': 'PostalAddress', addressCountry: 'SE' },
+    sameAs: ['https://www.wikidata.org/wiki/Q141779976'],
   },
   {
     '@context': 'https://schema.org',
@@ -29,7 +30,7 @@ export const siteSchema = (description: string) => [
     inLanguage: ['en', 'ar', 'da', 'de', 'el', 'es', 'fa', 'fi', 'fr', 'hi', 'it', 'ja', 'ku', 'nl', 'pt', 'ru', 'sv', 'tr'],
     offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
     publisher: { '@type': 'Organization', name: site.company },
-    sameAs: [site.playStore, site.appStore],
+    sameAs: [site.playStore, site.appStore, 'https://www.wikidata.org/wiki/Q141779988'],
   },
 ];
 
