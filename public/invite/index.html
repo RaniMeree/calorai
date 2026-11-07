@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>CalorAI – Free AI Calorie Counter</title>
+<meta name="description" content="Snap a photo of your meal and CalorAI counts the calories. Free on Google Play and the App Store.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="CalorAI">
+<meta property="og:title" content="CalorAI – Free AI Calorie Counter">
+<meta property="og:description" content="Snap a photo of your meal and CalorAI counts the calories. Free on Google Play and the App Store.">
+<meta property="og:image" content="https://www.calor-ai.com/app-icon.png">
+<meta name="twitter:card" content="summary">
+<script>
+  // Invite link: forward to the backend, which records the click and opens the right store.
+  (function () {
+    var u = new URLSearchParams(location.search).get("u") || "";
+    location.replace(/^\d+$/.test(u) ? "https://fullstack-ff1a.onrender.com/i/" + u : "/");
+  })();
+</script>
+<style>
+  body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;
+       background:linear-gradient(160deg,#1f9d55,#0f5c32);color:#fff;font-family:system-ui,sans-serif}
+  img{width:72px;height:72px;border-radius:16px;display:block;margin:0 auto 12px}
+</style>
+</head>
+<body>
+  <div><img src="/app-icon.png" alt="CalorAI"><p>Opening CalorAI…</p></div>
+</body>
+</html>
