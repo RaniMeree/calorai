@@ -16,6 +16,7 @@ export type Post = {
 };
 
 const date = '2026-10-13';
+const featureDate = '2026-11-08';
 
 export const posts: Post[] = [
   {
@@ -623,6 +624,238 @@ Fibre is the part of plant foods your body can't fully digest. It **slows digest
 - Snack on fruit.
 
 Increase fibre slowly and drink enough water to avoid stomach discomfort.`,
+  },
+  {
+    slug: 'how-calorai-calculates-your-calories',
+    title: 'How CalorAI calculates your daily calories',
+    description: 'The formula behind your CalorAI target: resting calories, activity level and your goal, with a worked example.',
+    category: 'Tips', cover: 'goal', graphic: 'feature-calories', minutes: 4, date: featureDate,
+    sources: [
+      'Mifflin MD et al. A new predictive equation for resting energy expenditure in healthy individuals. Am J Clin Nutr, 1990.',
+      'Disclosure: this article is published by the team behind CalorAI. Any formula gives an estimate, so adjust it using your real results.',
+    ],
+    body: `Your CalorAI target is not a generic 2,000 calories. It comes from a published formula and the details in your profile.
+
+{graphic}
+
+## Step 1: resting calories
+CalorAI uses the **Mifflin-St Jeor equation** to estimate what your body burns at rest:
+
+- Men: 10 × weight (kg) + 6.25 × height (cm) − 5 × age + 5
+- Women: 10 × weight (kg) + 6.25 × height (cm) − 5 × age − 161
+
+## Step 2: activity
+Your resting calories are multiplied by your activity level: **1.2, 1.4, 1.6 or 1.8**, from least to most active.
+
+## Step 3: your goal
+
+| Goal | Adjustment |
+| Lose weight | Target × 0.8 |
+| Maintain weight | No change |
+| Gain weight | Target + 500 kcal |
+| Gain muscle | Target + 350 kcal |
+
+## A worked example
+Take a 30-year-old man who is 175 cm tall, weighs 75 kg and has an activity level of 1.6, with a goal of losing weight.
+
+- Resting calories: 750 + 1,094 − 150 + 5 = **1,699 kcal**
+- With activity: 1,699 × 1.6 = **2,718 kcal**
+- With the goal: 2,718 × 0.8 = **2,174 kcal a day**
+
+## Treat it as a starting point
+Every formula is an estimate, and real bodies differ. Follow your target for a few weeks and watch your weight trend. If it isn't moving the way you want, adjust.`,
+  },
+  {
+    slug: 'calories-burned-working-out-calorai',
+    title: 'How many calories does a workout burn? How CalorAI works it out',
+    description: 'CalorAI estimates workout calories from the exercise, your weight, the duration and the intensity, then adds them to that day’s target.',
+    category: 'Tips', cover: 'walking', graphic: 'feature-workout', minutes: 4, date: featureDate,
+    sources: [
+      'Ainsworth BE et al. 2011 Compendium of Physical Activities. Med Sci Sports Exerc, 2011.',
+      'Disclosure: this article is published by the team behind CalorAI. Calories burned are estimates.',
+    ],
+    body: `A 45-minute walk counts. In CalorAI, you can log it and see roughly what it burned.
+
+{graphic}
+
+## The calculation
+Each exercise has a **MET value**, a standard measure of how hard an activity is compared with resting. CalorAI subtracts 1 MET, so you only count the calories above what you would burn anyway:
+
+(MET − 1) × intensity × 3.5 × weight in kg ÷ 200 × minutes
+
+Intensity is 0.75 for low, 1 for medium and 1.25 for high.
+
+## Examples for a 70 kg person
+
+| Workout | Time | Estimated burn |
+| Walking, medium | 45 min | 138 kcal |
+| Walking, low | 45 min | 103 kcal |
+| Weights, medium | 60 min | 184 kcal |
+| Running, medium | 30 min | 323 kcal |
+
+## What happens to those calories
+Burned calories are **added to that day's target**. If your target is 2,000 kcal and you log a 138 kcal walk, your target for the day becomes 2,138 kcal.
+
+## Don't overcount
+These numbers are estimates. Heart rate, fitness and effort all change the true figure. If you want to lose weight, it is safer not to eat back every calorie you burn.`,
+  },
+  {
+    slug: 'calorai-calendar-colors-explained',
+    title: 'What the colors on the CalorAI calendar mean',
+    description: 'Green, yellow and red show how close each day was to your target, for calories, protein, carbs and fats.',
+    category: 'Tips', cover: 'planner', graphic: 'feature-calendar', minutes: 3, date: featureDate,
+    sources: [
+      'Burke LE, Wang J, Sevick MA. Self-monitoring in weight loss: a systematic review of the literature. J Am Diet Assoc, 2011.',
+      'Disclosure: this article is published by the team behind CalorAI.',
+    ],
+    body: `One bad day doesn't decide your progress. Your pattern does, and the CalorAI calendar lets you see it at a glance.
+
+{graphic}
+
+## The three colors
+
+| Color | Meaning | Share of your target |
+| Green | On target | 90–110% |
+| Yellow | Under target | Below 90% |
+| Red | Over target | Above 110% |
+
+## Four views
+Switch between **Calories, Protein, Carbs and Fats**. A day can be green for calories and yellow for protein, which tells you what to change.
+
+## Workouts count
+If you logged a workout, the calories you burned are added to that day's target before the color is chosen.
+
+## What to look for
+- Red every Saturday? Plan your weekends ahead.
+- Yellow protein most days? Add protein at breakfast.
+- Lots of yellow calories? Check that you are logging everything, including drinks.
+
+Reviews of weight-loss research consistently link regular self-monitoring with better results. The calendar makes that review take seconds.`,
+  },
+  {
+    slug: 'calorai-leaderboard-streaks-community',
+    title: 'Leaderboards, streaks and community: staying consistent with CalorAI',
+    description: 'How the CalorAI leaderboard ranks people, how streaks work, and how the community feed can keep you logging.',
+    category: 'Tips', cover: 'womanbowl', graphic: 'feature-leaderboard', minutes: 3, date: featureDate,
+    sources: [
+      'Burke LE, Wang J, Sevick MA. Self-monitoring in weight loss: a systematic review of the literature. J Am Diet Assoc, 2011.',
+      'Disclosure: this article is published by the team behind CalorAI. The screen above shows example data.',
+    ],
+    body: `The hardest part of tracking food is continuing after the first week. A little friendly competition can help.
+
+{graphic}
+
+## Five ways to rank
+- **All Time:** the most meals logged overall
+- **Monthly:** the most meals logged this month, so everyone gets a fresh start
+- **Top Score:** the highest total daily score for the month
+- **Best Streak:** the longest run of days ever
+- **Now Streak:** the longest run happening right now
+
+## Why streaks work
+A streak gives you a small reason to log today, even when the day went badly. That matters, because the days you would rather forget are often the most useful to record.
+
+## The community feed
+You can share meals and see what others are eating, with the photo, calories, carbs, protein and fats. It is a practical source of meal ideas.
+
+## Keep it healthy
+A leaderboard should encourage you, not pressure you. Log what you really ate and never eat less just to improve a score.`,
+  },
+  {
+    slug: 'ai-meal-plans-calorai',
+    title: 'How to use AI meal plans in CalorAI',
+    description: 'CalorAI builds a weekly meal plan around your calories and dietary preferences. Here is how to get the most from it.',
+    category: 'Tips', cover: 'salad', graphic: 'feature-meal-plan', minutes: 3, date: featureDate,
+    sources: ['Disclosure: this article is published by the team behind CalorAI. Check ingredients yourself if you have an allergy or a medical diet.'],
+    body: `"What should I eat?" is a hard question at 7 pm when you are hungry. A plan answers it in advance.
+
+{graphic}
+
+## What the planner does
+CalorAI builds a **weekly plan** of meals that fits your daily calorie target and your dietary preferences, from breakfast through to dinner.
+
+## Logging from the plan
+When you eat a planned meal, you can log it from the plan instead of entering it again.
+
+## How to get the most from it
+- **Set your preferences first**, so the plan suits how you eat.
+- **Look at the week before you shop**, then buy what you need once.
+- **Swap freely.** If you eat something else, log what you really had.
+- **Cook twice as much** at dinner when tomorrow's lunch can be the same.
+
+## A plan is a guide
+You don't need to follow it perfectly. Even one or two planned meals a day leave fewer decisions for when you are tired and hungry.`,
+  },
+  {
+    slug: 'track-vitamins-minerals-calorai',
+    title: 'Beyond calories: tracking vitamins and minerals in CalorAI',
+    description: 'CalorAI tracks vitamins, minerals, fiber and sodium. Here is what the Too low, Low, Good and High labels mean.',
+    category: 'Tips', cover: 'fruitbowl', graphic: 'feature-nutrients', minutes: 4, date: featureDate,
+    sources: [
+      'National Institutes of Health, Office of Dietary Supplements. Vitamin and mineral fact sheets.',
+      'World Health Organization. Sodium reduction fact sheet.',
+      'Disclosure: this article is published by the team behind CalorAI. Food tracking can’t diagnose a deficiency. Ask a doctor if you are concerned.',
+    ],
+    body: `You can hit your calorie target and still eat too little of what your body needs. That is why CalorAI has a nutrients section.
+
+{graphic}
+
+## What it tracks
+- **Vitamins:** D, B12, C, folate and A
+- **Minerals:** iron, calcium, magnesium, zinc and potassium
+- **Fiber**
+- **Limits to watch,** such as sodium
+
+## What the labels mean
+
+| Label | Share of your daily need |
+| Too low | Below 50% |
+| Low | 50–90% |
+| Good | 91% or more |
+
+For things you should limit, the scale works the other way:
+
+| Label | Share of your daily limit |
+| Good | Below 91% |
+| Moderate | 91–109% |
+| High | Above 109% |
+
+## Easy fixes for common gaps
+- **Iron:** red meat, beans and lentils
+- **Calcium:** dairy or fortified plant milks, and tofu set with calcium
+- **Vitamin C:** citrus, peppers and berries
+- **Fiber:** oats, beans, fruit and vegetables
+- **Too much sodium:** eat fewer processed foods, salty snacks and sauces
+
+## Look at the week
+Don't worry about one low day. A nutrient that stays low for weeks is more useful to act on.`,
+  },
+  {
+    slug: 'gain-muscle-calories-protein-calorai',
+    title: 'Eating to gain muscle: how CalorAI sets your calories and protein',
+    description: 'The Gain muscle goal adds a moderate 350 kcal and raises protein. Why a smaller surplus makes sense, and what else you need.',
+    category: 'Tips', cover: 'egg', graphic: 'feature-goals', minutes: 3, date: featureDate,
+    sources: [
+      'Morton RW et al. A systematic review, meta-analysis and meta-regression of the effect of protein supplementation on resistance training-induced gains. Br J Sports Med, 2018.',
+      'Disclosure: this article is published by the team behind CalorAI.',
+    ],
+    body: `Gaining muscle and gaining weight are different goals, so CalorAI treats them differently.
+
+{graphic}
+
+## The Gain muscle goal
+CalorAI adds **350 kcal** to your daily needs and sets **40% of your calories from protein**. The Gain weight goal adds 500 kcal instead.
+
+## Why a smaller surplus
+Your body can only build muscle so fast. Eating far more than you need mostly adds fat, so a moderate surplus is a sensible way to support training.
+
+## An example
+At 2,500 kcal a day, 40% from protein is 1,000 kcal. With 4 kcal in each gram of protein, that is **250 g of protein a day**.
+
+That is a high target and more than many people need. A large research review found that gains from extra protein leveled off at about **1.6 g per kg of body weight a day**. If your target is hard to reach, you can use that figure as a practical minimum to aim for. If you have kidney disease, talk to a doctor before raising your protein.
+
+## Food alone won't do it
+Muscle needs a reason to grow. Combine your eating with regular resistance training, log those workouts, and give yourself enough sleep to recover.`,
   },
 ];
 
