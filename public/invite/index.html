@@ -13,19 +13,35 @@
 <meta property="og:image" content="https://www.calor-ai.com/app-icon.png">
 <meta name="twitter:card" content="summary">
 <script>
-  // Invite link: forward to the backend, which records the click and opens the right store.
+  // Invite link: the backend records the click and opens the right store.
+  // Android must land in the Play Store APP, or the inviter id can be lost, so it
+  // opens the app from here. Browsers may block that without a tap, hence the button.
+  var playIntent = "";
   (function () {
     var u = new URLSearchParams(location.search).get("u") || "";
-    location.replace(/^\d+$/.test(u) ? "https://fullstack-ff1a.onrender.com/i/" + u : "/");
+    var click = "https://fullstack-ff1a.onrender.com/i/" + u;
+    if (!/^\d+$/.test(u)) { location.replace("/"); return; }
+    if (!/android/i.test(navigator.userAgent)) { location.replace(click); return; }
+    var q = "id=com.caloraiapp.app&referrer=inviter%3D" + u;
+    playIntent = "intent://details?" + q + "#Intent;scheme=market;package=com.android.vending;" +
+      "S.browser_fallback_url=" + encodeURIComponent("https://play.google.com/store/apps/details?" + q) + ";end";
+    fetch(click, { mode: "no-cors", keepalive: true }).catch(function () {});
+    location.href = playIntent;
   })();
 </script>
 <style>
   body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;
        background:linear-gradient(160deg,#1f9d55,#0f5c32);color:#fff;font-family:system-ui,sans-serif}
+  body>div{text-align:center;padding:16px}
   img{width:72px;height:72px;border-radius:16px;display:block;margin:0 auto 12px}
+  #go{display:none;margin-top:8px;padding:16px 28px;border-radius:12px;background:#fff;color:#0f5c32;
+      font-size:18px;font-weight:700;text-decoration:none}
 </style>
 </head>
 <body>
-  <div><img src="/app-icon.png" alt="CalorAI"><p>Opening CalorAI…</p></div>
+  <div><img src="/app-icon.png" alt="CalorAI"><p>Opening CalorAI…</p><a id="go">Get CalorAI on Google Play</a></div>
+  <script>
+    if (playIntent) { var go = document.getElementById("go"); go.href = playIntent; go.style.display = "inline-block"; }
+  </script>
 </body>
 </html>
