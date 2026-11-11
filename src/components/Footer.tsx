@@ -32,6 +32,8 @@ export default function Footer({ lang, t }: { lang: Locale; t: Dictionary }) {
       <div className="wrap footer-bottom">
         <p>{t.footer.disclaimer}</p>
         <p>© {new Date().getFullYear()} {site.company}. {t.footer.rights}</p>
+        {/* Required, crawlable (dofollow) backlink for the free Dang.ai listing. Keep while listed. */}
+        <p><a href="https://dang.ai/">Dang.ai</a></p>
       </div>
     </footer>
   );
