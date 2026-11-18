@@ -41,7 +41,11 @@ export default async function DishPage(p: Params) {
   if (!dish) notFound();
   const t = await getDictionary(lang);
   const l = dishLabels[lang]!;
-  const more = dishesFor(lang).filter((d) => d.slug !== dish.slug);
+  // Same-language dishes first, then every other dish (each one lives in its own language).
+  const more = [
+    ...dishesFor(lang).filter((d) => d.slug !== dish.slug),
+    ...dishes.filter((d) => d.lang !== lang),
+  ];
   const nutrition = {
     '@context': 'https://schema.org', '@type': 'Article', headline: dish.title, description: dish.description,
     datePublished: dish.date, inLanguage: lang, image: `${site.url}/dishes/${dish.slug}.webp`,
@@ -80,6 +84,14 @@ export default async function DishPage(p: Params) {
           </div>
         </div>
         <p className="dish-note">{l.estimate}</p>
+        <aside className="post-cta post-cta-top">
+          <img src="/app-icon.png" alt="" width={48} height={48} />
+          <div>
+            <b>{t.blogPage.ctaTitle}</b>
+            <p>{t.blogPage.ctaText}</p>
+            <StoreButtons t={t} campaign={`dish-top-${dish.slug}`} />
+          </div>
+        </aside>
         <div className="prose post-body">
           <PostBody post={dish} />
           <h2>{l.faq}</h2>
@@ -91,13 +103,19 @@ export default async function DishPage(p: Params) {
             <div>
               <b>{t.blogPage.ctaTitle}</b>
               <p>{t.blogPage.ctaText}</p>
-              <StoreButtons t={t} />
+              <StoreButtons t={t} campaign={`dish-${dish.slug}`} />
             </div>
           </aside>
           {more.length > 0 && (
             <>
               <h2>{l.section}</h2>
-              <ul>{more.map((d) => <li key={d.slug}><a href={`/${lang}/calories/${d.slug}/`}>{d.title}</a></li>)}</ul>
+              <ul className="dish-more">
+                {more.map((d) => (
+                  <li key={d.slug}>
+                    <a href={`/${d.lang}/calories/${d.slug}/`} hrefLang={d.lang} lang={d.lang}>{d.lang === lang ? d.title : d.name}</a>
+                  </li>
+                ))}
+              </ul>
             </>
           )}
           <div className="sources">

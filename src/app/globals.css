@@ -259,6 +259,10 @@ p { margin: 0; }
 .post-cta img { border-radius: 16px; flex-shrink: 0; }
 .post-cta b { font-size: 1.2rem; }
 .post-cta p { margin: 4px 0 16px; }
+.post-cta-top { margin: 24px 0; padding: 20px 24px; }
+.dish-more { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 8px 10px; }
+.dish-more li { margin: 0; }
+.dish-more a { display: inline-block; padding: 6px 14px; border-radius: 999px; background: var(--tint); text-decoration: none; }
 .sources { border-top: 1px solid var(--line); padding-top: 24px; font-size: .9rem; }
 .sources h2 { font-size: 1.1rem; margin-top: 0; }
 .sources p, .sources li { color: var(--muted); }

@@ -15,10 +15,14 @@ const Apple = () => (
   </svg>
 );
 
-export default function StoreButtons({ t, light = false }: { t: Dictionary; light?: boolean }) {
+// The Play referrer lets Play Console show installs that came from the website (Acquisition > UTM campaigns).
+const playLink = (campaign: string) =>
+  `${site.playStore}&referrer=${encodeURIComponent(`utm_source=calor-ai.com&utm_medium=website&utm_campaign=${campaign}`)}`;
+
+export default function StoreButtons({ t, light = false, campaign = 'site' }: { t: Dictionary; light?: boolean; campaign?: string }) {
   return (
     <div className={`stores${light ? ' stores-light' : ''}`}>
-      <a className="store" href={site.playStore} target="_blank" rel="noopener">
+      <a className="store" href={playLink(campaign)} target="_blank" rel="noopener">
         <Play />
         <span><small>{t.store.googleTop}</small><b>{t.store.google}</b></span>
       </a>
