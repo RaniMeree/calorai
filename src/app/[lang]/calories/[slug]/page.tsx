@@ -50,7 +50,7 @@ export default async function DishPage(p: Params) {
     '@context': 'https://schema.org', '@type': 'Article', headline: dish.title, description: dish.description,
     datePublished: dish.date, inLanguage: lang, image: `${site.url}/dishes/${dish.slug}.webp`,
     about: {
-      '@type': 'Recipe', name: dish.name,
+      '@type': 'MenuItem', name: dish.name,
       nutrition: {
         '@type': 'NutritionInformation', servingSize: dish.serving, calories: `${dish.kcal} kcal`,
         proteinContent: `${dish.protein} g`, carbohydrateContent: `${dish.carbs} g`, fatContent: `${dish.fat} g`,
